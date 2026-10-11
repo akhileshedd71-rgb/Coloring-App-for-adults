@@ -1,0 +1,3001 @@
+{
+  "schemaVersion": 1,
+  "collection": "Dreamlight Portraits",
+  "drawings": [
+    {
+      "id": "dreamlight-rosewood-rambler-v1",
+      "source": "rosewood-rambler-line.png",
+      "sourceSha256": "8b42cec91992925b8344494577a920079e6278217daab71fe3d4b1836b4f8974",
+      "sourceWidth": 1086,
+      "sourceHeight": 1448,
+      "sourceOffsetX": 0,
+      "sourceOffsetY": 0,
+      "sourceScale": 0.7071823204419889,
+      "artworkOffsetX": 0.0,
+      "artworkOffsetY": 0.0,
+      "width": 768,
+      "height": 1024,
+      "settings": {
+        "inkThreshold": 170,
+        "minRegionArea": 40,
+        "minInteriorArea": 12,
+        "minInteriorRadius": 1.5,
+        "simplifyPixels": 0.3
+      },
+      "boundaryLinks": [
+        {
+          "from": [
+            0.4635945,
+            0.3469247
+          ],
+          "to": [
+            0.4479263,
+            0.3476158
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.4479263,
+            0.3476158
+          ],
+          "to": [
+            0.4294931,
+            0.3441603
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.4294931,
+            0.3441603
+          ],
+          "to": [
+            0.4092166,
+            0.3407049
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.4092166,
+            0.3407049
+          ],
+          "to": [
+            0.39447,
+            0.3393227
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.39447,
+            0.3393227
+          ],
+          "to": [
+            0.3843318,
+            0.3427782
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.3843318,
+            0.3427782
+          ],
+          "to": [
+            0.3741935,
+            0.3455425
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.3741935,
+            0.3455425
+          ],
+          "to": [
+            0.3686636,
+            0.3448514
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.3686636,
+            0.3448514
+          ],
+          "to": [
+            0.364977,
+            0.3469247
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.364977,
+            0.3469247
+          ],
+          "to": [
+            0.3603687,
+            0.3531444
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.3603687,
+            0.3531444
+          ],
+          "to": [
+            0.3603687,
+            0.3628196
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.3603687,
+            0.3628196
+          ],
+          "to": [
+            0.3677419,
+            0.3690394
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.3677419,
+            0.3690394
+          ],
+          "to": [
+            0.3705069,
+            0.3759502
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.3705069,
+            0.3759502
+          ],
+          "to": [
+            0.3769585,
+            0.3807878
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.3769585,
+            0.3807878
+          ],
+          "to": [
+            0.3870968,
+            0.38217
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.3870968,
+            0.38217
+          ],
+          "to": [
+            0.4018433,
+            0.3800968
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.4018433,
+            0.3800968
+          ],
+          "to": [
+            0.4193548,
+            0.3752592
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.4193548,
+            0.3752592
+          ],
+          "to": [
+            0.4368664,
+            0.3669661
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.4368664,
+            0.3669661
+          ],
+          "to": [
+            0.4516129,
+            0.3565999
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.4516129,
+            0.3565999
+          ],
+          "to": [
+            0.4635945,
+            0.3469247
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.2930876,
+            0.1969592
+          ],
+          "to": [
+            0.2967742,
+            0.1769178
+          ],
+          "width": 2,
+          "reason": "Close the faint forehead hairline found during final skin-fill review."
+        },
+        {
+          "from": [
+            0.2967742,
+            0.1769178
+          ],
+          "to": [
+            0.3069124,
+            0.1589496
+          ],
+          "width": 2,
+          "reason": "Close the faint forehead hairline found during final skin-fill review."
+        },
+        {
+          "from": [
+            0.3069124,
+            0.1589496
+          ],
+          "to": [
+            0.3225806,
+            0.1485833
+          ],
+          "width": 2,
+          "reason": "Close the faint forehead hairline found during final skin-fill review."
+        },
+        {
+          "from": [
+            0.3225806,
+            0.1485833
+          ],
+          "to": [
+            0.3428571,
+            0.1395992
+          ],
+          "width": 2,
+          "reason": "Close the faint forehead hairline found during final skin-fill review."
+        },
+        {
+          "from": [
+            0.3428571,
+            0.1395992
+          ],
+          "to": [
+            0.3539171,
+            0.1319972
+          ],
+          "width": 2,
+          "reason": "Close the faint forehead hairline found during final skin-fill review."
+        },
+        {
+          "from": [
+            0.3539171,
+            0.1319972
+          ],
+          "to": [
+            0.3668203,
+            0.122322
+          ],
+          "width": 2,
+          "reason": "Close the faint forehead hairline found during final skin-fill review."
+        },
+        {
+          "from": [
+            0.3668203,
+            0.122322
+          ],
+          "to": [
+            0.3797235,
+            0.1237042
+          ],
+          "width": 2,
+          "reason": "Close the faint forehead hairline found during final skin-fill review."
+        },
+        {
+          "from": [
+            0.3797235,
+            0.1237042
+          ],
+          "to": [
+            0.3917051,
+            0.1368348
+          ],
+          "width": 2,
+          "reason": "Close the faint forehead hairline found during final skin-fill review."
+        },
+        {
+          "from": [
+            0.3917051,
+            0.1368348
+          ],
+          "to": [
+            0.4036866,
+            0.1589496
+          ],
+          "width": 2,
+          "reason": "Close the faint forehead hairline found during final skin-fill review."
+        }
+      ],
+      "regionCount": 536,
+      "difficulty": "Hard",
+      "discardedSmallOrThinRegions": 2413,
+      "inkContours": 3845,
+      "largestRegionFraction": 0.0671,
+      "warnings": [],
+      "colorSource": "rosewood-rambler-color.png",
+      "colorSourceSha256": "f10d599634b59bd60a545ca071bff9b38c56d11add781932a6c072a003603b93",
+      "colorSourceWidth": 1086,
+      "colorSourceHeight": 1448
+    },
+    {
+      "id": "dreamlight-marigold-muse-v1",
+      "source": "marigold-muse-line.png",
+      "sourceSha256": "00ea321c18b14f099a821d7090907ce7e656250bcceeccb22e37ce5bcbe66640",
+      "sourceWidth": 1086,
+      "sourceHeight": 1448,
+      "sourceOffsetX": 0,
+      "sourceOffsetY": 0,
+      "sourceScale": 0.7071823204419889,
+      "artworkOffsetX": 0.0,
+      "artworkOffsetY": 0.0,
+      "width": 768,
+      "height": 1024,
+      "settings": {
+        "inkThreshold": 170,
+        "minRegionArea": 40,
+        "minInteriorArea": 12,
+        "minInteriorRadius": 1.5,
+        "simplifyPixels": 0.3
+      },
+      "boundaryLinks": [],
+      "regionCount": 476,
+      "difficulty": "Hard",
+      "discardedSmallOrThinRegions": 1743,
+      "inkContours": 2919,
+      "largestRegionFraction": 0.1028,
+      "warnings": [],
+      "colorSource": "marigold-muse-color.png",
+      "colorSourceSha256": "cb975f6289c39b66d6ffaaa325edf90bc77e240045c590a0df038c4bbbfd6364",
+      "colorSourceWidth": 1086,
+      "colorSourceHeight": 1448
+    },
+    {
+      "id": "dreamlight-wildflower-poet-v1",
+      "source": "wildflower-poet-line.png",
+      "sourceSha256": "c8e1e1db038f8f0e809ef5f52ecfed8b9df793085f0c5f5d3aeb85f1276946b7",
+      "sourceWidth": 1086,
+      "sourceHeight": 1448,
+      "sourceOffsetX": 0,
+      "sourceOffsetY": 0,
+      "sourceScale": 0.7071823204419889,
+      "artworkOffsetX": 0.0,
+      "artworkOffsetY": 0.0,
+      "width": 768,
+      "height": 1024,
+      "settings": {
+        "inkThreshold": 170,
+        "minRegionArea": 40,
+        "minInteriorArea": 12,
+        "minInteriorRadius": 1.5,
+        "simplifyPixels": 0.3
+      },
+      "boundaryLinks": [
+        {
+          "from": [
+            0.516129,
+            0.3953006
+          ],
+          "to": [
+            0.5354839,
+            0.398065
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5354839,
+            0.398065
+          ],
+          "to": [
+            0.562212,
+            0.3959917
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.562212,
+            0.3959917
+          ],
+          "to": [
+            0.5824885,
+            0.3939185
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5824885,
+            0.3939185
+          ],
+          "to": [
+            0.5990783,
+            0.3939185
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5990783,
+            0.3939185
+          ],
+          "to": [
+            0.6110599,
+            0.3966828
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.6110599,
+            0.3966828
+          ],
+          "to": [
+            0.6211982,
+            0.4008293
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.6211982,
+            0.4008293
+          ],
+          "to": [
+            0.6331797,
+            0.4008293
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.6331797,
+            0.4008293
+          ],
+          "to": [
+            0.6396313,
+            0.4042847
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.6396313,
+            0.4042847
+          ],
+          "to": [
+            0.6460829,
+            0.4118867
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.6460829,
+            0.4118867
+          ],
+          "to": [
+            0.6506912,
+            0.4208708
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.6506912,
+            0.4208708
+          ],
+          "to": [
+            0.643318,
+            0.4291638
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.643318,
+            0.4291638
+          ],
+          "to": [
+            0.6331797,
+            0.4340014
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.6331797,
+            0.4340014
+          ],
+          "to": [
+            0.6193548,
+            0.4367657
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.6193548,
+            0.4367657
+          ],
+          "to": [
+            0.602765,
+            0.4360746
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.602765,
+            0.4360746
+          ],
+          "to": [
+            0.5834101,
+            0.4326192
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5834101,
+            0.4326192
+          ],
+          "to": [
+            0.5640553,
+            0.4263994
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5640553,
+            0.4263994
+          ],
+          "to": [
+            0.5474654,
+            0.4174153
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5474654,
+            0.4174153
+          ],
+          "to": [
+            0.5308756,
+            0.406358
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5308756,
+            0.406358
+          ],
+          "to": [
+            0.516129,
+            0.3953006
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5880184,
+            0.1637871
+          ],
+          "to": [
+            0.6165899,
+            0.1451279
+          ],
+          "width": 2,
+          "reason": "Close the faint forehead hairline found during final skin-fill review."
+        },
+        {
+          "from": [
+            0.6165899,
+            0.1451279
+          ],
+          "to": [
+            0.6387097,
+            0.1361437
+          ],
+          "width": 2,
+          "reason": "Close the faint forehead hairline found during final skin-fill review."
+        },
+        {
+          "from": [
+            0.6387097,
+            0.1361437
+          ],
+          "to": [
+            0.6635945,
+            0.1319972
+          ],
+          "width": 2,
+          "reason": "Close the faint forehead hairline found during final skin-fill review."
+        },
+        {
+          "from": [
+            0.6635945,
+            0.1319972
+          ],
+          "to": [
+            0.6829493,
+            0.1375259
+          ],
+          "width": 2,
+          "reason": "Close the faint forehead hairline found during final skin-fill review."
+        },
+        {
+          "from": [
+            0.6829493,
+            0.1375259
+          ],
+          "to": [
+            0.6976959,
+            0.1389081
+          ],
+          "width": 2,
+          "reason": "Close the faint forehead hairline found during final skin-fill review."
+        },
+        {
+          "from": [
+            0.6976959,
+            0.1389081
+          ],
+          "to": [
+            0.716129,
+            0.1478922
+          ],
+          "width": 2,
+          "reason": "Close the faint forehead hairline found during final skin-fill review."
+        },
+        {
+          "from": [
+            0.716129,
+            0.1478922
+          ],
+          "to": [
+            0.7271889,
+            0.1644782
+          ],
+          "width": 2,
+          "reason": "Close the faint forehead hairline found during final skin-fill review."
+        }
+      ],
+      "regionCount": 401,
+      "difficulty": "Hard",
+      "discardedSmallOrThinRegions": 2363,
+      "inkContours": 3603,
+      "largestRegionFraction": 0.0713,
+      "warnings": [],
+      "colorSource": "wildflower-poet-color.png",
+      "colorSourceSha256": "7ca6cbc3bd7d5e39b97746ba25f51306d138b9c3de1b25fa63d131fe5ad9424d",
+      "colorSourceWidth": 1086,
+      "colorSourceHeight": 1448
+    },
+    {
+      "id": "dreamlight-butterfly-daydream-v1",
+      "source": "butterfly-daydream-line.png",
+      "sourceSha256": "e55ba20b5b68bff4fd301bf7e25770144e2daafd31060d54d7ee7caed40b34d0",
+      "sourceWidth": 1086,
+      "sourceHeight": 1448,
+      "sourceOffsetX": 0,
+      "sourceOffsetY": 0,
+      "sourceScale": 0.7071823204419889,
+      "artworkOffsetX": 0.0,
+      "artworkOffsetY": 0.0,
+      "width": 768,
+      "height": 1024,
+      "settings": {
+        "inkThreshold": 170,
+        "minRegionArea": 40,
+        "minInteriorArea": 12,
+        "minInteriorRadius": 1.5,
+        "simplifyPixels": 0.3
+      },
+      "boundaryLinks": [
+        {
+          "from": [
+            0.4239631,
+            0.536973
+          ],
+          "to": [
+            0.440553,
+            0.5348998
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.440553,
+            0.5348998
+          ],
+          "to": [
+            0.4645161,
+            0.5272979
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.4645161,
+            0.5272979
+          ],
+          "to": [
+            0.4857143,
+            0.5224603
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.4857143,
+            0.5224603
+          ],
+          "to": [
+            0.4967742,
+            0.5231513
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.4967742,
+            0.5231513
+          ],
+          "to": [
+            0.5078341,
+            0.5252246
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5078341,
+            0.5252246
+          ],
+          "to": [
+            0.5198157,
+            0.5238424
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5198157,
+            0.5238424
+          ],
+          "to": [
+            0.5336406,
+            0.520387
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5336406,
+            0.520387
+          ],
+          "to": [
+            0.5474654,
+            0.5217692
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5474654,
+            0.5217692
+          ],
+          "to": [
+            0.5658986,
+            0.5259157
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5658986,
+            0.5259157
+          ],
+          "to": [
+            0.5870968,
+            0.5314444
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5870968,
+            0.5314444
+          ],
+          "to": [
+            0.6,
+            0.5321355
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.6,
+            0.5321355
+          ],
+          "to": [
+            0.5935484,
+            0.5425017
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5935484,
+            0.5425017
+          ],
+          "to": [
+            0.5815668,
+            0.5535591
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5815668,
+            0.5535591
+          ],
+          "to": [
+            0.5631336,
+            0.5653075
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5631336,
+            0.5653075
+          ],
+          "to": [
+            0.5437788,
+            0.5729095
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5437788,
+            0.5729095
+          ],
+          "to": [
+            0.5207373,
+            0.577056
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5207373,
+            0.577056
+          ],
+          "to": [
+            0.4967742,
+            0.577056
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.4967742,
+            0.577056
+          ],
+          "to": [
+            0.4746544,
+            0.5736006
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.4746544,
+            0.5736006
+          ],
+          "to": [
+            0.4552995,
+            0.5659986
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.4552995,
+            0.5659986
+          ],
+          "to": [
+            0.4414747,
+            0.5556323
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.4414747,
+            0.5556323
+          ],
+          "to": [
+            0.4304147,
+            0.5431928
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.4304147,
+            0.5431928
+          ],
+          "to": [
+            0.4239631,
+            0.536973
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.3778802,
+            0.252246
+          ],
+          "to": [
+            0.4239631,
+            0.2163096
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.4239631,
+            0.2163096
+          ],
+          "to": [
+            0.4608295,
+            0.2011057
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.4608295,
+            0.2011057
+          ],
+          "to": [
+            0.4884793,
+            0.2011057
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.4884793,
+            0.2011057
+          ],
+          "to": [
+            0.5179724,
+            0.2080166
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.5179724,
+            0.2080166
+          ],
+          "to": [
+            0.5391705,
+            0.2052522
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.5391705,
+            0.2052522
+          ],
+          "to": [
+            0.5640553,
+            0.2107809
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.5640553,
+            0.2107809
+          ],
+          "to": [
+            0.5907834,
+            0.2246026
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.5907834,
+            0.2246026
+          ],
+          "to": [
+            0.6193548,
+            0.2536282
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        }
+      ],
+      "regionCount": 316,
+      "difficulty": "Hard",
+      "discardedSmallOrThinRegions": 2406,
+      "inkContours": 3122,
+      "largestRegionFraction": 0.263,
+      "warnings": [],
+      "colorSource": "butterfly-daydream-color.png",
+      "colorSourceSha256": "3ee961217f82a137f276e029ecf62611f1460cf089511a88c87907f132ea61fe",
+      "colorSourceWidth": 1086,
+      "colorSourceHeight": 1448
+    },
+    {
+      "id": "dreamlight-lilac-orbit-v1",
+      "source": "lilac-orbit-line.png",
+      "sourceSha256": "233606f0f18eb0c242d9bc2fa53395615d41fd82cfc9200c497ee47632f2c311",
+      "sourceWidth": 1086,
+      "sourceHeight": 1448,
+      "sourceOffsetX": 0,
+      "sourceOffsetY": 0,
+      "sourceScale": 0.7071823204419889,
+      "artworkOffsetX": 0.0,
+      "artworkOffsetY": 0.0,
+      "width": 768,
+      "height": 1024,
+      "settings": {
+        "inkThreshold": 170,
+        "minRegionArea": 40,
+        "minInteriorArea": 12,
+        "minInteriorRadius": 1.5,
+        "simplifyPixels": 0.3
+      },
+      "boundaryLinks": [
+        {
+          "from": [
+            0.4903226,
+            0.4512785
+          ],
+          "to": [
+            0.5096774,
+            0.4498963
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5096774,
+            0.4498963
+          ],
+          "to": [
+            0.5336406,
+            0.4436766
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5336406,
+            0.4436766
+          ],
+          "to": [
+            0.5557604,
+            0.4381479
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5557604,
+            0.4381479
+          ],
+          "to": [
+            0.5668203,
+            0.4381479
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5668203,
+            0.4381479
+          ],
+          "to": [
+            0.5788018,
+            0.4416033
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5788018,
+            0.4416033
+          ],
+          "to": [
+            0.5861751,
+            0.4443677
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5861751,
+            0.4443677
+          ],
+          "to": [
+            0.5953917,
+            0.4436766
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5953917,
+            0.4436766
+          ],
+          "to": [
+            0.602765,
+            0.4450587
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.602765,
+            0.4450587
+          ],
+          "to": [
+            0.6092166,
+            0.4492053
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.6092166,
+            0.4492053
+          ],
+          "to": [
+            0.6138249,
+            0.4568072
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.6138249,
+            0.4568072
+          ],
+          "to": [
+            0.6175115,
+            0.4692467
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.6175115,
+            0.4692467
+          ],
+          "to": [
+            0.6082949,
+            0.4789219
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.6082949,
+            0.4789219
+          ],
+          "to": [
+            0.5990783,
+            0.4858328
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5990783,
+            0.4858328
+          ],
+          "to": [
+            0.5861751,
+            0.4906704
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5861751,
+            0.4906704
+          ],
+          "to": [
+            0.5705069,
+            0.4913614
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5705069,
+            0.4913614
+          ],
+          "to": [
+            0.5539171,
+            0.4899793
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5539171,
+            0.4899793
+          ],
+          "to": [
+            0.5364055,
+            0.4858328
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5364055,
+            0.4858328
+          ],
+          "to": [
+            0.518894,
+            0.4782308
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.518894,
+            0.4782308
+          ],
+          "to": [
+            0.5050691,
+            0.4678645
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5050691,
+            0.4678645
+          ],
+          "to": [
+            0.4940092,
+            0.4547339
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.4940092,
+            0.4547339
+          ],
+          "to": [
+            0.4903226,
+            0.4512785
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5225806,
+            0.1762267
+          ],
+          "to": [
+            0.562212,
+            0.154803
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.562212,
+            0.154803
+          ],
+          "to": [
+            0.6009217,
+            0.1444368
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.6009217,
+            0.1444368
+          ],
+          "to": [
+            0.6230415,
+            0.14651
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.6230415,
+            0.14651
+          ],
+          "to": [
+            0.640553,
+            0.1561852
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.640553,
+            0.1561852
+          ],
+          "to": [
+            0.6497696,
+            0.1520387
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.6497696,
+            0.1520387
+          ],
+          "to": [
+            0.6737327,
+            0.1582585
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.6737327,
+            0.1582585
+          ],
+          "to": [
+            0.6976959,
+            0.1734623
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.6976959,
+            0.1734623
+          ],
+          "to": [
+            0.7152074,
+            0.1976503
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.7152074,
+            0.1976503
+          ],
+          "to": [
+            0.724424,
+            0.2204561
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        }
+      ],
+      "regionCount": 186,
+      "difficulty": "Hard",
+      "discardedSmallOrThinRegions": 1162,
+      "inkContours": 1928,
+      "largestRegionFraction": 0.2696,
+      "warnings": [],
+      "colorSource": "lilac-orbit-color.png",
+      "colorSourceSha256": "95a14eb22273a3072119b77fbfaabac0cba65eb197e18be7498fc0cd4c682b27",
+      "colorSourceWidth": 1086,
+      "colorSourceHeight": 1448
+    },
+    {
+      "id": "dreamlight-mothlight-velvet-v1",
+      "source": "mothlight-velvet-line.png",
+      "sourceSha256": "c2b04cbee068dabbed6cd3b370f6cb2156a7cbb9705993d093a78e30a39d0355",
+      "sourceWidth": 1086,
+      "sourceHeight": 1448,
+      "sourceOffsetX": 0,
+      "sourceOffsetY": 0,
+      "sourceScale": 0.7071823204419889,
+      "artworkOffsetX": 0.0,
+      "artworkOffsetY": 0.0,
+      "width": 768,
+      "height": 1024,
+      "settings": {
+        "inkThreshold": 170,
+        "minRegionArea": 40,
+        "minInteriorArea": 12,
+        "minInteriorRadius": 1.5,
+        "simplifyPixels": 0.3
+      },
+      "boundaryLinks": [
+        {
+          "from": [
+            0.4995392,
+            0.3800968
+          ],
+          "to": [
+            0.5207373,
+            0.3807878
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5207373,
+            0.3807878
+          ],
+          "to": [
+            0.5428571,
+            0.3773324
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5428571,
+            0.3773324
+          ],
+          "to": [
+            0.564977,
+            0.3731859
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.564977,
+            0.3731859
+          ],
+          "to": [
+            0.5852535,
+            0.3704216
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5852535,
+            0.3704216
+          ],
+          "to": [
+            0.59447,
+            0.3718037
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.59447,
+            0.3718037
+          ],
+          "to": [
+            0.6082949,
+            0.3780235
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.6082949,
+            0.3780235
+          ],
+          "to": [
+            0.6211982,
+            0.3780235
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.6211982,
+            0.3780235
+          ],
+          "to": [
+            0.6267281,
+            0.3787146
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.6267281,
+            0.3787146
+          ],
+          "to": [
+            0.6368664,
+            0.3870076
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.6368664,
+            0.3870076
+          ],
+          "to": [
+            0.643318,
+            0.3959917
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.643318,
+            0.3959917
+          ],
+          "to": [
+            0.6460829,
+            0.4056669
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.6460829,
+            0.4056669
+          ],
+          "to": [
+            0.640553,
+            0.4132688
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.640553,
+            0.4132688
+          ],
+          "to": [
+            0.6304147,
+            0.4167243
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.6304147,
+            0.4167243
+          ],
+          "to": [
+            0.6165899,
+            0.4181064
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.6165899,
+            0.4181064
+          ],
+          "to": [
+            0.597235,
+            0.4160332
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.597235,
+            0.4160332
+          ],
+          "to": [
+            0.5760369,
+            0.4125777
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5760369,
+            0.4125777
+          ],
+          "to": [
+            0.5529954,
+            0.4070491
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5529954,
+            0.4070491
+          ],
+          "to": [
+            0.5345622,
+            0.4008293
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5345622,
+            0.4008293
+          ],
+          "to": [
+            0.5170507,
+            0.3925363
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5170507,
+            0.3925363
+          ],
+          "to": [
+            0.4995392,
+            0.3800968
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5059908,
+            0.1458189
+          ],
+          "to": [
+            0.5336406,
+            0.1237042
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.5336406,
+            0.1237042
+          ],
+          "to": [
+            0.562212,
+            0.1188666
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.562212,
+            0.1188666
+          ],
+          "to": [
+            0.5907834,
+            0.1264686
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.5907834,
+            0.1264686
+          ],
+          "to": [
+            0.6230415,
+            0.1416724
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.6230415,
+            0.1416724
+          ],
+          "to": [
+            0.6442396,
+            0.1485833
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.6442396,
+            0.1485833
+          ],
+          "to": [
+            0.6663594,
+            0.1472011
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.6663594,
+            0.1472011
+          ],
+          "to": [
+            0.6967742,
+            0.1534209
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.6967742,
+            0.1534209
+          ],
+          "to": [
+            0.7225806,
+            0.170698
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.7225806,
+            0.170698
+          ],
+          "to": [
+            0.7364055,
+            0.1914305
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.7364055,
+            0.1914305
+          ],
+          "to": [
+            0.7400922,
+            0.2059433
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        }
+      ],
+      "regionCount": 292,
+      "difficulty": "Hard",
+      "discardedSmallOrThinRegions": 1471,
+      "inkContours": 2282,
+      "largestRegionFraction": 0.1611,
+      "warnings": [],
+      "colorSource": "mothlight-velvet-color.png",
+      "colorSourceSha256": "5b6edc45799a95f6262cfa258a90ba2fe6bbb65625bd9fae4d5b073430116b7e",
+      "colorSourceWidth": 1086,
+      "colorSourceHeight": 1448
+    },
+    {
+      "id": "dreamlight-rose-quartz-v1",
+      "source": "rose-quartz-line.png",
+      "sourceSha256": "cab73fd9c5d480ee597f6ba12ac2c1b908defbfc9e8b81dc8c0fd5b7bee6c2f8",
+      "sourceWidth": 1086,
+      "sourceHeight": 1448,
+      "sourceOffsetX": 0,
+      "sourceOffsetY": 0,
+      "sourceScale": 0.7071823204419889,
+      "artworkOffsetX": 0.0,
+      "artworkOffsetY": 0.0,
+      "width": 768,
+      "height": 1024,
+      "settings": {
+        "inkThreshold": 170,
+        "minRegionArea": 40,
+        "minInteriorArea": 12,
+        "minInteriorRadius": 1.5,
+        "simplifyPixels": 0.3
+      },
+      "boundaryLinks": [
+        {
+          "from": [
+            0.4875576,
+            0.2674499
+          ],
+          "to": [
+            0.4976959,
+            0.260539
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.4976959,
+            0.260539
+          ],
+          "to": [
+            0.5078341,
+            0.2536282
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5078341,
+            0.2536282
+          ],
+          "to": [
+            0.5152074,
+            0.252246
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5152074,
+            0.252246
+          ],
+          "to": [
+            0.5207373,
+            0.252246
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5207373,
+            0.252246
+          ],
+          "to": [
+            0.5317972,
+            0.2480995
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5317972,
+            0.2480995
+          ],
+          "to": [
+            0.5382488,
+            0.2480995
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5382488,
+            0.2480995
+          ],
+          "to": [
+            0.5483871,
+            0.2501728
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5483871,
+            0.2501728
+          ],
+          "to": [
+            0.5603687,
+            0.2536282
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5603687,
+            0.2536282
+          ],
+          "to": [
+            0.5723502,
+            0.252246
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5723502,
+            0.252246
+          ],
+          "to": [
+            0.5668203,
+            0.2612301
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5668203,
+            0.2612301
+          ],
+          "to": [
+            0.5576037,
+            0.2695232
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5576037,
+            0.2695232
+          ],
+          "to": [
+            0.5474654,
+            0.2757429
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5474654,
+            0.2757429
+          ],
+          "to": [
+            0.5327189,
+            0.2798894
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5327189,
+            0.2798894
+          ],
+          "to": [
+            0.5207373,
+            0.2812716
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5207373,
+            0.2812716
+          ],
+          "to": [
+            0.5096774,
+            0.2798894
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5096774,
+            0.2798894
+          ],
+          "to": [
+            0.5004608,
+            0.276434
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.5004608,
+            0.276434
+          ],
+          "to": [
+            0.4930876,
+            0.2715964
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.4930876,
+            0.2715964
+          ],
+          "to": [
+            0.4875576,
+            0.2674499
+          ],
+          "width": 2,
+          "reason": "Follow the reviewed faint outer lip contour; keep lip color separate from skin."
+        },
+        {
+          "from": [
+            0.4728111,
+            0.138217
+          ],
+          "to": [
+            0.4792627,
+            0.1002073
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.4792627,
+            0.1002073
+          ],
+          "to": [
+            0.4930876,
+            0.0767104
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.4930876,
+            0.0767104
+          ],
+          "to": [
+            0.5078341,
+            0.0670352
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.5078341,
+            0.0670352
+          ],
+          "to": [
+            0.5235023,
+            0.0704907
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.5235023,
+            0.0704907
+          ],
+          "to": [
+            0.5391705,
+            0.0746372
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.5391705,
+            0.0746372
+          ],
+          "to": [
+            0.5612903,
+            0.0774015
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.5612903,
+            0.0774015
+          ],
+          "to": [
+            0.5806452,
+            0.0946786
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.5806452,
+            0.0946786
+          ],
+          "to": [
+            0.5981567,
+            0.1161023
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.5981567,
+            0.1161023
+          ],
+          "to": [
+            0.6175115,
+            0.1395992
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        }
+      ],
+      "regionCount": 197,
+      "difficulty": "Hard",
+      "discardedSmallOrThinRegions": 904,
+      "inkContours": 1333,
+      "largestRegionFraction": 0.1628,
+      "warnings": [],
+      "colorSource": "rose-quartz-color.png",
+      "colorSourceSha256": "c855ce20ed6addf45c55d1a1f4eab155bb663e38929a444db659fa53c949684a",
+      "colorSourceWidth": 1086,
+      "colorSourceHeight": 1448
+    },
+    {
+      "id": "dreamlight-silver-serenade-v1",
+      "source": "silver-serenade-line.png",
+      "sourceSha256": "db252f7db9c7ef8e0fc0e3c26570ba2ea0dfce40f17de44ebfed6b8ff7aebc0a",
+      "sourceWidth": 1086,
+      "sourceHeight": 1448,
+      "sourceOffsetX": 0,
+      "sourceOffsetY": 0,
+      "sourceScale": 0.7071823204419889,
+      "artworkOffsetX": 0.0,
+      "artworkOffsetY": 0.0,
+      "width": 768,
+      "height": 1024,
+      "settings": {
+        "inkThreshold": 170,
+        "minRegionArea": 40,
+        "minInteriorArea": 12,
+        "minInteriorRadius": 1.5,
+        "simplifyPixels": 0.3
+      },
+      "boundaryLinks": [
+        {
+          "from": [
+            0.4525346,
+            0.1506565
+          ],
+          "to": [
+            0.4709677,
+            0.1230131
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.4709677,
+            0.1230131
+          ],
+          "to": [
+            0.4940092,
+            0.1043538
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.4940092,
+            0.1043538
+          ],
+          "to": [
+            0.5170507,
+            0.0988252
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.5170507,
+            0.0988252
+          ],
+          "to": [
+            0.5419355,
+            0.0981341
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.5419355,
+            0.0981341
+          ],
+          "to": [
+            0.564977,
+            0.1015895
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.564977,
+            0.1015895
+          ],
+          "to": [
+            0.5852535,
+            0.1085003
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.5852535,
+            0.1085003
+          ],
+          "to": [
+            0.602765,
+            0.114029
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.602765,
+            0.114029
+          ],
+          "to": [
+            0.6221198,
+            0.1167934
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.6221198,
+            0.1167934
+          ],
+          "to": [
+            0.6451613,
+            0.1237042
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.6451613,
+            0.1237042
+          ],
+          "to": [
+            0.6635945,
+            0.138217
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.6635945,
+            0.138217
+          ],
+          "to": [
+            0.675576,
+            0.1589496
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.4976959,
+            0.3337941
+          ],
+          "to": [
+            0.5087558,
+            0.3427782
+          ],
+          "width": 2,
+          "reason": "Close the faint lower lip outline."
+        },
+        {
+          "from": [
+            0.5087558,
+            0.3427782
+          ],
+          "to": [
+            0.5281106,
+            0.3524534
+          ],
+          "width": 2,
+          "reason": "Close the faint lower lip outline."
+        },
+        {
+          "from": [
+            0.5281106,
+            0.3524534
+          ],
+          "to": [
+            0.5483871,
+            0.3600553
+          ],
+          "width": 2,
+          "reason": "Close the faint lower lip outline."
+        },
+        {
+          "from": [
+            0.5483871,
+            0.3600553
+          ],
+          "to": [
+            0.5686636,
+            0.3628196
+          ],
+          "width": 2,
+          "reason": "Close the faint lower lip outline."
+        },
+        {
+          "from": [
+            0.5686636,
+            0.3628196
+          ],
+          "to": [
+            0.5861751,
+            0.3607464
+          ],
+          "width": 2,
+          "reason": "Close the faint lower lip outline."
+        },
+        {
+          "from": [
+            0.5861751,
+            0.3607464
+          ],
+          "to": [
+            0.597235,
+            0.3559088
+          ],
+          "width": 2,
+          "reason": "Close the faint lower lip outline."
+        },
+        {
+          "from": [
+            0.597235,
+            0.3559088
+          ],
+          "to": [
+            0.6036866,
+            0.3489979
+          ],
+          "width": 2,
+          "reason": "Close the faint lower lip outline."
+        }
+      ],
+      "regionCount": 217,
+      "difficulty": "Hard",
+      "discardedSmallOrThinRegions": 961,
+      "inkContours": 1384,
+      "largestRegionFraction": 0.13,
+      "warnings": [],
+      "colorSource": "silver-serenade-color.png",
+      "colorSourceSha256": "51170756ebb538f5ad70fd4e87440442ce35f2a3f9af409b55937aef9bec0d79",
+      "colorSourceWidth": 1086,
+      "colorSourceHeight": 1448
+    },
+    {
+      "id": "dreamlight-midnight-satin-v1",
+      "source": "midnight-satin-line.png",
+      "sourceSha256": "df27c5919f2a7c263694a6964bdabcf7b55f6ad4eb8577fa56b22cc21157e1a2",
+      "sourceWidth": 1086,
+      "sourceHeight": 1448,
+      "sourceOffsetX": 0,
+      "sourceOffsetY": 0,
+      "sourceScale": 0.7071823204419889,
+      "artworkOffsetX": 0.0,
+      "artworkOffsetY": 0.0,
+      "width": 768,
+      "height": 1024,
+      "settings": {
+        "inkThreshold": 170,
+        "minRegionArea": 40,
+        "minInteriorArea": 12,
+        "minInteriorRadius": 1.5,
+        "simplifyPixels": 0.3
+      },
+      "boundaryLinks": [
+        {
+          "from": [
+            0.4156682,
+            0.1451279
+          ],
+          "to": [
+            0.443318,
+            0.1154112
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.443318,
+            0.1154112
+          ],
+          "to": [
+            0.4737327,
+            0.097443
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.4737327,
+            0.097443
+          ],
+          "to": [
+            0.4995392,
+            0.0877678
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.4995392,
+            0.0877678
+          ],
+          "to": [
+            0.5235023,
+            0.0843124
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.5235023,
+            0.0843124
+          ],
+          "to": [
+            0.5400922,
+            0.0877678
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.5400922,
+            0.0877678
+          ],
+          "to": [
+            0.5612903,
+            0.0884589
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.5612903,
+            0.0884589
+          ],
+          "to": [
+            0.5834101,
+            0.0967519
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.5834101,
+            0.0967519
+          ],
+          "to": [
+            0.5953917,
+            0.1112647
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        }
+      ],
+      "regionCount": 245,
+      "difficulty": "Hard",
+      "discardedSmallOrThinRegions": 826,
+      "inkContours": 1377,
+      "largestRegionFraction": 0.0837,
+      "warnings": [],
+      "colorSource": "midnight-satin-color.png",
+      "colorSourceSha256": "56559216cadbb8210413e36e29b0d9056bd9c2a2dc2fb917ba7560c67f03a521",
+      "colorSourceWidth": 1086,
+      "colorSourceHeight": 1448
+    },
+    {
+      "id": "dreamlight-camellia-reverie-v1",
+      "source": "camellia-reverie-line.png",
+      "sourceSha256": "7b361307d6a9184594d33c5f9e0854adbcb788799d9b8fd4064c2c91873f2841",
+      "sourceWidth": 1086,
+      "sourceHeight": 1448,
+      "sourceOffsetX": 0,
+      "sourceOffsetY": 0,
+      "sourceScale": 0.7071823204419889,
+      "artworkOffsetX": 0.0,
+      "artworkOffsetY": 0.0,
+      "width": 768,
+      "height": 1024,
+      "settings": {
+        "inkThreshold": 170,
+        "minRegionArea": 40,
+        "minInteriorArea": 12,
+        "minInteriorRadius": 1.5,
+        "simplifyPixels": 0.3
+      },
+      "boundaryLinks": [
+        {
+          "from": [
+            0.5299539,
+            0.1941949
+          ],
+          "to": [
+            0.556682,
+            0.1720802
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.556682,
+            0.1720802
+          ],
+          "to": [
+            0.5824885,
+            0.1554941
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.5824885,
+            0.1554941
+          ],
+          "to": [
+            0.602765,
+            0.1492744
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.602765,
+            0.1492744
+          ],
+          "to": [
+            0.6258065,
+            0.1485833
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.6258065,
+            0.1485833
+          ],
+          "to": [
+            0.6460829,
+            0.1534209
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.6460829,
+            0.1534209
+          ],
+          "to": [
+            0.6571429,
+            0.1589496
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.6571429,
+            0.1589496
+          ],
+          "to": [
+            0.678341,
+            0.1617139
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.678341,
+            0.1617139
+          ],
+          "to": [
+            0.6995392,
+            0.1734623
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.6995392,
+            0.1734623
+          ],
+          "to": [
+            0.7198157,
+            0.194886
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        },
+        {
+          "from": [
+            0.7198157,
+            0.194886
+          ],
+          "to": [
+            0.7308756,
+            0.2204561
+          ],
+          "width": 2,
+          "reason": "Join the reviewed faint hairline so hair and forehead can be colored independently."
+        }
+      ],
+      "regionCount": 408,
+      "difficulty": "Hard",
+      "discardedSmallOrThinRegions": 2155,
+      "inkContours": 3057,
+      "largestRegionFraction": 0.2086,
+      "warnings": [],
+      "colorSource": "camellia-reverie-color.png",
+      "colorSourceSha256": "7593bac6bfeabcc31c674eb29826199461e5cd1bd1a696848d2972fcea3c99b3",
+      "colorSourceWidth": 1086,
+      "colorSourceHeight": 1448
+    }
+  ],
+  "metadata": [
+    {
+      "id": "dreamlight-rosewood-rambler-v1",
+      "title": "Rosewood Rambler",
+      "category": "Dreamlight Portraits",
+      "difficulty": "Hard",
+      "tags": [
+        "adult",
+        "original generated",
+        "fashion",
+        "portrait",
+        "rosewood",
+        "rambler",
+        "colored reference"
+      ],
+      "thumbnail": "/art/dreamlight-rosewood-rambler-v1.svg",
+      "regionCount": 536,
+      "referenceImage": "/references/dreamlight-rosewood-rambler-v1.png"
+    },
+    {
+      "id": "dreamlight-marigold-muse-v1",
+      "title": "Marigold Muse",
+      "category": "Dreamlight Portraits",
+      "difficulty": "Hard",
+      "tags": [
+        "adult",
+        "original generated",
+        "fashion",
+        "portrait",
+        "marigold",
+        "muse",
+        "colored reference"
+      ],
+      "thumbnail": "/art/dreamlight-marigold-muse-v1.svg",
+      "regionCount": 476,
+      "referenceImage": "/references/dreamlight-marigold-muse-v1.png"
+    },
+    {
+      "id": "dreamlight-wildflower-poet-v1",
+      "title": "Wildflower Poet",
+      "category": "Dreamlight Portraits",
+      "difficulty": "Hard",
+      "tags": [
+        "adult",
+        "original generated",
+        "fashion",
+        "portrait",
+        "wildflower",
+        "poet",
+        "colored reference"
+      ],
+      "thumbnail": "/art/dreamlight-wildflower-poet-v1.svg",
+      "regionCount": 401,
+      "referenceImage": "/references/dreamlight-wildflower-poet-v1.png"
+    },
+    {
+      "id": "dreamlight-butterfly-daydream-v1",
+      "title": "Butterfly Daydream",
+      "category": "Dreamlight Portraits",
+      "difficulty": "Hard",
+      "tags": [
+        "adult",
+        "original generated",
+        "fashion",
+        "portrait",
+        "butterfly",
+        "daydream",
+        "colored reference"
+      ],
+      "thumbnail": "/art/dreamlight-butterfly-daydream-v1.svg",
+      "regionCount": 316,
+      "referenceImage": "/references/dreamlight-butterfly-daydream-v1.png"
+    },
+    {
+      "id": "dreamlight-lilac-orbit-v1",
+      "title": "Lilac Orbit",
+      "category": "Dreamlight Portraits",
+      "difficulty": "Hard",
+      "tags": [
+        "adult",
+        "original generated",
+        "fashion",
+        "portrait",
+        "lilac",
+        "orbit",
+        "colored reference"
+      ],
+      "thumbnail": "/art/dreamlight-lilac-orbit-v1.svg",
+      "regionCount": 186,
+      "referenceImage": "/references/dreamlight-lilac-orbit-v1.png"
+    },
+    {
+      "id": "dreamlight-mothlight-velvet-v1",
+      "title": "Mothlight Velvet",
+      "category": "Dreamlight Portraits",
+      "difficulty": "Hard",
+      "tags": [
+        "adult",
+        "original generated",
+        "fashion",
+        "portrait",
+        "mothlight",
+        "velvet",
+        "colored reference"
+      ],
+      "thumbnail": "/art/dreamlight-mothlight-velvet-v1.svg",
+      "regionCount": 292,
+      "referenceImage": "/references/dreamlight-mothlight-velvet-v1.png"
+    },
+    {
+      "id": "dreamlight-rose-quartz-v1",
+      "title": "Rose Quartz",
+      "category": "Dreamlight Portraits",
+      "difficulty": "Hard",
+      "tags": [
+        "adult",
+        "original generated",
+        "fashion",
+        "portrait",
+        "rose",
+        "quartz",
+        "colored reference"
+      ],
+      "thumbnail": "/art/dreamlight-rose-quartz-v1.svg",
+      "regionCount": 197,
+      "referenceImage": "/references/dreamlight-rose-quartz-v1.png"
+    },
+    {
+      "id": "dreamlight-silver-serenade-v1",
+      "title": "Silver Serenade",
+      "category": "Dreamlight Portraits",
+      "difficulty": "Hard",
+      "tags": [
+        "adult",
+        "original generated",
+        "fashion",
+        "portrait",
+        "silver",
+        "serenade",
+        "colored reference"
+      ],
+      "thumbnail": "/art/dreamlight-silver-serenade-v1.svg",
+      "regionCount": 217,
+      "referenceImage": "/references/dreamlight-silver-serenade-v1.png"
+    },
+    {
+      "id": "dreamlight-midnight-satin-v1",
+      "title": "Midnight Satin",
+      "category": "Dreamlight Portraits",
+      "difficulty": "Hard",
+      "tags": [
+        "adult",
+        "original generated",
+        "fashion",
+        "portrait",
+        "midnight",
+        "satin",
+        "colored reference"
+      ],
+      "thumbnail": "/art/dreamlight-midnight-satin-v1.svg",
+      "regionCount": 245,
+      "referenceImage": "/references/dreamlight-midnight-satin-v1.png"
+    },
+    {
+      "id": "dreamlight-camellia-reverie-v1",
+      "title": "Camellia Reverie",
+      "category": "Dreamlight Portraits",
+      "difficulty": "Hard",
+      "tags": [
+        "adult",
+        "original generated",
+        "fashion",
+        "portrait",
+        "camellia",
+        "reverie",
+        "colored reference"
+      ],
+      "thumbnail": "/art/dreamlight-camellia-reverie-v1.svg",
+      "regionCount": 408,
+      "referenceImage": "/references/dreamlight-camellia-reverie-v1.png"
+    }
+  ]
+}

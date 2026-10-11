@@ -28,20 +28,21 @@ Latest update validated on 2026-10-12; initial setup and version 1.0 device obse
 | --- | --- |
 | Frozen dependency install (`npm ci`) | Passed during initial setup; dependency versions unchanged |
 | TypeScript and production web build (`npm run build`) | Passed |
-| Full browser suite (`npm test`) | **42 passed**, 0 failed, 0 skipped |
-| Artwork validation | 4 tests; all 139 drawings and thumbnails; every advertised region reachable |
+| Full browser suite (`npm test`) | **46 passed**, 0 failed, 0 skipped |
+| Artwork validation | 4 tests; all 149 drawings and thumbnails; every advertised region reachable |
 | Canvas behavior | 13 tests; real pixel/input/export assertions |
 | Local storage | 5 tests; persistence, exact commands, queued writes, metadata isolation |
 | Integrated UI | 8 tests; gallery, autosave/reopen, controls, exports, errors, responsive layouts |
 | Portrait Atelier regression | 4 tests; original-library preservation, generated region clipping, autosave/reopening, and manually reviewed skin/hair/lip boundaries across all 12 new pages |
 | Floral Reverie regression | 3 tests; original 133 drawings preserved, six PNG pairs, actual painting/clipping, and reviewed cross-material boundaries |
+| Dreamlight Portraits regression | 4 tests; all 139 old drawings and six old references preserved, ten PNG pairs, actual painting/clipping, reviewed material boundaries, and all ten lazy reference images |
 | Colored reference viewer | 5 tests; matched lazy images, pinning, painting/persistence, failures, focus/back handling, and responsive layouts |
 | Native Android build | Gradle `assembleDebug` passed |
 | Android lint | 0 errors, 8 warnings; dependency/toolchain warnings documented by build output |
 | APK signature | v1 and v2 signatures verified by `apksigner` |
-| APK contents | All 139 drawings and six colored PNG references bundled; all 433 production `dist/` files match packaged assets byte-for-byte |
+| APK contents | All 149 drawings and 16 colored PNG references bundled; all 473 production `dist/` files match packaged assets byte-for-byte |
 | Android 15 software emulator installation (version 1.0) | Initial install and final APK install-over (`adb install -r`) passed |
-| Version 1.2 update identity | Same application ID and signing certificate as version 1.1; versionCode increased to 3 |
+| Version 1.3 update identity | Same application ID and signing certificate as version 1.2; versionCode increased to 4 |
 | Native runtime interaction | Unverified: emulator SystemServer ANRs and WebView renderer termination prevented a usable app session |
 
 During the original version 1.0 validation, the software emulator reached boot completion and initialized the activity and native StudioFiles plugin, then requested the bundled application page. Android displayed “Process system isn't responding”; WebView 124 subsequently terminated its renderer with code 5 and closed the host app. Native painting, force-stop restoration, saved-data preservation across updates, share-sheet behavior, system back, rotation, and physical-device performance remain unverified. Successful install-over alone does not establish saved-data preservation. See [the Android validation notes](../android/README.md#validation-performed-and-limits) for the investigation details.
@@ -67,3 +68,15 @@ Manual fill review covers skin, hair, lips, petals, leaves, garments, and exteri
 Five reference-viewer tests cover all six matching local images, on-demand loading, modal focus and keyboard closure, unchanged painting pixels while pinning, no painting through the reference panel, painting/undo/redo/autosave/reopening, missing-image retries, canceled late loads, and phone/tablet/landscape bounds in dark and reduced-motion modes. A mocked native adapter checks the application's back-callback ordering; it does not establish delivery of physical Android back events.
 
 All pairs were visually compared for adult anatomy and matching composition. The reference sheet and pinned panel are separate from painting layers and saved commands. Browser screenshots include real saved coloring with a reference visible. Version 1.2 retains the application ID and test signing key and increments versionCode to 3. Physical Android reference interaction, memory/performance, and saved-work preservation across an installed update remain unverified on this cloud machine.
+
+## Dreamlight Portraits update
+
+Version 1.3 adds ten original 1086 × 1448 line-art PNGs and ten matching colored PNGs. All twenty originals, generation/edit prompts, and hashes are retained. The ten compiled drawings contain 3,274 usable regions (186–536 each; Hard). Four additional regression tests bring the complete browser suite to **46 passing tests**. The pre-update digest protects the metadata, editable geometry, both previews of all 139 previous drawings, and the six previous reference PNGs.
+
+Manual source review and diagnostic fills cover adult faces, hairlines, lips, neck/arm/midriff skin where present, clothing, headwear, jewelry, flowers, leaves, and backgrounds. Explicit vector guides close faint lip and hairline contours while keeping the PNG originals and fine ink unchanged. Source-hash-bound probes verify independent materials at the reviewed positions. Real painting/export pixel checks exercise fill, locked airbrush strokes, gradients, undo and redo on the most detailed addition. All ten matching reference PNGs load only when requested in the running app.
+
+The production web build, Android assembly, v1/v2 signature verification, and Android lint completed successfully; lint reports zero errors and eight pre-existing warnings. The final APK is 102,053,079 bytes (97.33 MiB), versionName 1.3 / versionCode 4. Its 473 production web files match the packaged APK assets byte-for-byte, including all 149 drawings and 16 colored references. The signing certificate SHA-256 remains `56cd720401d8059fe17ac9ebc91cd194fa380ea378ea1391b45ad980863a0346`.
+
+Screenshots under `docs/screenshots/` include the new library, the matching colored example, a real saved skin fill with the reference pinned, and tablet/landscape views. Reproduce them with `node scripts/capture-dreamlight-portraits.mjs` while Vite is running.
+
+The existing browser suite also passed zoomed input, two-finger gestures, exports, autosave/reopening, storage failures, and phone/tablet layout checks. Native runtime behavior was not rechecked on the previously unhealthy emulator. Physical-device painting performance, stylus behavior, sharing, and data preservation across an installed upgrade remain unverified.

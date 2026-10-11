@@ -20,7 +20,7 @@ The launcher and splash use original vector flower assets in `app/src/main/res/d
 
 ## Validation performed and limits
 
-JDK 21 compilation, Gradle assembly, resource packaging, and APK v1/v2 signature verification passed. Android Lint completed with zero errors and eight warnings (platform compatibility, generated resources, backup-rule and themed-icon suggestions). The Linux setup script was rerun successfully. The final APK contains the compiled application, 139 drawings, six colored reference PNGs, fonts, and other local assets; no development server is configured. The merged manifest requests Internet access for the WebView and AndroidX's app-private receiver permission only.
+JDK 21 compilation, Gradle assembly, resource packaging, and APK v1/v2 signature verification passed. Android Lint completed with zero errors and eight warnings (platform compatibility, generated resources, backup-rule and themed-icon suggestions). The Linux setup script was rerun successfully. The final APK contains the compiled application, 149 drawings, 16 colored reference PNGs, fonts, and other local assets; no development server is configured. The merged manifest requests Internet access for the WebView and AndroidX's app-private receiver permission only.
 
 For the original version 1.0 validation, an Android 15/API 35 AOSP x86_64 software emulator was installed and booted without KVM, using SwiftShader. The APK installed successfully and its activity/process and native StudioFiles plugin initialized. Native logs confirmed loading the bundled `https://localhost/` page. The final version 1.0 build also installed successfully over the earlier test build with `adb install -r`. These observations validate installation and native startup, **not** completed interaction tests or saved-painting preservation across an update.
 
@@ -31,3 +31,5 @@ Consequently, native library/canvas interaction, painting restoration after a fo
 Version 1.1 adds Portrait Atelier and increments versionCode to 2. Its APK is rebuilt with the retained test signing key. The unhealthy emulator investigation was not repeated for this artwork update; native runtime and install-over preservation on a healthy device remain unverified.
 
 Version 1.2 adds Floral Reverie and its offline reference viewer, with versionCode 3. References are separate local image assets and do not enter painting commands or exports. The update uses the retained test signing key; native reference interaction and install-over data preservation still require a healthy Android device.
+
+Version 1.3 adds ten Dreamlight Portraits and ten matching colored PNG references, with versionCode 4. All 139 previous illustrations and six previous references are byte-identical. The APK retains the application ID and signing certificate. Native runtime behavior was not retested on the unhealthy software emulator; install-over data preservation and physical phone/tablet interaction remain unverified.

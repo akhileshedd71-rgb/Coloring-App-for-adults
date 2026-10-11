@@ -18,8 +18,8 @@ Keep the installed app when updating to a newer APK signed with the same key. Un
 
 ## The studio
 
-- **139 bundled original vector illustrations**: ten stylized collections, a detailed realistic artist study, 12 **Portrait Atelier** pages, and six new **Floral Reverie** portraits. Search, collection and difficulty filters, illustration favorites, and Continue Coloring.
-- **Colored inspiration:** each Floral Reverie portrait includes a matching original colored PNG. Open Reference while coloring, enlarge it, or keep it beside the canvas. These examples are bundled for offline use and never overwrite your painting.
+- **149 bundled original vector illustrations**: ten stylized collections, a detailed realistic artist study, 12 **Portrait Atelier** pages, six **Floral Reverie** portraits, and 10 new **Dreamlight Portraits**. Search, collection and difficulty filters, illustration favorites, and Continue Coloring.
+- **Colored inspiration:** each Floral Reverie and Dreamlight portrait includes a matching original colored PNG. Open Reference while coloring, enlarge it, or keep it beside the canvas. These examples are bundled for offline use and never overwrite your painting.
 - **Eight tools:** tap fill, smooth brush, soft airbrush, pencil, textured brush, eraser, eyedropper, and two-color linear gradients. Brush size, opacity, guided/free painting, and a selectable region lock.
 - Curated skin, hair, makeup, fabric, pastel, jewel, and monochrome colors, plus a full color picker, HEX entry, recent colors, saved swatches, and custom palettes.
 - Two-finger pan and pinch zoom up to 12×, Fit, full-screen canvas, undo/redo, and stylus pressure when exposed by the device. One finger paints; two navigate. Adding a second finger cancels the tentative stroke.
@@ -75,11 +75,17 @@ The build script compiles the web app, syncs bundled assets into Android, runs G
 
 Each saved painting includes its original geometry so updating the library does not silently change existing work. Do not reuse an illustration ID for a different drawing. The canvas holds an independent geometry copy; browsing cache eviction cannot invalidate an open drawing. Paint buffers and display density are capped; gallery browsing does not load every painting’s stroke history.
 
-Nunito Sans and Fraunces fonts are bundled with their OFL licenses in `public/fonts/`. The studio banner, Braided Reverie study, 12 Portrait Atelier pages, and six Floral Reverie pairs are original generated illustrations; the main library consists of original vector compositions. [Artist source notes](artwork-sources/README.md) document the study’s conversion into sharp editable vector regions. No external stock illustration is used.
+Nunito Sans and Fraunces fonts are bundled with their OFL licenses in `public/fonts/`. The studio banner, Braided Reverie study, 12 Portrait Atelier pages, six Floral Reverie pairs, and 10 Dreamlight pairs are original generated illustrations; the main library consists of original vector compositions. [Artist source notes](artwork-sources/README.md) document the study’s conversion into sharp editable vector regions. No external stock illustration is used.
 
 The [Portrait Atelier collection](artwork-sources/portrait-collection/README.md) includes flowing hair, glasses, couture gowns, braids, headbands, and mature expressive faces. It has 2 Easy, 2 Medium, and 8 Hard pages, classified from their actual usable regions. Original PNGs, generation prompts, immutable source hashes, and compiled line-art SVGs are included.
 
-The new [Floral Reverie collection](artwork-sources/floral-reverie/README.md) pairs six original PNG coloring pages with six colored PNG examples: roses and braids, peonies, sunflowers, daisies, magnolias, and irises. The app uses compiled vector outlines and closed coloring regions to keep painting crisp when zoomed. The colored examples load only when requested. Install version 1.2 over the previous app to retain local work.
+The [Floral Reverie collection](artwork-sources/floral-reverie/README.md) pairs six original PNG coloring pages with six colored PNG examples: roses and braids, peonies, sunflowers, daisies, magnolias, and irises. The app uses compiled vector outlines and closed coloring regions to keep painting crisp when zoomed. The colored examples load only when requested. Install version 1.3 over the previous app to retain local work.
+
+## Dreamlight Portraits · version 1.3
+
+[Ten new coloring PNGs and ten matching colored PNGs](artwork-sources/dreamlight-portraits/README.md) feature floral hats, detailed braids, butterfly buns, flowing pink and silver hair, editorial fashion, and camellia portraits. Every original is 1086 × 1448. Find **Dreamlight Portraits** first in the collection filters, and open **Reference** while painting. All 139 previous drawings are preserved.
+
+<img src="docs/screenshots/phone-dreamlight-portraits.png" alt="Dreamlight Portraits library on a phone" width="30%"> <img src="docs/screenshots/dreamlight-phone-reference-pinned.png" alt="Coloring with the matching reference visible" width="30%">
 
 ## Future extensions
 

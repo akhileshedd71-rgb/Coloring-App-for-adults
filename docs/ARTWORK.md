@@ -1,6 +1,6 @@
 # Musemallow artwork collection
 
-The bundled collection contains 139 original, editable vector illustrations: 120 authored vector compositions, Braided Reverie, 12 Portrait Atelier pages, and six Floral Reverie portraits. Separately authored studies are listed in `public/art/supplemental-catalog.json`. The main collection uses a cohesive, stylized editorial illustration language: elongated adult faces, defined brows and lips, textile details, gentle expressions, and clean silhouettes. It is intentionally stylized rather than photorealistic.
+The bundled collection contains 149 original, editable vector illustrations: 120 authored vector compositions, Braided Reverie, 12 Portrait Atelier pages, six Floral Reverie portraits, and ten Dreamlight Portraits. Separately authored studies are listed in `public/art/supplemental-catalog.json`. The main collection uses a cohesive, stylized editorial illustration language: elongated adult faces, defined brows and lips, textile details, gentle expressions, and clean silhouettes. It is intentionally stylized rather than photorealistic.
 
 The main library's vectors are authored in [`scripts/generate-art.mjs`](../scripts/generate-art.mjs); supplemental PNG sources use the [portrait compiler](PORTRAIT-COMPILER.md). They do not use stock illustrations, downloaded tracing templates, external fonts, or runtime remote image requests. All drawing data is bundled for offline use. The main library's colored browse previews demonstrate six coordinated palettes and a range of skin tones; every drawing opens as uncolored line art and the artist chooses every color.
 
@@ -103,3 +103,7 @@ On Linux the generator uses `/usr/bin/chromium` when available. Set `CHROMIUM_PA
 The collection was reviewed using rendered contact sheets, with individual anatomy fixes for mirrored facial features, hair silhouettes, irises, bent elbows, and seated legs. `tests/artwork.spec.ts` verifies at least 100 unique geometries, unique IDs and titles, complete metadata and files, all ten categories, three difficulty levels, valid closed paths, substantial visible line art, decodable previews, and reachable region interiors. Painting-specific clipping, navigation, history, save/restore, and export checks live in the canvas and application test suites.
 
 Automated boundary checks establish geometric reachability and fill containment; they do not replace artistic review. The generated collection is a cohesive stylized library. Supplemental artist studies may use a different level of realism and have their own source and process notes.
+
+## Dreamlight Portraits
+
+Version 1.3 adds [ten original line/color PNG pairs](../artwork-sources/dreamlight-portraits/README.md), inspired by floral hats, braids, butterfly buns, and flowing fashion hair. All sources are 1086 × 1448. The ten editable drawings contain 3,274 usable regions; each qualifies as Hard (186–536 regions). Original prompts, immutable PNGs, reviewed contour guides, semantic boundary probes, and compilation hashes are included. All 139 previously released drawings remain byte-identical. Matching colored images are local, lazy-loaded references.

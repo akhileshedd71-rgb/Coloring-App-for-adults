@@ -361,5 +361,185 @@
     "thumbnail": "/art/floral-iris-reverie-v1.svg",
     "regionCount": 376,
     "referenceImage": "/references/floral-iris-reverie-v1.png"
+  },
+  {
+    "id": "dreamlight-rosewood-rambler-v1",
+    "title": "Rosewood Rambler",
+    "category": "Dreamlight Portraits",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "original generated",
+      "fashion",
+      "portrait",
+      "rosewood",
+      "rambler",
+      "colored reference"
+    ],
+    "thumbnail": "/art/dreamlight-rosewood-rambler-v1.svg",
+    "regionCount": 536,
+    "referenceImage": "/references/dreamlight-rosewood-rambler-v1.png"
+  },
+  {
+    "id": "dreamlight-marigold-muse-v1",
+    "title": "Marigold Muse",
+    "category": "Dreamlight Portraits",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "original generated",
+      "fashion",
+      "portrait",
+      "marigold",
+      "muse",
+      "colored reference"
+    ],
+    "thumbnail": "/art/dreamlight-marigold-muse-v1.svg",
+    "regionCount": 476,
+    "referenceImage": "/references/dreamlight-marigold-muse-v1.png"
+  },
+  {
+    "id": "dreamlight-wildflower-poet-v1",
+    "title": "Wildflower Poet",
+    "category": "Dreamlight Portraits",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "original generated",
+      "fashion",
+      "portrait",
+      "wildflower",
+      "poet",
+      "colored reference"
+    ],
+    "thumbnail": "/art/dreamlight-wildflower-poet-v1.svg",
+    "regionCount": 401,
+    "referenceImage": "/references/dreamlight-wildflower-poet-v1.png"
+  },
+  {
+    "id": "dreamlight-butterfly-daydream-v1",
+    "title": "Butterfly Daydream",
+    "category": "Dreamlight Portraits",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "original generated",
+      "fashion",
+      "portrait",
+      "butterfly",
+      "daydream",
+      "colored reference"
+    ],
+    "thumbnail": "/art/dreamlight-butterfly-daydream-v1.svg",
+    "regionCount": 316,
+    "referenceImage": "/references/dreamlight-butterfly-daydream-v1.png"
+  },
+  {
+    "id": "dreamlight-lilac-orbit-v1",
+    "title": "Lilac Orbit",
+    "category": "Dreamlight Portraits",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "original generated",
+      "fashion",
+      "portrait",
+      "lilac",
+      "orbit",
+      "colored reference"
+    ],
+    "thumbnail": "/art/dreamlight-lilac-orbit-v1.svg",
+    "regionCount": 186,
+    "referenceImage": "/references/dreamlight-lilac-orbit-v1.png"
+  },
+  {
+    "id": "dreamlight-mothlight-velvet-v1",
+    "title": "Mothlight Velvet",
+    "category": "Dreamlight Portraits",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "original generated",
+      "fashion",
+      "portrait",
+      "mothlight",
+      "velvet",
+      "colored reference"
+    ],
+    "thumbnail": "/art/dreamlight-mothlight-velvet-v1.svg",
+    "regionCount": 292,
+    "referenceImage": "/references/dreamlight-mothlight-velvet-v1.png"
+  },
+  {
+    "id": "dreamlight-rose-quartz-v1",
+    "title": "Rose Quartz",
+    "category": "Dreamlight Portraits",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "original generated",
+      "fashion",
+      "portrait",
+      "rose",
+      "quartz",
+      "colored reference"
+    ],
+    "thumbnail": "/art/dreamlight-rose-quartz-v1.svg",
+    "regionCount": 197,
+    "referenceImage": "/references/dreamlight-rose-quartz-v1.png"
+  },
+  {
+    "id": "dreamlight-silver-serenade-v1",
+    "title": "Silver Serenade",
+    "category": "Dreamlight Portraits",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "original generated",
+      "fashion",
+      "portrait",
+      "silver",
+      "serenade",
+      "colored reference"
+    ],
+    "thumbnail": "/art/dreamlight-silver-serenade-v1.svg",
+    "regionCount": 217,
+    "referenceImage": "/references/dreamlight-silver-serenade-v1.png"
+  },
+  {
+    "id": "dreamlight-midnight-satin-v1",
+    "title": "Midnight Satin",
+    "category": "Dreamlight Portraits",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "original generated",
+      "fashion",
+      "portrait",
+      "midnight",
+      "satin",
+      "colored reference"
+    ],
+    "thumbnail": "/art/dreamlight-midnight-satin-v1.svg",
+    "regionCount": 245,
+    "referenceImage": "/references/dreamlight-midnight-satin-v1.png"
+  },
+  {
+    "id": "dreamlight-camellia-reverie-v1",
+    "title": "Camellia Reverie",
+    "category": "Dreamlight Portraits",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "original generated",
+      "fashion",
+      "portrait",
+      "camellia",
+      "reverie",
+      "colored reference"
+    ],
+    "thumbnail": "/art/dreamlight-camellia-reverie-v1.svg",
+    "regionCount": 408,
+    "referenceImage": "/references/dreamlight-camellia-reverie-v1.png"
   }
 ]

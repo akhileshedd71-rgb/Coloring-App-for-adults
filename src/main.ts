@@ -44,7 +44,7 @@ const esc = (value: unknown) => String(value ?? '').replace(/[&<>"']/g, s => ({ 
 const app = document.querySelector<HTMLDivElement>('#app')!;
 let prefs = getPreferences();
 let catalog: ArtworkMeta[] = [];
-const featuredCategories = ['Floral Reverie', 'Portrait Atelier', 'Artist Studies'];
+const featuredCategories = ['Dreamlight Portraits', 'Floral Reverie', 'Portrait Atelier', 'Artist Studies'];
 let documents: PaintingDocument[] = [];
 let view: 'library' | 'gallery' | 'favorites' | 'editor' = 'library';
 let previousView: 'library' | 'gallery' | 'favorites' = 'library';
@@ -297,7 +297,7 @@ function showColors() {
 }
 function applyHex() { const value = document.querySelector<HTMLInputElement>('#hex-color')!.value.trim(); setColor(value.startsWith('#') ? value : `#${value}`); }
 function showSettings() {
-  sheet('Make yourself at home', 'Your studio, your way.', `<h3 class="setting-heading">Appearance</h3><div class="theme-options">${[['light', 'sun', 'Light'], ['dark', 'moon', 'Dark'], ['system', 'settings', 'Device']].map(([id, glyph, name]) => `<button class="theme-option ${prefs.theme === id ? 'selected' : ''}" data-action="theme" data-theme="${id}" aria-pressed="${prefs.theme === id}">${icon(glyph)}${name}</button>`).join('')}</div><div class="option-row"><div><strong>Reduce motion</strong><p>A stiller studio, with fewer animations.</p></div><button class="switch ${prefs.reducedMotion ? 'on' : ''}" role="switch" aria-checked="${prefs.reducedMotion}" aria-label="Reduce motion" data-action="reduced-motion"></button></div><div class="about-studio"><span class="brand-symbol">${icon('flower')}</span><h3>musemallow</h3><p>A little color, a little calm.</p><p>Original people-inspired illustrations, made for your imagination. Your artwork stays on this device. No account, ads, purchases, or tracking. Everything works offline.</p><small>Version 1.2 · A studio for all your shades</small></div>`, true);
+  sheet('Make yourself at home', 'Your studio, your way.', `<h3 class="setting-heading">Appearance</h3><div class="theme-options">${[['light', 'sun', 'Light'], ['dark', 'moon', 'Dark'], ['system', 'settings', 'Device']].map(([id, glyph, name]) => `<button class="theme-option ${prefs.theme === id ? 'selected' : ''}" data-action="theme" data-theme="${id}" aria-pressed="${prefs.theme === id}">${icon(glyph)}${name}</button>`).join('')}</div><div class="option-row"><div><strong>Reduce motion</strong><p>A stiller studio, with fewer animations.</p></div><button class="switch ${prefs.reducedMotion ? 'on' : ''}" role="switch" aria-checked="${prefs.reducedMotion}" aria-label="Reduce motion" data-action="reduced-motion"></button></div><div class="about-studio"><span class="brand-symbol">${icon('flower')}</span><h3>musemallow</h3><p>A little color, a little calm.</p><p>Original people-inspired illustrations, made for your imagination. Your artwork stays on this device. No account, ads, purchases, or tracking. Everything works offline.</p><small>Version 1.3 · A studio for all your shades</small></div>`, true);
 }
 function confirmAction(title: string, message: string, button: string, onConfirm: () => void | Promise<void>) {
   sheet(title, '', `<p class="confirm-message">${esc(message)}</p><div class="confirm-actions"><button class="button secondary" data-action="close-dialog">Keep it</button><button id="confirm-action" class="button danger">${button}</button></div>`, true);
