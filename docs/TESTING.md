@@ -28,20 +28,30 @@ Validated on 2026-10-11:
 | --- | --- |
 | Frozen dependency install (`npm ci`) | Passed |
 | TypeScript and production web build (`npm run build`) | Passed |
-| Full browser suite (`npm test`) | **30 passed**, 0 failed, 0 skipped |
-| Artwork validation | 4 tests; all 121 drawings and thumbnails; every advertised region reachable |
+| Full browser suite (`npm test`) | **34 passed**, 0 failed, 0 skipped |
+| Artwork validation | 4 tests; all 133 drawings and thumbnails; every advertised region reachable |
 | Canvas behavior | 13 tests; real pixel/input/export assertions |
 | Local storage | 5 tests; persistence, exact commands, queued writes, metadata isolation |
 | Integrated UI | 8 tests; gallery, autosave/reopen, controls, exports, errors, responsive layouts |
+| Portrait Atelier regression | 4 tests; original-library preservation, generated region clipping, autosave/reopening, and manually reviewed skin/hair/lip boundaries across all 12 new pages |
 | Native Android build | Gradle `assembleDebug` passed |
 | Android lint | 0 errors; dependency/toolchain warnings documented by build output |
 | APK signature | v1 and v2 signatures verified by `apksigner` |
-| APK contents | All 121 drawings bundled; every file in current production `dist/` matches packaged assets byte-for-byte |
-| Android 15 software emulator installation | Initial install and final APK install-over (`adb install -r`) passed |
+| APK contents | All 133 drawings bundled; every file in current production `dist/` matches packaged assets byte-for-byte |
+| Android 15 software emulator installation (version 1.0) | Initial install and final APK install-over (`adb install -r`) passed |
+| Version 1.1 update identity | Same application ID and retained signing certificate; versionCode increased to 2 |
 | Native runtime interaction | Unverified: emulator SystemServer ANRs and WebView renderer termination prevented a usable app session |
 
-The software emulator reached boot completion and initialized the activity and native StudioFiles plugin, then requested the bundled application page. Android displayed “Process system isn't responding”; WebView 124 subsequently terminated its renderer with code 5 and closed the host app. Native painting, force-stop restoration, saved-data preservation across updates, share-sheet behavior, system back, rotation, and physical-device performance remain unverified. Successful install-over alone does not establish saved-data preservation. See [the Android validation notes](../android/README.md#validation-performed-and-limits) for the investigation details.
+During the original version 1.0 validation, the software emulator reached boot completion and initialized the activity and native StudioFiles plugin, then requested the bundled application page. Android displayed “Process system isn't responding”; WebView 124 subsequently terminated its renderer with code 5 and closed the host app. Native painting, force-stop restoration, saved-data preservation across updates, share-sheet behavior, system back, rotation, and physical-device performance remain unverified. Successful install-over alone does not establish saved-data preservation. See [the Android validation notes](../android/README.md#validation-performed-and-limits) for the investigation details.
 
 Actual browser screenshots are under `docs/screenshots/`; reproduce them with `node scripts/capture-screenshots.mjs` while Vite is running. Browser layout checks exercised 360×800, 412×915, 800×1280, 1280×800, and 844×390 viewports. Stylus and multi-touch tests dispatch actual browser input events; physical hardware was not used.
 
 The initial test failures identified invalid XML ampersands in SVG titles, inaccessible hidden construction regions, and occluded outlines. Those were fixed and the complete suite was rerun successfully. Two integrated-test selectors were also corrected to target visible mobile navigation rather than the hidden desktop navigation.
+
+## Portrait Atelier update
+
+The new collection adds 12 distinct image-generated sources and sharp editable vector pages. Regression checks preserve the exact metadata and all geometry/preview bytes of the original 121 drawings. Dedicated tests cover the most detailed generated portrait’s real fill, locked shading, gradients and undo/redo, plus filtering, autosave, and pixel-identical reopening.
+
+Visual face-fill review identified tiny source hairline and lip gaps that ordinary mask-isolation tests could not detect. Short author-reviewed vector boundary guides now close those connections in the coloring-region model, while preserving the generated source PNG and fine ink. Sunday Spectacles also received an image-generation hairline repair. Fixed manual source-coordinate probes check face/cheek separation from multiple actual hair areas, lip regions where present, garments, and background; the pre-repair geometry failed this regression.
+
+The version 1.1 APK is rebuilt and signed using the same retained test key. Its native runtime was not retested on the previously unhealthy emulator. Browser performance observations do not establish frame rates on Android phones, especially while zooming the most detailed pages. A physical phone/tablet pass remains necessary.

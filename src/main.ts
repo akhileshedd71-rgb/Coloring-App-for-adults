@@ -44,6 +44,7 @@ const esc = (value: unknown) => String(value ?? '').replace(/[&<>"']/g, s => ({ 
 const app = document.querySelector<HTMLDivElement>('#app')!;
 let prefs = getPreferences();
 let catalog: ArtworkMeta[] = [];
+const featuredCategories = ['Portrait Atelier', 'Artist Studies'];
 let documents: PaintingDocument[] = [];
 let view: 'library' | 'gallery' | 'favorites' | 'editor' = 'library';
 let previousView: 'library' | 'gallery' | 'favorites' = 'library';
@@ -99,9 +100,9 @@ function docCard(doc: PaintingDocument, compact = false) {
 function filteredArt() {
   const filtered = catalog.filter(a => (view !== 'favorites' || prefs.favorites.includes(a.id)) && (category === 'All drawings' || a.category === category) && (difficulty === 'All levels' || a.difficulty === difficulty) && (!query || `${a.title} ${a.category} ${a.tags.join(' ')}`.toLowerCase().includes(query.toLowerCase())));
   if (category !== 'All drawings') return filtered;
-  const studies = filtered.filter(art => art.category === 'Artist Studies');
-  const groups = [...new Set(filtered.map(art => art.category).filter(name => name !== 'Artist Studies'))].map(name => filtered.filter(art => art.category === name));
-  const mixed: ArtworkMeta[] = [...studies];
+  const featured = featuredCategories.flatMap(name => filtered.filter(art => art.category === name));
+  const groups = [...new Set(filtered.map(art => art.category).filter(name => !featuredCategories.includes(name)))].map(name => filtered.filter(art => art.category === name));
+  const mixed: ArtworkMeta[] = [...featured];
   for (let row = 0; groups.some(group => row < group.length); row++) {
     for (const group of groups) if (group[row]) mixed.push(group[row]);
   }
@@ -116,7 +117,7 @@ function renderGrid() {
 function renderHome() {
   const gallery = view === 'gallery';
   const favoriteView = view === 'favorites';
-  const cats = ['All drawings', ...new Set(catalog.map(a => a.category))];
+  const cats = ['All drawings', ...featuredCategories.filter(name => catalog.some(art => art.category === name)), ...new Set(catalog.map(a => a.category).filter(name => !featuredCategories.includes(name)))];
   document.body.classList.remove('editor-open', 'canvas-fullscreen');
   app.innerHTML = `${header()}<main class="home-main">
   ${view === 'library' ? `<section class="hero"><div class="hero-copy"><div class="eyebrow"><span class="tiny-flower">${icon('sparkle')}</span> YOUR VERY OWN POCKET ART STUDIO</div><h1>Less rush.<br/>More <em>color.</em></h1><p>Beautiful faces. Limitless possibilities.<br/>Find your muse and make a little time for you.</p><button class="button primary hero-button" data-action="surprise">Find my next muse ${icon('arrow')}</button><div class="hero-footnote"><span class="mini-palette"><i></i><i></i><i></i></span> A fresh perspective in every shade</div></div><div class="hero-art"><span class="hero-orbit orbit-one"></span><span class="hero-orbit orbit-two"></span><img class="studio-cover" src="/studio-cover.png" alt="Original colorful portrait illustration in a playful personal art studio"/><span class="hero-sticker sticker-top">${icon('sparkle')} Made for your happy place</span><span class="hero-sticker sticker-bottom">${icon('leaf')} No rules. Just you.</span><span class="hero-doodle">${icon('flower')}</span></div></section>
@@ -229,7 +230,7 @@ function showColors() {
 }
 function applyHex() { const value = document.querySelector<HTMLInputElement>('#hex-color')!.value.trim(); setColor(value.startsWith('#') ? value : `#${value}`); }
 function showSettings() {
-  sheet('Make yourself at home', 'Your studio, your way.', `<h3 class="setting-heading">Appearance</h3><div class="theme-options">${[['light', 'sun', 'Light'], ['dark', 'moon', 'Dark'], ['system', 'settings', 'Device']].map(([id, glyph, name]) => `<button class="theme-option ${prefs.theme === id ? 'selected' : ''}" data-action="theme" data-theme="${id}" aria-pressed="${prefs.theme === id}">${icon(glyph)}${name}</button>`).join('')}</div><div class="option-row"><div><strong>Reduce motion</strong><p>A stiller studio, with fewer animations.</p></div><button class="switch ${prefs.reducedMotion ? 'on' : ''}" role="switch" aria-checked="${prefs.reducedMotion}" aria-label="Reduce motion" data-action="reduced-motion"></button></div><div class="about-studio"><span class="brand-symbol">${icon('flower')}</span><h3>musemallow</h3><p>A little color, a little calm.</p><p>Original people-inspired illustrations, made for your imagination. Your artwork stays on this device. No account, ads, purchases, or tracking. Everything works offline.</p><small>Version 1.0 · A studio for all your shades</small></div>`, true);
+  sheet('Make yourself at home', 'Your studio, your way.', `<h3 class="setting-heading">Appearance</h3><div class="theme-options">${[['light', 'sun', 'Light'], ['dark', 'moon', 'Dark'], ['system', 'settings', 'Device']].map(([id, glyph, name]) => `<button class="theme-option ${prefs.theme === id ? 'selected' : ''}" data-action="theme" data-theme="${id}" aria-pressed="${prefs.theme === id}">${icon(glyph)}${name}</button>`).join('')}</div><div class="option-row"><div><strong>Reduce motion</strong><p>A stiller studio, with fewer animations.</p></div><button class="switch ${prefs.reducedMotion ? 'on' : ''}" role="switch" aria-checked="${prefs.reducedMotion}" aria-label="Reduce motion" data-action="reduced-motion"></button></div><div class="about-studio"><span class="brand-symbol">${icon('flower')}</span><h3>musemallow</h3><p>A little color, a little calm.</p><p>Original people-inspired illustrations, made for your imagination. Your artwork stays on this device. No account, ads, purchases, or tracking. Everything works offline.</p><small>Version 1.1 · A studio for all your shades</small></div>`, true);
 }
 function confirmAction(title: string, message: string, button: string, onConfirm: () => void | Promise<void>) {
   sheet(title, '', `<p class="confirm-message">${esc(message)}</p><div class="confirm-actions"><button class="button secondary" data-action="close-dialog">Keep it</button><button id="confirm-action" class="button danger">${button}</button></div>`, true);

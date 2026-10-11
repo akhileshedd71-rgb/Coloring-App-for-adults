@@ -25,3 +25,7 @@ npm test -- tests/artwork.spec.ts
 The main generator preserves and merges `public/art/supplemental-catalog.json`, so regenerating the 120 main drawings keeps the artist study. Add new compiled studies to that supplemental list with stable unique IDs. Existing saved work uses retained geometry snapshots.
 
 `public/studio-cover.png` is a separate original generated color illustration used as studio branding. It is not a selectable coloring page. Its brief specified three adult models with distinct hairstyles and fashion, warm cream/coral/lavender/mint colors, and a mixture of colored areas and intentional white line art.
+
+## Portrait Atelier expansion
+
+The [Portrait Atelier source collection](portrait-collection/README.md) adds 12 original image-generated adult portraits, with untouched PNGs, full prompts, measured difficulty, source hashes, and reproducible compilation instructions. The legacy study compiler now preserves these supplemental entries when rerun.

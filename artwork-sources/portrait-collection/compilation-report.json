@@ -1,0 +1,1338 @@
+{
+  "schemaVersion": 1,
+  "collection": "Portrait Atelier",
+  "drawings": [
+    {
+      "id": "atelier-moonlit-couture-v1",
+      "source": "portrait-studio-hard-01.png",
+      "sourceSha256": "b25e9aa211f556c75e5aae375173e4432ebfa69c33ec20cf7aad0fa789fcee4c",
+      "sourceWidth": 1086,
+      "sourceHeight": 1448,
+      "sourceOffsetX": 0,
+      "sourceOffsetY": 0,
+      "sourceScale": 0.7071823204419889,
+      "artworkOffsetX": 0.0,
+      "artworkOffsetY": 0.0,
+      "width": 768,
+      "height": 1024,
+      "settings": {
+        "inkThreshold": 170,
+        "minRegionArea": 40,
+        "minInteriorArea": 12,
+        "minInteriorRadius": 1.5,
+        "simplifyPixels": 0.3
+      },
+      "boundaryLinks": [
+        {
+          "from": [
+            0.50967742,
+            0.14167243
+          ],
+          "to": [
+            0.51520737,
+            0.14374568
+          ],
+          "width": 2,
+          "reason": "Bridge a local gap between hairline strands so skin fill does not enter swept hair ribbons."
+        },
+        {
+          "from": [
+            0.46082949,
+            0.14236351
+          ],
+          "to": [
+            0.47557604,
+            0.14098134
+          ],
+          "width": 2,
+          "reason": "Bridge a local gap between hairline strands so skin fill does not enter swept hair ribbons."
+        },
+        {
+          "from": [
+            0.44700461,
+            0.14581894
+          ],
+          "to": [
+            0.46082949,
+            0.14236351
+          ],
+          "width": 2,
+          "reason": "Bridge a local gap between hairline strands so skin fill does not enter swept hair ribbons."
+        },
+        {
+          "from": [
+            0.46267281,
+            0.12508639
+          ],
+          "to": [
+            0.46635945,
+            0.12508639
+          ],
+          "width": 2,
+          "reason": "Bridge a local gap between hairline strands so skin fill does not enter swept hair ribbons."
+        },
+        {
+          "from": [
+            0.46728111,
+            0.12093988
+          ],
+          "to": [
+            0.47373272,
+            0.12232205
+          ],
+          "width": 2,
+          "reason": "Bridge a local gap between hairline strands so skin fill does not enter swept hair ribbons."
+        },
+        {
+          "from": [
+            0.47557604,
+            0.12646856
+          ],
+          "to": [
+            0.48202765,
+            0.12577747
+          ],
+          "width": 2,
+          "reason": "Bridge a local gap between hairline strands so skin fill does not enter swept hair ribbons."
+        },
+        {
+          "from": [
+            0.5124424,
+            0.13959917
+          ],
+          "to": [
+            0.51981567,
+            0.13959917
+          ],
+          "width": 2,
+          "reason": "Bridge a local gap between hairline strands so skin fill does not enter swept hair ribbons."
+        },
+        {
+          "from": [
+            0.51981567,
+            0.14167243
+          ],
+          "to": [
+            0.52534562,
+            0.14167243
+          ],
+          "width": 2,
+          "reason": "Bridge a local gap between hairline strands so skin fill does not enter swept hair ribbons."
+        },
+        {
+          "from": [
+            0.52626728,
+            0.13683483
+          ],
+          "to": [
+            0.53456221,
+            0.13683483
+          ],
+          "width": 2,
+          "reason": "Bridge a local gap between hairline strands so skin fill does not enter swept hair ribbons."
+        },
+        {
+          "from": [
+            0.44147465,
+            0.37525916
+          ],
+          "to": [
+            0.44608295,
+            0.3731859
+          ],
+          "width": 2,
+          "reason": "Close a short interrupted lip contour so lip coloring stays separate from face skin."
+        },
+        {
+          "from": [
+            0.44976959,
+            0.39115411
+          ],
+          "to": [
+            0.43225806,
+            0.37456807
+          ],
+          "width": 2,
+          "reason": "Close a short interrupted lip contour so lip coloring stays separate from face skin."
+        },
+        {
+          "from": [
+            0.53179724,
+            0.39944713
+          ],
+          "to": [
+            0.54562212,
+            0.38562543
+          ],
+          "width": 2,
+          "reason": "Close a short interrupted lip contour so lip coloring stays separate from face skin."
+        }
+      ],
+      "regionCount": 372,
+      "difficulty": "Hard",
+      "discardedSmallOrThinRegions": 1370,
+      "inkContours": 2520,
+      "largestRegionFraction": 0.2622,
+      "warnings": []
+    },
+    {
+      "id": "atelier-cafe-daydream-v1",
+      "source": "portrait-studio-medium-01.png",
+      "sourceSha256": "274bced1765a4db49912a512020bb90441a3e393bdf6af8ef2460cba4bdbba07",
+      "sourceWidth": 1086,
+      "sourceHeight": 1448,
+      "sourceOffsetX": 0,
+      "sourceOffsetY": 0,
+      "sourceScale": 0.7071823204419889,
+      "artworkOffsetX": 0.0,
+      "artworkOffsetY": 0.0,
+      "width": 768,
+      "height": 1024,
+      "settings": {
+        "inkThreshold": 170,
+        "minRegionArea": 40,
+        "minInteriorArea": 12,
+        "minInteriorRadius": 1.5,
+        "simplifyPixels": 0.3
+      },
+      "boundaryLinks": [
+        {
+          "from": [
+            0.48847926,
+            0.13683483
+          ],
+          "to": [
+            0.51336406,
+            0.13614375
+          ],
+          "width": 2,
+          "reason": "Close a small open curl-tip junction at the left part."
+        },
+        {
+          "from": [
+            0.51336406,
+            0.13614375
+          ],
+          "to": [
+            0.53364055,
+            0.13268832
+          ],
+          "width": 2,
+          "reason": "Connect adjacent ribbon tips at the part so the forehead does not enter the left hair ribbons."
+        },
+        {
+          "from": [
+            0.53364055,
+            0.13268832
+          ],
+          "to": [
+            0.54746544,
+            0.12715964
+          ],
+          "width": 2,
+          "reason": "Bridge the tapered root of the upper left curl."
+        },
+        {
+          "from": [
+            0.54746544,
+            0.12715964
+          ],
+          "to": [
+            0.5483871,
+            0.13614375
+          ],
+          "width": 2,
+          "reason": "Join the two sides of the center part to separate the broad right hair ribbon from the forehead."
+        },
+        {
+          "from": [
+            0.5483871,
+            0.13614375
+          ],
+          "to": [
+            0.57050691,
+            0.138217
+          ],
+          "width": 2,
+          "reason": "Close the small lower right curl tip."
+        }
+      ],
+      "regionCount": 149,
+      "difficulty": "Hard",
+      "discardedSmallOrThinRegions": 325,
+      "inkContours": 492,
+      "largestRegionFraction": 0.2152,
+      "warnings": []
+    },
+    {
+      "id": "atelier-silken-reverie-v1",
+      "source": "portrait-studio-medium-02.png",
+      "sourceSha256": "6b6c9c04b545de89038ef58314240377fe77818a46a8d103d1cc8359b48a900f",
+      "sourceWidth": 1086,
+      "sourceHeight": 1448,
+      "sourceOffsetX": 0,
+      "sourceOffsetY": 0,
+      "sourceScale": 0.7071823204419889,
+      "artworkOffsetX": 0.0,
+      "artworkOffsetY": 0.0,
+      "width": 768,
+      "height": 1024,
+      "settings": {
+        "inkThreshold": 170,
+        "minRegionArea": 40,
+        "minInteriorArea": 12,
+        "minInteriorRadius": 1.5,
+        "simplifyPixels": 0.3
+      },
+      "boundaryLinks": [
+        {
+          "from": [
+            0.62580645,
+            0.16931583
+          ],
+          "to": [
+            0.63225806,
+            0.16793366
+          ],
+          "width": 2,
+          "reason": "Close the center-part microgap separating face from upper hair ribbons."
+        },
+        {
+          "from": [
+            0.61843318,
+            0.170698
+          ],
+          "to": [
+            0.62580645,
+            0.16931583
+          ],
+          "width": 2,
+          "reason": "Close the adjacent small left curl-root gap."
+        },
+        {
+          "from": [
+            0.53824885,
+            0.44367657
+          ],
+          "to": [
+            0.54009217,
+            0.44505874
+          ],
+          "width": 2,
+          "reason": "Close the 2px break in the lower-lip contour at the left corner."
+        }
+      ],
+      "regionCount": 118,
+      "difficulty": "Hard",
+      "discardedSmallOrThinRegions": 311,
+      "inkContours": 465,
+      "largestRegionFraction": 0.2308,
+      "warnings": []
+    },
+    {
+      "id": "atelier-windflower-muse-v1",
+      "source": "portrait-studio-hard-02.png",
+      "sourceSha256": "d3c46b02f8980e90e5e9dcf589c1f5db30249a7ee4620d110977623c0c34a4cd",
+      "sourceWidth": 1086,
+      "sourceHeight": 1448,
+      "sourceOffsetX": 0,
+      "sourceOffsetY": 0,
+      "sourceScale": 0.7071823204419889,
+      "artworkOffsetX": 0.0,
+      "artworkOffsetY": 0.0,
+      "width": 768,
+      "height": 1024,
+      "settings": {
+        "inkThreshold": 170,
+        "minRegionArea": 40,
+        "minInteriorArea": 12,
+        "minInteriorRadius": 1.5,
+        "simplifyPixels": 0.3
+      },
+      "boundaryLinks": [
+        {
+          "from": [
+            0.33732718894009217,
+            0.37733241188666206
+          ],
+          "to": [
+            0.34654377880184334,
+            0.3704215618521078
+          ],
+          "width": 2,
+          "reason": "Complete a faded segment of the original lip contour for independent lip coloring."
+        },
+        {
+          "from": [
+            0.38525345622119817,
+            0.3655839668279198
+          ],
+          "to": [
+            0.391705069124424,
+            0.3655839668279198
+          ],
+          "width": 2,
+          "reason": "Complete a faded segment of the original lip contour for independent lip coloring."
+        },
+        {
+          "from": [
+            0.40368663594470044,
+            0.364201796821009
+          ],
+          "to": [
+            0.4119815668202765,
+            0.3669661368348307
+          ],
+          "width": 2,
+          "reason": "Complete a faded segment of the original lip contour for independent lip coloring."
+        },
+        {
+          "from": [
+            0.4202764976958525,
+            0.3711126468555632
+          ],
+          "to": [
+            0.4294930875576037,
+            0.3752591568762958
+          ],
+          "width": 2,
+          "reason": "Complete a faded segment of the original lip contour for independent lip coloring."
+        },
+        {
+          "from": [
+            0.4294930875576037,
+            0.3752591568762958
+          ],
+          "to": [
+            0.4377880184331797,
+            0.38009675190048375
+          ],
+          "width": 2,
+          "reason": "Complete a faded segment of the original lip contour for independent lip coloring."
+        },
+        {
+          "from": [
+            0.4377880184331797,
+            0.38009675190048375
+          ],
+          "to": [
+            0.447926267281106,
+            0.38562543192812715
+          ],
+          "width": 2,
+          "reason": "Complete a faded segment of the original lip contour for independent lip coloring."
+        },
+        {
+          "from": [
+            0.447926267281106,
+            0.38562543192812715
+          ],
+          "to": [
+            0.4626728110599078,
+            0.39322736696613686
+          ],
+          "width": 2,
+          "reason": "Complete a faded segment of the original lip contour for independent lip coloring."
+        },
+        {
+          "from": [
+            0.3391705069124424,
+            0.37871458189357293
+          ],
+          "to": [
+            0.34285714285714286,
+            0.3876986869384934
+          ],
+          "width": 2,
+          "reason": "Complete a faded segment of the original lip contour for independent lip coloring."
+        },
+        {
+          "from": [
+            0.34285714285714286,
+            0.3876986869384934
+          ],
+          "to": [
+            0.3493087557603687,
+            0.39599170697995856
+          ],
+          "width": 2,
+          "reason": "Complete a faded segment of the original lip contour for independent lip coloring."
+        },
+        {
+          "from": [
+            0.423963133640553,
+            0.40704906703524535
+          ],
+          "to": [
+            0.43317972350230416,
+            0.40497581202487903
+          ],
+          "width": 2,
+          "reason": "Complete a faded segment of the original lip contour for independent lip coloring."
+        },
+        {
+          "from": [
+            0.43317972350230416,
+            0.40497581202487903
+          ],
+          "to": [
+            0.4423963133640553,
+            0.40152038700760195
+          ],
+          "width": 2,
+          "reason": "Complete a faded segment of the original lip contour for independent lip coloring."
+        },
+        {
+          "from": [
+            0.4423963133640553,
+            0.40152038700760195
+          ],
+          "to": [
+            0.4525345622119816,
+            0.3973738769868694
+          ],
+          "width": 2,
+          "reason": "Complete a faded segment of the original lip contour for independent lip coloring."
+        },
+        {
+          "from": [
+            0.4525345622119816,
+            0.3973738769868694
+          ],
+          "to": [
+            0.4626728110599078,
+            0.39322736696613686
+          ],
+          "width": 2,
+          "reason": "Complete a faded segment of the original lip contour for independent lip coloring."
+        }
+      ],
+      "regionCount": 610,
+      "difficulty": "Hard",
+      "discardedSmallOrThinRegions": 2485,
+      "inkContours": 3603,
+      "largestRegionFraction": 0.0907,
+      "warnings": []
+    },
+    {
+      "id": "atelier-bob-bright-eyes-v1",
+      "source": "portrait-studio-easy-02.png",
+      "sourceSha256": "6481de43623957e69cbb9c3908c1fb6cc1616976700e443b45c64f54f5b583f1",
+      "sourceWidth": 1086,
+      "sourceHeight": 1448,
+      "sourceOffsetX": 0,
+      "sourceOffsetY": 0,
+      "sourceScale": 0.7071823204419889,
+      "artworkOffsetX": 0.0,
+      "artworkOffsetY": 0.0,
+      "width": 768,
+      "height": 1024,
+      "settings": {
+        "inkThreshold": 170,
+        "minRegionArea": 40,
+        "minInteriorArea": 12,
+        "minInteriorRadius": 1.5,
+        "simplifyPixels": 0.3
+      },
+      "boundaryLinks": [
+        {
+          "from": [
+            0.543778801843318,
+            0.14789219073946094
+          ],
+          "to": [
+            0.5557603686635945,
+            0.14858327574291638
+          ],
+          "width": 2,
+          "reason": "Close an open hairline stroke so hair and skin remain separate fill regions."
+        },
+        {
+          "from": [
+            0.5695852534562212,
+            0.13890808569454044
+          ],
+          "to": [
+            0.576036866359447,
+            0.1492743607463718
+          ],
+          "width": 2,
+          "reason": "Close an open hairline stroke so hair and skin remain separate fill regions."
+        }
+      ],
+      "regionCount": 41,
+      "difficulty": "Medium",
+      "discardedSmallOrThinRegions": 71,
+      "inkContours": 122,
+      "largestRegionFraction": 0.2709,
+      "warnings": []
+    },
+    {
+      "id": "atelier-sunday-spectacles-v1",
+      "source": "portrait-studio-easy-01.png",
+      "sourceSha256": "2bcbf1fbc6867a86c6e83cde491778d4c635753c780599da60a3b8f7dc15ae04",
+      "sourceWidth": 1086,
+      "sourceHeight": 1448,
+      "sourceOffsetX": 0,
+      "sourceOffsetY": 0,
+      "sourceScale": 0.7071823204419889,
+      "artworkOffsetX": 0.0,
+      "artworkOffsetY": 0.0,
+      "width": 768,
+      "height": 1024,
+      "settings": {
+        "inkThreshold": 170,
+        "minRegionArea": 40,
+        "minInteriorArea": 12,
+        "minInteriorRadius": 1.5,
+        "simplifyPixels": 0.3
+      },
+      "boundaryLinks": [],
+      "regionCount": 66,
+      "difficulty": "Hard",
+      "discardedSmallOrThinRegions": 104,
+      "inkContours": 203,
+      "largestRegionFraction": 0.3262,
+      "warnings": []
+    },
+    {
+      "id": "atelier-crowned-in-grace-v1",
+      "source": "portrait-studio-hard-03.png",
+      "sourceSha256": "d7ea5f6e9e94b66b1ae91038c2e7948b44738da7f9dfb82d25227d0928d5c6c5",
+      "sourceWidth": 1086,
+      "sourceHeight": 1448,
+      "sourceOffsetX": 0,
+      "sourceOffsetY": 0,
+      "sourceScale": 0.7071823204419889,
+      "artworkOffsetX": 0.0,
+      "artworkOffsetY": 0.0,
+      "width": 768,
+      "height": 1024,
+      "settings": {
+        "inkThreshold": 170,
+        "minRegionArea": 40,
+        "minInteriorArea": 12,
+        "minInteriorRadius": 1.5,
+        "simplifyPixels": 0.3
+      },
+      "boundaryLinks": [
+        {
+          "from": [
+            0.5474654377880185,
+            0.4865238424326192
+          ],
+          "to": [
+            0.576036866359447,
+            0.507256392536282
+          ],
+          "width": 2,
+          "reason": "Complete faded lower-left lip outline so lower lip can be colored independently of facial skin."
+        }
+      ],
+      "regionCount": 767,
+      "difficulty": "Hard",
+      "discardedSmallOrThinRegions": 1381,
+      "inkContours": 2401,
+      "largestRegionFraction": 0.1691,
+      "warnings": []
+    },
+    {
+      "id": "atelier-grace-in-bloom-v1",
+      "source": "portrait-studio-easy-03.png",
+      "sourceSha256": "408c1815018e307af5bff0f45a7e2f650fda55123dc47ee1ca5dc935aa0fb7f4",
+      "sourceWidth": 1086,
+      "sourceHeight": 1448,
+      "sourceOffsetX": 0,
+      "sourceOffsetY": 0,
+      "sourceScale": 0.7071823204419889,
+      "artworkOffsetX": 0.0,
+      "artworkOffsetY": 0.0,
+      "width": 768,
+      "height": 1024,
+      "settings": {
+        "inkThreshold": 170,
+        "minRegionArea": 40,
+        "minInteriorArea": 12,
+        "minInteriorRadius": 1.5,
+        "simplifyPixels": 0.3
+      },
+      "boundaryLinks": [],
+      "regionCount": 17,
+      "difficulty": "Easy",
+      "discardedSmallOrThinRegions": 30,
+      "inkContours": 63,
+      "largestRegionFraction": 0.3092,
+      "warnings": []
+    },
+    {
+      "id": "atelier-velvet-premiere-v1",
+      "source": "portrait-studio-medium-04.png",
+      "sourceSha256": "d52dcfd035199e82ac9cdd1027f23358bf7148784f46d6be2bb7cf0378e17794",
+      "sourceWidth": 1086,
+      "sourceHeight": 1448,
+      "sourceOffsetX": 0,
+      "sourceOffsetY": 0,
+      "sourceScale": 0.7071823204419889,
+      "artworkOffsetX": 0.0,
+      "artworkOffsetY": 0.0,
+      "width": 768,
+      "height": 1024,
+      "settings": {
+        "inkThreshold": 170,
+        "minRegionArea": 40,
+        "minInteriorArea": 12,
+        "minInteriorRadius": 1.5,
+        "simplifyPixels": 0.3
+      },
+      "boundaryLinks": [
+        {
+          "from": [
+            0.559447,
+            0.10988252
+          ],
+          "to": [
+            0.57511521,
+            0.11817554
+          ],
+          "width": 2,
+          "reason": "Reconnect the faded hairline start at the top-right part."
+        },
+        {
+          "from": [
+            0.60552995,
+            0.14651002
+          ],
+          "to": [
+            0.60737327,
+            0.14443677
+          ],
+          "width": 2,
+          "reason": "Close the 2px opening at the start of the lower temple-hair contour."
+        }
+      ],
+      "regionCount": 59,
+      "difficulty": "Medium",
+      "discardedSmallOrThinRegions": 72,
+      "inkContours": 141,
+      "largestRegionFraction": 0.3563,
+      "warnings": []
+    },
+    {
+      "id": "atelier-quiet-editorial-v1",
+      "source": "portrait-studio-medium-03.png",
+      "sourceSha256": "ba349ccee9e9b890f08e026ac698bdb83b0f2a9c5853e0ce663e0f68c5919ab2",
+      "sourceWidth": 1086,
+      "sourceHeight": 1448,
+      "sourceOffsetX": 0,
+      "sourceOffsetY": 0,
+      "sourceScale": 0.7071823204419889,
+      "artworkOffsetX": 0.0,
+      "artworkOffsetY": 0.0,
+      "width": 768,
+      "height": 1024,
+      "settings": {
+        "inkThreshold": 170,
+        "minRegionArea": 40,
+        "minInteriorArea": 12,
+        "minInteriorRadius": 1.5,
+        "simplifyPixels": 0.3
+      },
+      "boundaryLinks": [
+        {
+          "from": [
+            0.35391705069124424,
+            0.16516931582584657
+          ],
+          "to": [
+            0.3548387096774194,
+            0.1686247408431237
+          ],
+          "width": 2,
+          "reason": "Close an open hairline stroke so hair and skin remain separate fill regions."
+        },
+        {
+          "from": [
+            0.46543778801843316,
+            0.1492743607463718
+          ],
+          "to": [
+            0.47465437788018433,
+            0.1492743607463718
+          ],
+          "width": 2,
+          "reason": "Close an open hairline stroke so hair and skin remain separate fill regions."
+        },
+        {
+          "from": [
+            0.4396313364055299,
+            0.14443676572218384
+          ],
+          "to": [
+            0.43502304147465437,
+            0.14720110573600553
+          ],
+          "width": 2,
+          "reason": "Close an open hairline stroke so hair and skin remain separate fill regions."
+        },
+        {
+          "from": [
+            0.4626728110599078,
+            0.14789219073946094
+          ],
+          "to": [
+            0.45714285714285713,
+            0.14858327574291638
+          ],
+          "width": 2,
+          "reason": "Close an open hairline stroke so hair and skin remain separate fill regions."
+        },
+        {
+          "from": [
+            0.33087557603686635,
+            0.2100898410504492
+          ],
+          "to": [
+            0.3317972350230415,
+            0.2121630960608155
+          ],
+          "width": 2,
+          "reason": "Close an open hairline stroke so hair and skin remain separate fill regions."
+        },
+        {
+          "from": [
+            0.3271889400921659,
+            0.22598479612992398
+          ],
+          "to": [
+            0.32903225806451614,
+            0.22805805114029026
+          ],
+          "width": 2,
+          "reason": "Close an open hairline stroke so hair and skin remain separate fill regions."
+        },
+        {
+          "from": [
+            0.33640552995391704,
+            0.18935729094678647
+          ],
+          "to": [
+            0.33732718894009217,
+            0.193503800967519
+          ],
+          "width": 2,
+          "reason": "Close an open hairline stroke so hair and skin remain separate fill regions."
+        },
+        {
+          "from": [
+            0.4774193548387097,
+            0.14581893572909468
+          ],
+          "to": [
+            0.48110599078341015,
+            0.14720110573600553
+          ],
+          "width": 2,
+          "reason": "Close an open hairline stroke so hair and skin remain separate fill regions."
+        },
+        {
+          "from": [
+            0.49400921658986174,
+            0.14236351071181755
+          ],
+          "to": [
+            0.5013824884792627,
+            0.1437456807187284
+          ],
+          "width": 2,
+          "reason": "Close an open hairline stroke so hair and skin remain separate fill regions."
+        }
+      ],
+      "regionCount": 64,
+      "difficulty": "Hard",
+      "discardedSmallOrThinRegions": 47,
+      "inkContours": 117,
+      "largestRegionFraction": 0.34,
+      "warnings": []
+    },
+    {
+      "id": "atelier-the-botanical-gentleman-v1",
+      "source": "portrait-studio-hard-04.png",
+      "sourceSha256": "647ef879927110e00e527f308fc5fcedff2850c71e3012db65095c7400d50d2a",
+      "sourceWidth": 1086,
+      "sourceHeight": 1448,
+      "sourceOffsetX": 0,
+      "sourceOffsetY": 0,
+      "sourceScale": 0.7071823204419889,
+      "artworkOffsetX": 0.0,
+      "artworkOffsetY": 0.0,
+      "width": 768,
+      "height": 1024,
+      "settings": {
+        "inkThreshold": 170,
+        "minRegionArea": 40,
+        "minInteriorArea": 12,
+        "minInteriorRadius": 1.5,
+        "simplifyPixels": 0.3
+      },
+      "boundaryLinks": [
+        {
+          "from": [
+            0.70230415,
+            0.19695923
+          ],
+          "to": [
+            0.69953917,
+            0.19765031
+          ],
+          "width": 2,
+          "reason": "Join nearby interrupted hairline contours to separate hair ribbons from skin; preserve original source ink."
+        },
+        {
+          "from": [
+            0.69953917,
+            0.20663442
+          ],
+          "to": [
+            0.69861751,
+            0.21561852
+          ],
+          "width": 2,
+          "reason": "Join nearby interrupted hairline contours to separate hair ribbons from skin; preserve original source ink."
+        },
+        {
+          "from": [
+            0.65898618,
+            0.13268832
+          ],
+          "to": [
+            0.67096774,
+            0.13752592
+          ],
+          "width": 2,
+          "reason": "Join nearby interrupted hairline contours to separate hair ribbons from skin; preserve original source ink."
+        },
+        {
+          "from": [
+            0.55115207,
+            0.11126469
+          ],
+          "to": [
+            0.56221198,
+            0.11333794
+          ],
+          "width": 2,
+          "reason": "Join nearby interrupted hairline contours to separate hair ribbons from skin; preserve original source ink."
+        },
+        {
+          "from": [
+            0.51705069,
+            0.1015895
+          ],
+          "to": [
+            0.53640553,
+            0.10919143
+          ],
+          "width": 2,
+          "reason": "Join nearby interrupted hairline contours to separate hair ribbons from skin; preserve original source ink."
+        },
+        {
+          "from": [
+            0.56682028,
+            0.11472011
+          ],
+          "to": [
+            0.58617512,
+            0.12232205
+          ],
+          "width": 2,
+          "reason": "Join nearby interrupted hairline contours to separate hair ribbons from skin; preserve original source ink."
+        },
+        {
+          "from": [
+            0.58617512,
+            0.12232205
+          ],
+          "to": [
+            0.6,
+            0.12370422
+          ],
+          "width": 2,
+          "reason": "Join nearby interrupted hairline contours to separate hair ribbons from skin; preserve original source ink."
+        },
+        {
+          "from": [
+            0.59907834,
+            0.12370422
+          ],
+          "to": [
+            0.61751152,
+            0.12370422
+          ],
+          "width": 2,
+          "reason": "Join nearby interrupted hairline contours to separate hair ribbons from skin; preserve original source ink."
+        },
+        {
+          "from": [
+            0.54285714,
+            0.10504492
+          ],
+          "to": [
+            0.53917051,
+            0.10573601
+          ],
+          "width": 2,
+          "reason": "Join nearby interrupted hairline contours to separate hair ribbons from skin; preserve original source ink."
+        },
+        {
+          "from": [
+            0.53640553,
+            0.10366275
+          ],
+          "to": [
+            0.53271889,
+            0.10435384
+          ],
+          "width": 2,
+          "reason": "Join nearby interrupted hairline contours to separate hair ribbons from skin; preserve original source ink."
+        },
+        {
+          "from": [
+            0.53271889,
+            0.10504492
+          ],
+          "to": [
+            0.53271889,
+            0.10711818
+          ],
+          "width": 2,
+          "reason": "Join nearby interrupted hairline contours to separate hair ribbons from skin; preserve original source ink."
+        },
+        {
+          "from": [
+            0.3824884792626728,
+            0.19557705597788527
+          ],
+          "to": [
+            0.3870967741935484,
+            0.20041465100207326
+          ],
+          "width": 2,
+          "reason": "Join front curl tip to adjacent fine hair contour, separating the left side-lock interior from forehead."
+        }
+      ],
+      "regionCount": 360,
+      "difficulty": "Hard",
+      "discardedSmallOrThinRegions": 1697,
+      "inkContours": 2500,
+      "largestRegionFraction": 0.1708,
+      "warnings": []
+    },
+    {
+      "id": "atelier-swept-away-v1",
+      "source": "portrait-studio-easy-04.png",
+      "sourceSha256": "ee281c6acd35d71ab36b3062c8cacbc81f60aa9fd0ed378f613f1ac833819726",
+      "sourceWidth": 1086,
+      "sourceHeight": 1448,
+      "sourceOffsetX": 0,
+      "sourceOffsetY": 0,
+      "sourceScale": 0.7071823204419889,
+      "artworkOffsetX": 0.0,
+      "artworkOffsetY": 0.0,
+      "width": 768,
+      "height": 1024,
+      "settings": {
+        "inkThreshold": 170,
+        "minRegionArea": 40,
+        "minInteriorArea": 12,
+        "minInteriorRadius": 1.5,
+        "simplifyPixels": 0.3
+      },
+      "boundaryLinks": [
+        {
+          "from": [
+            0.4967741935483871,
+            0.18590186592950933
+          ],
+          "to": [
+            0.49216589861751153,
+            0.18797512093987562
+          ],
+          "width": 2,
+          "reason": "Close an open hairline stroke so hair and skin remain separate fill regions."
+        },
+        {
+          "from": [
+            0.4976958525345622,
+            0.18728403593642018
+          ],
+          "to": [
+            0.49953917050691243,
+            0.18935729094678647
+          ],
+          "width": 2,
+          "reason": "Close an open hairline stroke so hair and skin remain separate fill regions."
+        },
+        {
+          "from": [
+            0.49861751,
+            0.50794748
+          ],
+          "to": [
+            0.52995392,
+            0.5300622
+          ],
+          "width": 2,
+          "reason": "Close the deliberate open lower-left lip contour back to the mouth corner; local47px guide retains the natural lipoutline."
+        },
+        {
+          "from": [
+            0.63963134,
+            0.51831375
+          ],
+          "to": [
+            0.63963134,
+            0.5252246
+          ],
+          "width": 2,
+          "reason": "Close the short faded gap at the right lip corner."
+        }
+      ],
+      "regionCount": 27,
+      "difficulty": "Easy",
+      "discardedSmallOrThinRegions": 134,
+      "inkContours": 177,
+      "largestRegionFraction": 0.3744,
+      "warnings": []
+    }
+  ],
+  "metadata": [
+    {
+      "id": "atelier-moonlit-couture-v1",
+      "title": "Moonlit Couture",
+      "category": "Portrait Atelier",
+      "difficulty": "Hard",
+      "tags": [
+        "adult",
+        "original generated",
+        "portrait",
+        "woman",
+        "wavy bob",
+        "chandelier earrings",
+        "gown",
+        "couture",
+        "detailed"
+      ],
+      "thumbnail": "/art/atelier-moonlit-couture-v1.svg",
+      "regionCount": 372
+    },
+    {
+      "id": "atelier-cafe-daydream-v1",
+      "title": "Café Daydream",
+      "category": "Portrait Atelier",
+      "difficulty": "Hard",
+      "tags": [
+        "adult",
+        "original generated",
+        "portrait",
+        "woman",
+        "glasses",
+        "wavy hair",
+        "freckles",
+        "striped blouse"
+      ],
+      "thumbnail": "/art/atelier-cafe-daydream-v1.svg",
+      "regionCount": 149
+    },
+    {
+      "id": "atelier-silken-reverie-v1",
+      "title": "Silken Reverie",
+      "category": "Portrait Atelier",
+      "difficulty": "Hard",
+      "tags": [
+        "adult",
+        "original generated",
+        "portrait",
+        "woman",
+        "South Asian",
+        "headband",
+        "flowing hair",
+        "jewelry",
+        "draped blouse"
+      ],
+      "thumbnail": "/art/atelier-silken-reverie-v1.svg",
+      "regionCount": 118
+    },
+    {
+      "id": "atelier-windflower-muse-v1",
+      "title": "Windflower Muse",
+      "category": "Portrait Atelier",
+      "difficulty": "Hard",
+      "tags": [
+        "adult",
+        "original generated",
+        "portrait",
+        "woman",
+        "long hair",
+        "headband",
+        "bohemian",
+        "jewelry",
+        "detailed"
+      ],
+      "thumbnail": "/art/atelier-windflower-muse-v1.svg",
+      "regionCount": 610
+    },
+    {
+      "id": "atelier-bob-bright-eyes-v1",
+      "title": "Bob & Bright Eyes",
+      "category": "Portrait Atelier",
+      "difficulty": "Medium",
+      "tags": [
+        "adult",
+        "original generated",
+        "adult woman",
+        "bob",
+        "glasses",
+        "hoop earrings",
+        "stripes",
+        "cartoon",
+        "portrait"
+      ],
+      "thumbnail": "/art/atelier-bob-bright-eyes-v1.svg",
+      "regionCount": 41
+    },
+    {
+      "id": "atelier-sunday-spectacles-v1",
+      "title": "Sunday Spectacles",
+      "category": "Portrait Atelier",
+      "difficulty": "Hard",
+      "tags": [
+        "adult",
+        "original generated",
+        "adult man",
+        "glasses",
+        "quiff",
+        "hoodie",
+        "friendly",
+        "cartoon",
+        "portrait"
+      ],
+      "thumbnail": "/art/atelier-sunday-spectacles-v1.svg",
+      "regionCount": 66
+    },
+    {
+      "id": "atelier-crowned-in-grace-v1",
+      "title": "Crowned in Grace",
+      "category": "Portrait Atelier",
+      "difficulty": "Hard",
+      "tags": [
+        "adult",
+        "original generated",
+        "portrait",
+        "woman",
+        "Black",
+        "mature",
+        "braids",
+        "bun",
+        "embroidered jacket",
+        "detailed"
+      ],
+      "thumbnail": "/art/atelier-crowned-in-grace-v1.svg",
+      "regionCount": 767
+    },
+    {
+      "id": "atelier-grace-in-bloom-v1",
+      "title": "Grace in Bloom",
+      "category": "Portrait Atelier",
+      "difficulty": "Easy",
+      "tags": [
+        "adult",
+        "original generated",
+        "mature adult",
+        "woman",
+        "afro",
+        "natural hair",
+        "pendant",
+        "smile",
+        "portrait"
+      ],
+      "thumbnail": "/art/atelier-grace-in-bloom-v1.svg",
+      "regionCount": 17
+    },
+    {
+      "id": "atelier-velvet-premiere-v1",
+      "title": "Velvet Premiere",
+      "category": "Portrait Atelier",
+      "difficulty": "Medium",
+      "tags": [
+        "adult",
+        "original generated",
+        "portrait",
+        "woman",
+        "mature",
+        "bob",
+        "gown",
+        "statement earrings",
+        "fashion"
+      ],
+      "thumbnail": "/art/atelier-velvet-premiere-v1.svg",
+      "regionCount": 59
+    },
+    {
+      "id": "atelier-quiet-editorial-v1",
+      "title": "Quiet Editorial",
+      "category": "Portrait Atelier",
+      "difficulty": "Hard",
+      "tags": [
+        "adult",
+        "original generated",
+        "portrait",
+        "man",
+        "East Asian",
+        "wavy hair",
+        "blazer",
+        "scarf",
+        "fashion"
+      ],
+      "thumbnail": "/art/atelier-quiet-editorial-v1.svg",
+      "regionCount": 64
+    },
+    {
+      "id": "atelier-the-botanical-gentleman-v1",
+      "title": "The Botanical Gentleman",
+      "category": "Portrait Atelier",
+      "difficulty": "Hard",
+      "tags": [
+        "adult",
+        "original generated",
+        "portrait",
+        "man",
+        "mature",
+        "beard",
+        "spectacles",
+        "vintage",
+        "waistcoat",
+        "floral scarf",
+        "detailed"
+      ],
+      "thumbnail": "/art/atelier-the-botanical-gentleman-v1.svg",
+      "regionCount": 360
+    },
+    {
+      "id": "atelier-swept-away-v1",
+      "title": "Swept Away",
+      "category": "Portrait Atelier",
+      "difficulty": "Easy",
+      "tags": [
+        "adult",
+        "original generated",
+        "androgynous",
+        "short hair",
+        "undercut",
+        "turtleneck",
+        "portrait"
+      ],
+      "thumbnail": "/art/atelier-swept-away-v1.svg",
+      "regionCount": 27
+    }
+  ]
+}

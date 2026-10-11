@@ -18,7 +18,7 @@ Keep the installed app when updating to a newer APK signed with the same key. Un
 
 ## The studio
 
-- **121 bundled original vector illustrations**: ten stylized collections and a detailed realistic artist study, with easy, medium, and hard coloring regions. Search, collection and difficulty filters, illustration favorites, and Continue Coloring.
+- **133 bundled original vector illustrations**: ten stylized collections, a detailed realistic artist study, and 12 new image-generated **Portrait Atelier** pages, with easy, medium, and hard coloring regions. Search, collection and difficulty filters, illustration favorites, and Continue Coloring.
 - **Eight tools:** tap fill, smooth brush, soft airbrush, pencil, textured brush, eraser, eyedropper, and two-color linear gradients. Brush size, opacity, guided/free painting, and a selectable region lock.
 - Curated skin, hair, makeup, fabric, pastel, jewel, and monochrome colors, plus a full color picker, HEX entry, recent colors, saved swatches, and custom palettes.
 - Two-finger pan and pinch zoom up to 12×, Fit, full-screen canvas, undo/redo, and stylus pressure when exposed by the device. One finger paints; two navigate. Adding a second finger cancels the tentative stroke.
@@ -74,7 +74,9 @@ The build script compiles the web app, syncs bundled assets into Android, runs G
 
 Each saved painting includes its original geometry so updating the library does not silently change existing work. Do not reuse an illustration ID for a different drawing. The canvas holds an independent geometry copy; browsing cache eviction cannot invalidate an open drawing. Paint buffers and display density are capped; gallery browsing does not load every painting’s stroke history.
 
-Nunito Sans and Fraunces fonts are bundled with their OFL licenses in `public/fonts/`. The studio banner and Braided Reverie study are original generated illustrations; the main library consists of original vector compositions. [Artist source notes](artwork-sources/README.md) document the study’s conversion into sharp editable vector regions. No external stock illustration is used.
+Nunito Sans and Fraunces fonts are bundled with their OFL licenses in `public/fonts/`. The studio banner, Braided Reverie study, and 12 Portrait Atelier pages are original generated illustrations; the main library consists of original vector compositions. [Artist source notes](artwork-sources/README.md) document the study’s conversion into sharp editable vector regions. No external stock illustration is used.
+
+The new [Portrait Atelier collection](artwork-sources/portrait-collection/README.md) includes flowing hair, glasses, couture gowns, braids, headbands, and mature expressive faces. It has 2 Easy, 2 Medium, and 8 Hard pages, classified from their actual usable regions. Original PNGs, generation prompts, immutable source hashes, and compiled line-art SVGs are included. Install version 1.1 over the previous app to retain local work.
 
 ## Future extensions
 

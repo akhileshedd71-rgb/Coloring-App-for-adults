@@ -1,6 +1,6 @@
 # Musemallow artwork collection
 
-The bundled collection contains 120 original, editable vector illustrations, plus any separately authored studies listed in `public/art/supplemental-catalog.json`. The main collection uses a cohesive, stylized editorial illustration language: elongated adult faces, defined brows and lips, textile details, gentle expressions, and clean silhouettes. It is intentionally stylized rather than photorealistic.
+The bundled collection contains 133 original, editable vector illustrations: 120 authored vector compositions, Braided Reverie, and 12 newly generated Portrait Atelier pages. Separately authored studies are listed in `public/art/supplemental-catalog.json`. The main collection uses a cohesive, stylized editorial illustration language: elongated adult faces, defined brows and lips, textile details, gentle expressions, and clean silhouettes. It is intentionally stylized rather than photorealistic.
 
 The vectors are authored in [`scripts/generate-art.mjs`](../scripts/generate-art.mjs); they do not use stock illustrations, downloaded tracing templates, external fonts, or remote image requests. All drawing data is bundled for offline use. Colored browse previews demonstrate six coordinated palettes and a range of skin tones; the actual drawing opens as uncolored line art and the artist chooses every color.
 
@@ -22,6 +22,12 @@ Each composition family has 12 drawings. Names, geometry, hair construction, exp
 | Dreamer Portraits | Botanical crowns, tiaras, winged diadems, decorated mantles, and fantasy human portraits |
 
 The cultural collection is an original, respectful interpretation of textile and silhouette ideas, not a claim of ethnographic costume accuracy. Face and clothing choices are not locked to any identity or skin color.
+
+## Portrait Atelier
+
+Twelve original image-generated adult portraits expand the collection toward realistic fashion and charming contemporary character art. Flowing waves, glasses, gemstone headbands, chandelier earrings, couture folds, braids, mature faces, and tailored outfits follow the user’s visual references without copying their screenshots. Each opens as blank line art.
+
+The new pages include 2 Easy (17–27 regions), 2 Medium (41–59), and 8 Hard (64–767). Detailed braids and jewelry are intended for zoomed coloring; fine ink remains separate from paintable regions. The [source collection](../artwork-sources/portrait-collection/README.md) includes unchanged generated PNGs and full prompts, and the [compiler guide](PORTRAIT-COMPILER.md) documents reproducible vector extraction with aspect ratio preserved.
 
 ## Editable asset format
 

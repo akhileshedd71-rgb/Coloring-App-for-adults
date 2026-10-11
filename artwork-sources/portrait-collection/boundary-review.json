@@ -1,0 +1,530 @@
+{
+  "schemaVersion": 1,
+  "drawings": [
+    {
+      "id": "atelier-moonlit-couture-v1",
+      "source": "portrait-studio-hard-01.png",
+      "sourceSha256": "b25e9aa211f556c75e5aae375173e4432ebfa69c33ec20cf7aad0fa789fcee4c",
+      "face": [
+        0.49032258,
+        0.21008984
+      ],
+      "cheek": [
+        0.4202765,
+        0.36005529
+      ],
+      "hair": [
+        [
+          0.46082949,
+          0.04353836
+        ],
+        [
+          0.44516129,
+          0.0877678
+        ],
+        [
+          0.54562212,
+          0.10435384
+        ],
+        [
+          0.65069124,
+          0.12024879
+        ]
+      ],
+      "garment": [
+        0.60092166,
+        0.86040083
+      ],
+      "background": [
+        0.03041475,
+        0.08016586
+      ],
+      "lips": [
+        [
+          0.49769585,
+          0.3731859
+        ],
+        [
+          0.49769585,
+          0.39391845
+        ]
+      ]
+    },
+    {
+      "id": "atelier-cafe-daydream-v1",
+      "source": "portrait-studio-medium-01.png",
+      "sourceSha256": "274bced1765a4db49912a512020bb90441a3e393bdf6af8ef2460cba4bdbba07",
+      "face": [
+        0.5,
+        0.24
+      ],
+      "cheek": [
+        0.43,
+        0.43
+      ],
+      "hair": [
+        [
+          0.4871,
+          0.1022
+        ],
+        [
+          0.47,
+          0.086
+        ],
+        [
+          0.7,
+          0.17
+        ],
+        [
+          0.77,
+          0.29
+        ]
+      ],
+      "garment": [
+        0.29,
+        0.83
+      ],
+      "background": [
+        0.03,
+        0.07
+      ],
+      "lips": [
+        [
+          0.5069124423963134,
+          0.4333102971665515
+        ],
+        [
+          0.5087557603686635,
+          0.4526606772633034
+        ]
+      ]
+    },
+    {
+      "id": "atelier-silken-reverie-v1",
+      "source": "portrait-studio-medium-02.png",
+      "sourceSha256": "6b6c9c04b545de89038ef58314240377fe77818a46a8d103d1cc8359b48a900f",
+      "face": [
+        0.66,
+        0.22
+      ],
+      "cheek": [
+        0.6,
+        0.4
+      ],
+      "hair": [
+        [
+          0.765,
+          0.19
+        ],
+        [
+          0.5990783410138248,
+          0.15134761575673808
+        ],
+        [
+          0.5990783410138248,
+          0.16240497581202487
+        ]
+      ],
+      "garment": [
+        0.73,
+        0.83
+      ],
+      "background": [
+        0.03,
+        0.04
+      ],
+      "lips": [
+        [
+          0.61,
+          0.442
+        ],
+        [
+          0.609,
+          0.457
+        ]
+      ]
+    },
+    {
+      "id": "atelier-windflower-muse-v1",
+      "source": "portrait-studio-hard-02.png",
+      "sourceSha256": "d3c46b02f8980e90e5e9dcf589c1f5db30249a7ee4620d110977623c0c34a4cd",
+      "face": [
+        0.46,
+        0.17
+      ],
+      "cheek": [
+        0.44,
+        0.35
+      ],
+      "hair": [
+        [
+          0.67,
+          0.14
+        ],
+        [
+          0.8,
+          0.36
+        ]
+      ],
+      "garment": [
+        0.47,
+        0.9
+      ],
+      "background": [
+        0.93,
+        0.04
+      ],
+      "lips": [
+        [
+          0.3778801843317972,
+          0.37318590186592954
+        ],
+        [
+          0.39262672811059907,
+          0.3973738769868694
+        ]
+      ]
+    },
+    {
+      "id": "atelier-bob-bright-eyes-v1",
+      "source": "portrait-studio-easy-02.png",
+      "sourceSha256": "6481de43623957e69cbb9c3908c1fb6cc1616976700e443b45c64f54f5b583f1",
+      "face": [
+        0.54,
+        0.26
+      ],
+      "cheek": [
+        0.4,
+        0.47
+      ],
+      "hair": [
+        [
+          0.56,
+          0.126
+        ],
+        [
+          0.21,
+          0.31
+        ],
+        [
+          0.6,
+          0.143
+        ]
+      ],
+      "garment": [
+        0.5,
+        0.89
+      ],
+      "background": [
+        0.03,
+        0.04
+      ]
+    },
+    {
+      "id": "atelier-sunday-spectacles-v1",
+      "source": "portrait-studio-easy-01.png",
+      "sourceSha256": "2bcbf1fbc6867a86c6e83cde491778d4c635753c780599da60a3b8f7dc15ae04",
+      "face": [
+        0.48,
+        0.24
+      ],
+      "cheek": [
+        0.39,
+        0.44
+      ],
+      "hair": [
+        [
+          0.51,
+          0.14
+        ],
+        [
+          0.68,
+          0.18
+        ]
+      ],
+      "garment": [
+        0.35,
+        0.9
+      ],
+      "background": [
+        0.03,
+        0.04
+      ]
+    },
+    {
+      "id": "atelier-crowned-in-grace-v1",
+      "source": "portrait-studio-hard-03.png",
+      "sourceSha256": "d7ea5f6e9e94b66b1ae91038c2e7948b44738da7f9dfb82d25227d0928d5c6c5",
+      "face": [
+        0.59,
+        0.29
+      ],
+      "cheek": [
+        0.54,
+        0.43
+      ],
+      "hair": [
+        [
+          0.3,
+          0.125
+        ],
+        [
+          0.48,
+          0.05
+        ]
+      ],
+      "garment": [
+        0.75,
+        0.85
+      ],
+      "background": [
+        0.03,
+        0.04
+      ],
+      "lip": [
+        0.6101382488479262,
+        0.5079474775397373
+      ]
+    },
+    {
+      "id": "atelier-grace-in-bloom-v1",
+      "source": "portrait-studio-easy-03.png",
+      "sourceSha256": "408c1815018e307af5bff0f45a7e2f650fda55123dc47ee1ca5dc935aa0fb7f4",
+      "face": [
+        0.45,
+        0.24
+      ],
+      "cheek": [
+        0.56,
+        0.44
+      ],
+      "hair": [
+        [
+          0.58,
+          0.15
+        ],
+        [
+          0.7,
+          0.2
+        ]
+      ],
+      "garment": [
+        0.5,
+        0.89
+      ],
+      "background": [
+        0.03,
+        0.04
+      ]
+    },
+    {
+      "id": "atelier-velvet-premiere-v1",
+      "source": "portrait-studio-medium-04.png",
+      "sourceSha256": "d52dcfd035199e82ac9cdd1027f23358bf7148784f46d6be2bb7cf0378e17794",
+      "face": [
+        0.53,
+        0.19
+      ],
+      "cheek": [
+        0.44,
+        0.29
+      ],
+      "hair": [
+        [
+          0.6731,
+          0.1602
+        ],
+        [
+          0.645,
+          0.166
+        ]
+      ],
+      "garment": [
+        0.5,
+        0.85
+      ],
+      "background": [
+        0.03,
+        0.04
+      ],
+      "lips": [
+        [
+          0.5078341013824885,
+          0.3337940566689703
+        ],
+        [
+          0.5133640552995392,
+          0.3483068417415342
+        ]
+      ]
+    },
+    {
+      "id": "atelier-quiet-editorial-v1",
+      "source": "portrait-studio-medium-03.png",
+      "sourceSha256": "ba349ccee9e9b890f08e026ac698bdb83b0f2a9c5853e0ce663e0f68c5919ab2",
+      "face": [
+        0.5,
+        0.2
+      ],
+      "cheek": [
+        0.44,
+        0.37
+      ],
+      "hair": [
+        [
+          0.27,
+          0.23
+        ],
+        [
+          0.49,
+          0.11
+        ],
+        [
+          0.35,
+          0.1
+        ],
+        [
+          0.245,
+          0.21
+        ],
+        [
+          0.5,
+          0.09
+        ],
+        [
+          0.3,
+          0.24
+        ],
+        [
+          0.5143,
+          0.1248
+        ],
+        [
+          0.5197,
+          0.1361
+        ]
+      ],
+      "garment": [
+        0.22,
+        0.82
+      ],
+      "background": [
+        0.03,
+        0.04
+      ]
+    },
+    {
+      "id": "atelier-the-botanical-gentleman-v1",
+      "source": "portrait-studio-hard-04.png",
+      "sourceSha256": "647ef879927110e00e527f308fc5fcedff2850c71e3012db65095c7400d50d2a",
+      "face": [
+        0.6,
+        0.19488597
+      ],
+      "cheek": [
+        0.40552995,
+        0.3178991
+      ],
+      "hair": [
+        [
+          0.57050691,
+          0.06496199
+        ],
+        [
+          0.51336406,
+          0.07878369
+        ],
+        [
+          0.45990783,
+          0.06496199
+        ],
+        [
+          0.64608295,
+          0.10297167
+        ],
+        [
+          0.59078341,
+          0.06634416
+        ],
+        [
+          0.55852535,
+          0.08707671
+        ],
+        [
+          0.50414747,
+          0.08914997
+        ],
+        [
+          0.54193548,
+          0.08914997
+        ],
+        [
+          0.70046083,
+          0.13407049
+        ],
+        [
+          0.71981567,
+          0.24187975
+        ],
+        [
+          0.37511520737327186,
+          0.18659295093296477
+        ],
+        [
+          0.3686635944700461,
+          0.193503800967519
+        ]
+      ],
+      "garment": [
+        0.73732719,
+        0.76710435
+      ],
+      "background": [
+        0.03041475,
+        0.08016586
+      ]
+    },
+    {
+      "id": "atelier-swept-away-v1",
+      "source": "portrait-studio-easy-04.png",
+      "sourceSha256": "ee281c6acd35d71ab36b3062c8cacbc81f60aa9fd0ed378f613f1ac833819726",
+      "face": [
+        0.52,
+        0.23
+      ],
+      "cheek": [
+        0.55,
+        0.42
+      ],
+      "hair": [
+        [
+          0.73,
+          0.2279
+        ],
+        [
+          0.64,
+          0.13
+        ]
+      ],
+      "garment": [
+        0.52,
+        0.84
+      ],
+      "background": [
+        0.03,
+        0.04
+      ],
+      "lips": [
+        [
+          0.57788018,
+          0.50725639
+        ],
+        [
+          0.58064516,
+          0.53213545
+        ]
+      ]
+    }
+  ],
+  "review": "Each point was manually located on the original source and checked against independently rendered vector regions. Forehead and cheek must stay separate from sampled hair, lips, clothing, and background. Different skin or hair samples may intentionally belong to different regions. Coordinates are normalized original-source coordinates, paired with source hashes to require review after a source revision."
+}

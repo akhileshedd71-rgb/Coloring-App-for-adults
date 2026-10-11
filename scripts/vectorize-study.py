@@ -87,7 +87,13 @@ preview = ''.join(f'<path d="{r["path"]}" fill="{color}" stroke="{color}" stroke
 metadata = {'id': ID, 'title': 'Braided Reverie', 'category': 'Artist Studies',
             'difficulty': 'Hard', 'tags': ['realistic', 'portrait', 'adult', 'braided', 'original generated study', 'ornate'],
             'thumbnail': f'/art/{ID}.svg', 'regionCount': len(regions)}
-(OUT / 'supplemental-catalog.json').write_text(json.dumps([metadata], indent=2) + '\n')
+supplemental_path = OUT / 'supplemental-catalog.json'
+supplemental = json.loads(supplemental_path.read_text()) if supplemental_path.exists() else []
+if any(entry['id'] == ID for entry in supplemental):
+    supplemental = [{**entry, **metadata} if entry['id'] == ID else entry for entry in supplemental]
+else:
+    supplemental.append(metadata)
+supplemental_path.write_text(json.dumps(supplemental, indent=2) + '\n')
 catalog = json.loads((OUT / 'catalog.json').read_text()) if (OUT / 'catalog.json').exists() else []
 catalog = [metadata] + [entry for entry in catalog if entry['id'] != ID]
 (OUT / 'catalog.json').write_text(json.dumps(catalog, indent=2) + '\n')

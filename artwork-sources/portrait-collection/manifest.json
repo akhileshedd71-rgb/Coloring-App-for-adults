@@ -1,0 +1,1049 @@
+{
+  "schemaVersion": 1,
+  "collection": "Portrait Atelier",
+  "defaults": {
+    "inkThreshold": 170,
+    "minRegionArea": 40,
+    "minInteriorArea": 12,
+    "minInteriorRadius": 1.5,
+    "simplifyPixels": 0.3
+  },
+  "drawings": [
+    {
+      "id": "atelier-moonlit-couture-v1",
+      "title": "Moonlit Couture",
+      "source": "portrait-studio-hard-01.png",
+      "category": "Portrait Atelier",
+      "tags": [
+        "adult",
+        "original generated",
+        "portrait",
+        "woman",
+        "wavy bob",
+        "chandelier earrings",
+        "gown",
+        "couture",
+        "detailed"
+      ],
+      "generationPrompt": "Create ONE original sophisticated adult coloring book line-art page, portrait aspect ratio 3:4, white background. Full-page chest-up editorial portrait of a beautiful adult woman in her thirties, glamorous voluminous swept wavy bob with open curving ribbon-like locks, layered chandelier earrings, elegant off-shoulder couture pleated gown. Human face central, composed serene direct gaze, balanced realistic almond eyes, symmetrical facial anatomy, beautifully drawn nose and lips, anatomically coherent ears and neck. No hands. Hair, earrings and sculpted fabric folds detailed with 80–180 useful CLOSED coloring cells; face has broad white fillable cheek/forehead regions, delicate intentional eyelashes and seams. Thin crisp BLACK contour ink only on pure WHITE paper. All hair strands, jewels, dress folds clearly outlined with white interiors so users can color them. Clean professional precise engraving-like contour drawing WITHOUT shading: no grayscale, no pencil shading, no shadow blobs, no hatching, no solid black hair, no halftones. Harmonious fully new composition with generous clean margins and tiny decorative background radiating circles, not a copy of existing art. Attractive adult anatomy. NO text, no watermark, no logo, no app UI, no borders, no colored sample. Output only the finished sharp black and white coloring page at high resolution.",
+      "generator": "OpenAI image_gen",
+      "requestedDifficulty": "Hard",
+      "review": "Visually reviewed all generated source pages for natural adult facial anatomy, balanced eye/ear placement, attractive hair flow, white fillable interiors, crisp contour details and absence of text/watermarks. No hands present. Final difficulty must derive from measured usable region count after vector compilation.",
+      "boundaryLinks": [
+        {
+          "from": [
+            0.50967742,
+            0.14167243
+          ],
+          "to": [
+            0.51520737,
+            0.14374568
+          ],
+          "width": 2,
+          "reason": "Bridge a local gap between hairline strands so skin fill does not enter swept hair ribbons."
+        },
+        {
+          "from": [
+            0.46082949,
+            0.14236351
+          ],
+          "to": [
+            0.47557604,
+            0.14098134
+          ],
+          "width": 2,
+          "reason": "Bridge a local gap between hairline strands so skin fill does not enter swept hair ribbons."
+        },
+        {
+          "from": [
+            0.44700461,
+            0.14581894
+          ],
+          "to": [
+            0.46082949,
+            0.14236351
+          ],
+          "width": 2,
+          "reason": "Bridge a local gap between hairline strands so skin fill does not enter swept hair ribbons."
+        },
+        {
+          "from": [
+            0.46267281,
+            0.12508639
+          ],
+          "to": [
+            0.46635945,
+            0.12508639
+          ],
+          "width": 2,
+          "reason": "Bridge a local gap between hairline strands so skin fill does not enter swept hair ribbons."
+        },
+        {
+          "from": [
+            0.46728111,
+            0.12093988
+          ],
+          "to": [
+            0.47373272,
+            0.12232205
+          ],
+          "width": 2,
+          "reason": "Bridge a local gap between hairline strands so skin fill does not enter swept hair ribbons."
+        },
+        {
+          "from": [
+            0.47557604,
+            0.12646856
+          ],
+          "to": [
+            0.48202765,
+            0.12577747
+          ],
+          "width": 2,
+          "reason": "Bridge a local gap between hairline strands so skin fill does not enter swept hair ribbons."
+        },
+        {
+          "from": [
+            0.5124424,
+            0.13959917
+          ],
+          "to": [
+            0.51981567,
+            0.13959917
+          ],
+          "width": 2,
+          "reason": "Bridge a local gap between hairline strands so skin fill does not enter swept hair ribbons."
+        },
+        {
+          "from": [
+            0.51981567,
+            0.14167243
+          ],
+          "to": [
+            0.52534562,
+            0.14167243
+          ],
+          "width": 2,
+          "reason": "Bridge a local gap between hairline strands so skin fill does not enter swept hair ribbons."
+        },
+        {
+          "from": [
+            0.52626728,
+            0.13683483
+          ],
+          "to": [
+            0.53456221,
+            0.13683483
+          ],
+          "width": 2,
+          "reason": "Bridge a local gap between hairline strands so skin fill does not enter swept hair ribbons."
+        },
+        {
+          "from": [
+            0.44147465,
+            0.37525916
+          ],
+          "to": [
+            0.44608295,
+            0.3731859
+          ],
+          "width": 2,
+          "reason": "Close a short interrupted lip contour so lip coloring stays separate from face skin."
+        },
+        {
+          "from": [
+            0.44976959,
+            0.39115411
+          ],
+          "to": [
+            0.43225806,
+            0.37456807
+          ],
+          "width": 2,
+          "reason": "Close a short interrupted lip contour so lip coloring stays separate from face skin."
+        },
+        {
+          "from": [
+            0.53179724,
+            0.39944713
+          ],
+          "to": [
+            0.54562212,
+            0.38562543
+          ],
+          "width": 2,
+          "reason": "Close a short interrupted lip contour so lip coloring stays separate from face skin."
+        }
+      ]
+    },
+    {
+      "id": "atelier-cafe-daydream-v1",
+      "title": "Café Daydream",
+      "source": "portrait-studio-medium-01.png",
+      "category": "Portrait Atelier",
+      "tags": [
+        "adult",
+        "original generated",
+        "portrait",
+        "woman",
+        "glasses",
+        "wavy hair",
+        "freckles",
+        "striped blouse"
+      ],
+      "generationPrompt": "Create ONE original beautiful full-page adult coloring-book portrait, vertical 3:4 composition on pure white paper, about 768x1024. A woman in her early thirties with mature natural facial proportions, open calm eyes, a gentle closed-mouth smile, shoulder-length flowing wavy hair, round spectacles with thin double rims, tasteful hoop earrings, and an open-collar blouse with a few broad vertical stripes. Chest-up portrait; whole head fully visible and centered, modest white margin. A few small OUTLINED freckles only. Anatomically balanced symmetric eyes and ears; beautifully shaped face, lips and nose. Sophisticated clean fashion illustration with medium difficulty: aim for 40-55 BROAD closed coloring regions in the hair ribbons, blouse panels, spectacles and earrings. Hair formed from 12-16 broad wavy ribbon sections, NOT hundreds of fine strands. CRISP sharply defined black ink contour lines, uniform white fillable interiors. NO grayscale, no shading, no hatching, no stipple, no gray underdrawing, no filled dark hair, no black shadow blocks. Small black pupils and neat short upper lashes allowed. Nose is a softly outlined feature, not geometric. Single central adult human; no hands visible. The background is completely white. No typography, no title, no border, no watermark, no signatures, no UI, no colored reference or side-by-side view. This is a new original design intended for interactive tap-to-fill coloring, so close the contours and leave generous interior space.",
+      "generator": "OpenAI image_gen",
+      "requestedDifficulty": "Medium",
+      "review": "Visually reviewed for adult proportions, facial balance, clean contours, uncluttered white interiors and lack of text/watermarks. Final difficulty must be derived from actual coloring-region count, not requested generation difficulty.",
+      "boundaryLinks": [
+        {
+          "from": [
+            0.48847926,
+            0.13683483
+          ],
+          "to": [
+            0.51336406,
+            0.13614375
+          ],
+          "width": 2,
+          "reason": "Close a small open curl-tip junction at the left part."
+        },
+        {
+          "from": [
+            0.51336406,
+            0.13614375
+          ],
+          "to": [
+            0.53364055,
+            0.13268832
+          ],
+          "width": 2,
+          "reason": "Connect adjacent ribbon tips at the part so the forehead does not enter the left hair ribbons."
+        },
+        {
+          "from": [
+            0.53364055,
+            0.13268832
+          ],
+          "to": [
+            0.54746544,
+            0.12715964
+          ],
+          "width": 2,
+          "reason": "Bridge the tapered root of the upper left curl."
+        },
+        {
+          "from": [
+            0.54746544,
+            0.12715964
+          ],
+          "to": [
+            0.5483871,
+            0.13614375
+          ],
+          "width": 2,
+          "reason": "Join the two sides of the center part to separate the broad right hair ribbon from the forehead."
+        },
+        {
+          "from": [
+            0.5483871,
+            0.13614375
+          ],
+          "to": [
+            0.57050691,
+            0.138217
+          ],
+          "width": 2,
+          "reason": "Close the small lower right curl tip."
+        }
+      ]
+    },
+    {
+      "id": "atelier-silken-reverie-v1",
+      "title": "Silken Reverie",
+      "source": "portrait-studio-medium-02.png",
+      "category": "Portrait Atelier",
+      "tags": [
+        "adult",
+        "original generated",
+        "portrait",
+        "woman",
+        "South Asian",
+        "headband",
+        "flowing hair",
+        "jewelry",
+        "draped blouse"
+      ],
+      "generationPrompt": "Create ONE original beautiful full-page adult coloring-book portrait, vertical 3:4 composition on pure white paper, about 768x1024. Sophisticated clean fashion illustration, anatomically balanced adult face and neck, whole head fully visible and centered, chest-up with shoulders reaching the bottom edge, modest white margins. Medium coloring difficulty with approximately 40-55 BROAD enclosed colorable areas. CRISP sharply defined BLACK ink contours and WHITE fillable interiors. Close the contours so every main hair ribbon, garment panel and ornament is colorable. NO grayscale, shading, hatching, stipple, gray underdrawing, filled dark hair or black shadow blocks. Small black pupils and neat short upper lashes allowed; avoid tiny eyelash slivers. No hands visible. Plain white background. NO text, titles, signatures, borders, watermarks, UI, colored example or side-by-side view. A new original design. Subject: an elegant adult South Asian woman in her early thirties, three-quarter face with eyes looking gently towards the viewer, realistic almond eyes, subtly full lips, calm poised expression. Long flowing side-parted hair divided into twelve graceful broad ribbon shapes sweeping down behind her shoulders, all uncolored. A narrow decorative headband with FIVE outlined teardrop gems. Large circular dangling earrings with ONE outer ring and ONE inner round ornament each, no tiny bead patterns. A softly draped blouse with six clean fabric folds. Natural expressive facial features and tasteful beauty editorial atmosphere. Sparse linework so the face and fabric have generous space for skin tone and shading.",
+      "generator": "OpenAI image_gen",
+      "requestedDifficulty": "Medium",
+      "review": "Visually reviewed for adult proportions, facial balance, clean contours, uncluttered white interiors and lack of text/watermarks. Final difficulty must be derived from actual coloring-region count, not requested generation difficulty.",
+      "boundaryLinks": [
+        {
+          "from": [
+            0.62580645,
+            0.16931583
+          ],
+          "to": [
+            0.63225806,
+            0.16793366
+          ],
+          "width": 2,
+          "reason": "Close the center-part microgap separating face from upper hair ribbons."
+        },
+        {
+          "from": [
+            0.61843318,
+            0.170698
+          ],
+          "to": [
+            0.62580645,
+            0.16931583
+          ],
+          "width": 2,
+          "reason": "Close the adjacent small left curl-root gap."
+        },
+        {
+          "from": [
+            0.53824885,
+            0.44367657
+          ],
+          "to": [
+            0.54009217,
+            0.44505874
+          ],
+          "width": 2,
+          "reason": "Close the 2px break in the lower-lip contour at the left corner."
+        }
+      ]
+    },
+    {
+      "id": "atelier-windflower-muse-v1",
+      "title": "Windflower Muse",
+      "source": "portrait-studio-hard-02.png",
+      "category": "Portrait Atelier",
+      "tags": [
+        "adult",
+        "original generated",
+        "portrait",
+        "woman",
+        "long hair",
+        "headband",
+        "bohemian",
+        "jewelry",
+        "detailed"
+      ],
+      "generationPrompt": "Create ONE original sophisticated adult coloring book line-art page, portrait aspect ratio 3:4, pure white background. A full-page realistic chest-up three-quarter editorial portrait of an adult woman in her thirties with long gently windswept hair, a slim gemstone headband across her forehead, intricate circular filigree hoop earrings and a layered bead necklace above a modest embroidered bohemian blouse. Face is central and dominant, calm reflective gaze slightly left, beautiful natural nose and balanced eyes, clearly adult proportions, correct ear placement, graceful believable neck. NO hands. Hair is separated into flowing CLOSED ribbon shapes, not shading strokes. Detailed jewelry and garment borders arranged into about 100–180 closed white coloring compartments. Broad entirely white cheeks and forehead, delicate eyelashes. Make it a refined professionally inked contemporary coloring page with strong outer silhouettes and thin intentional inner contours. Crisp BLACK contour lines ONLY on white paper: absolutely no grayscale, no shaded face, no crosshatching, no pencil shadow, no solid black hair, no color, no ink splashes. Keep most region interiors clean white and colorable. Minimal background of 3 outlined stylized leaves. Face, hair and outfit are the focus, elegant balanced new original composition. NO text, no logos, no watermark, no app UI, no screenshot, no sample colored version. Output high resolution.",
+      "generator": "OpenAI image_gen",
+      "requestedDifficulty": "Hard",
+      "review": "Visually reviewed all generated source pages for natural adult facial anatomy, balanced eye/ear placement, attractive hair flow, white fillable interiors, crisp contour details and absence of text/watermarks. No hands present. Final difficulty must derive from measured usable region count after vector compilation.",
+      "boundaryLinks": [
+        {
+          "from": [
+            0.33732718894009217,
+            0.37733241188666206
+          ],
+          "to": [
+            0.34654377880184334,
+            0.3704215618521078
+          ],
+          "width": 2,
+          "reason": "Complete a faded segment of the original lip contour for independent lip coloring."
+        },
+        {
+          "from": [
+            0.38525345622119817,
+            0.3655839668279198
+          ],
+          "to": [
+            0.391705069124424,
+            0.3655839668279198
+          ],
+          "width": 2,
+          "reason": "Complete a faded segment of the original lip contour for independent lip coloring."
+        },
+        {
+          "from": [
+            0.40368663594470044,
+            0.364201796821009
+          ],
+          "to": [
+            0.4119815668202765,
+            0.3669661368348307
+          ],
+          "width": 2,
+          "reason": "Complete a faded segment of the original lip contour for independent lip coloring."
+        },
+        {
+          "from": [
+            0.4202764976958525,
+            0.3711126468555632
+          ],
+          "to": [
+            0.4294930875576037,
+            0.3752591568762958
+          ],
+          "width": 2,
+          "reason": "Complete a faded segment of the original lip contour for independent lip coloring."
+        },
+        {
+          "from": [
+            0.4294930875576037,
+            0.3752591568762958
+          ],
+          "to": [
+            0.4377880184331797,
+            0.38009675190048375
+          ],
+          "width": 2,
+          "reason": "Complete a faded segment of the original lip contour for independent lip coloring."
+        },
+        {
+          "from": [
+            0.4377880184331797,
+            0.38009675190048375
+          ],
+          "to": [
+            0.447926267281106,
+            0.38562543192812715
+          ],
+          "width": 2,
+          "reason": "Complete a faded segment of the original lip contour for independent lip coloring."
+        },
+        {
+          "from": [
+            0.447926267281106,
+            0.38562543192812715
+          ],
+          "to": [
+            0.4626728110599078,
+            0.39322736696613686
+          ],
+          "width": 2,
+          "reason": "Complete a faded segment of the original lip contour for independent lip coloring."
+        },
+        {
+          "from": [
+            0.3391705069124424,
+            0.37871458189357293
+          ],
+          "to": [
+            0.34285714285714286,
+            0.3876986869384934
+          ],
+          "width": 2,
+          "reason": "Complete a faded segment of the original lip contour for independent lip coloring."
+        },
+        {
+          "from": [
+            0.34285714285714286,
+            0.3876986869384934
+          ],
+          "to": [
+            0.3493087557603687,
+            0.39599170697995856
+          ],
+          "width": 2,
+          "reason": "Complete a faded segment of the original lip contour for independent lip coloring."
+        },
+        {
+          "from": [
+            0.423963133640553,
+            0.40704906703524535
+          ],
+          "to": [
+            0.43317972350230416,
+            0.40497581202487903
+          ],
+          "width": 2,
+          "reason": "Complete a faded segment of the original lip contour for independent lip coloring."
+        },
+        {
+          "from": [
+            0.43317972350230416,
+            0.40497581202487903
+          ],
+          "to": [
+            0.4423963133640553,
+            0.40152038700760195
+          ],
+          "width": 2,
+          "reason": "Complete a faded segment of the original lip contour for independent lip coloring."
+        },
+        {
+          "from": [
+            0.4423963133640553,
+            0.40152038700760195
+          ],
+          "to": [
+            0.4525345622119816,
+            0.3973738769868694
+          ],
+          "width": 2,
+          "reason": "Complete a faded segment of the original lip contour for independent lip coloring."
+        },
+        {
+          "from": [
+            0.4525345622119816,
+            0.3973738769868694
+          ],
+          "to": [
+            0.4626728110599078,
+            0.39322736696613686
+          ],
+          "width": 2,
+          "reason": "Complete a faded segment of the original lip contour for independent lip coloring."
+        }
+      ]
+    },
+    {
+      "id": "atelier-bob-bright-eyes-v1",
+      "title": "Bob & Bright Eyes",
+      "source": "portrait-studio-easy-02.png",
+      "category": "Portrait Atelier",
+      "tags": [
+        "adult",
+        "original generated",
+        "adult woman",
+        "bob",
+        "glasses",
+        "hoop earrings",
+        "stripes",
+        "cartoon",
+        "portrait"
+      ],
+      "generationPrompt": "Create an ORIGINAL easy adult coloring book page, portrait 3:4 aspect ratio, sharp clean BLACK line art on pure WHITE. One stylish adult woman aged 35, chest-up, normal adult facial proportions with a poised knowing smile, smooth chin-length bob hair with a side part divided into ONLY 6 broad closed locks, oversized round spectacles, outlined hoop earrings, simple shirt collar with ONLY two broad stripes. Contemporary elegant cartoon portrait, attractive balanced face and correct anatomy, clearly a grown woman, no hands. Centered generous composition with complete hair visible, shoulders end at straight lower edge. Broad spacious closed coloring regions, target about 25 regions total. Smooth bold consistently sharp contours, very minimal inner detail. Large open white areas for skin, hair, brows, iris and garments. Two plain outlined irises with tiny black pupils, restrained eyelash detail. No shading, no grayscale, no hatching, no crosshatching, no freckle dots, no fine hair texture, no colored sample, no side-by-side comparison, no background scenery, no text, no watermark, no decorative frame. A beautiful polished professional easy coloring page.",
+      "generator": "OpenAI image_gen",
+      "requestedDifficulty": "Easy",
+      "review": "Attractive balanced adult cartoon face, clean bob shapes and hoop earrings. Glasses rings and eyebrows create some small regions.",
+      "boundaryLinks": [
+        {
+          "from": [
+            0.543778801843318,
+            0.14789219073946094
+          ],
+          "to": [
+            0.5557603686635945,
+            0.14858327574291638
+          ],
+          "width": 2,
+          "reason": "Close an open hairline stroke so hair and skin remain separate fill regions."
+        },
+        {
+          "from": [
+            0.5695852534562212,
+            0.13890808569454044
+          ],
+          "to": [
+            0.576036866359447,
+            0.1492743607463718
+          ],
+          "width": 2,
+          "reason": "Close an open hairline stroke so hair and skin remain separate fill regions."
+        }
+      ]
+    },
+    {
+      "id": "atelier-sunday-spectacles-v1",
+      "title": "Sunday Spectacles",
+      "source": "portrait-studio-easy-01.png",
+      "category": "Portrait Atelier",
+      "tags": [
+        "adult",
+        "original generated",
+        "adult man",
+        "glasses",
+        "quiff",
+        "hoodie",
+        "friendly",
+        "cartoon",
+        "portrait"
+      ],
+      "generationPrompt": "Create an ORIGINAL easy adult coloring book page, portrait 3:4 aspect ratio, sharp clean BLACK line art on pure WHITE. One charming stylish adult man aged about 29, chest-up, normal adult face and neck proportions, voluminous flowing quiff with 5 broad closed hair sections, round spectacles, expressive friendly eyes, a gentle confident smile, hoodie worn open over a collared shirt. Contemporary editorial cartoon illustration, clearly a grown man, not a child or baby-faced chibi. Beautiful attractive balanced face and correct anatomy, no hands. Centered generous composition, full top of hair visible, shoulders and chest end at a straight lower edge. Broad spacious closed coloring regions, target around 25 regions total. Bold smooth consistently sharp outlines, just enough inner detail for facial features and garment edges; white hair, white eyebrows, white skin and clothing ready to color. No shading, no grayscale, no hatching, no tiny texture marks, no colored sample, no side-by-side comparison, no background scenery, no text, no watermark, no frame. Make it look like a polished professional coloring page with outlined iris circles and crisp line separation.",
+      "generator": "OpenAI image_gen",
+      "requestedDifficulty": "Easy",
+      "review": "Balanced adult facial proportions and crisp broad hair contours. Brow details and shirt buttons add small regions; classify from measured compiled regions.",
+      "generationEdits": [
+        {
+          "tool": "OpenAI image_gen",
+          "prompt": "Edit this exact black-and-white adult coloring portrait to repair the fill boundaries. Preserve the same adult man, attractive face, pose, voluminous quiff, round glasses, hoodie and collared shirt, composition, crisp sharp black-on-white illustration. Make the ENTIRE HAIRLINE a CONTINUOUS BLACK CONTOUR from the left temple all the way across the forehead to the right temple with NO GAPS AT ALL. Join every tiny disconnected hairline stroke into one strong clean solid continuous boundary separating all white quiff/hair interiors from all white forehead/skin interiors. Especially repair the disconnected tuft above the middle-left of the forehead: the face and quiff must be completely different closed coloring regions, without even a one-pixel hole. Use hairline lines at least as thick as the outer face outline. All other important shape boundaries must also be continuously closed for tap-to-fill. Keep broad white skin, hair, hoodie and shirt regions, minimal detail. No color, no shading, no gray, no text, no new decoration. This is a technical repair of line continuity while preserving the portrait identity and overall artwork.",
+          "purpose": "Close source hairline gaps while preserving the adult portrait, style and composition."
+        }
+      ],
+      "boundaryLinks": []
+    },
+    {
+      "id": "atelier-crowned-in-grace-v1",
+      "title": "Crowned in Grace",
+      "source": "portrait-studio-hard-03.png",
+      "category": "Portrait Atelier",
+      "tags": [
+        "adult",
+        "original generated",
+        "portrait",
+        "woman",
+        "Black",
+        "mature",
+        "braids",
+        "bun",
+        "embroidered jacket",
+        "detailed"
+      ],
+      "generationPrompt": "Create ONE original sophisticated adult coloring book line-art page, portrait aspect ratio 3:4, pure white background. A beautiful confident Black woman in her forties in a central chest-up realistic editorial portrait, three-quarter angle slightly right. Her long braids form an elegant sculptural high bun, with a few larger braids descending over one shoulder. Individual braid segments should be elegant broad CLOSED white lozenges, not dense hatching. Strong natural facial features, balanced almond eyes, full lips, beautiful cheekbones, correct adult anatomy, natural relaxed expression. Sculptural geometric earrings and a richly embroidered high-collar contemporary fashion jacket with decorative petals and stitch motifs in organized closed fillable cells. No hands. The face has broad uncluttered white regions, delicate intentional eyelashes. About100–180 useful white coloring regions through braids, embroidery and earrings. Refined professional line-art: crisp BLACK outlines on pure WHITE paper, no filled-black hair or skin, no grayscale shadows, no crosshatching, no pencil shading, no halftones, no colors. All textures expressed as clean closed contour shapes to make easy tap-to-fill coloring. Elegant tiny outlined geometric halo background. Human subject central. Anatomically correct symmetrical facial feature sizes despite three-quarter perspective. Completely new original character and composition. NO text, no watermark, no signature, no logo, no UI, no colored sample. High resolution black and white only.",
+      "generator": "OpenAI image_gen",
+      "requestedDifficulty": "Hard",
+      "review": "Visually reviewed all generated source pages for natural adult facial anatomy, balanced eye/ear placement, attractive hair flow, white fillable interiors, crisp contour details and absence of text/watermarks. No hands present. Final difficulty must derive from measured usable region count after vector compilation.",
+      "boundaryLinks": [
+        {
+          "from": [
+            0.5474654377880185,
+            0.4865238424326192
+          ],
+          "to": [
+            0.576036866359447,
+            0.507256392536282
+          ],
+          "width": 2,
+          "reason": "Complete faded lower-left lip outline so lower lip can be colored independently of facial skin."
+        }
+      ]
+    },
+    {
+      "id": "atelier-grace-in-bloom-v1",
+      "title": "Grace in Bloom",
+      "source": "portrait-studio-easy-03.png",
+      "category": "Portrait Atelier",
+      "tags": [
+        "adult",
+        "original generated",
+        "mature adult",
+        "woman",
+        "afro",
+        "natural hair",
+        "pendant",
+        "smile",
+        "portrait"
+      ],
+      "generationPrompt": "Create an ORIGINAL easy adult coloring book page, portrait 3:4 aspect ratio, sharp clean BLACK line art on pure WHITE. A sophisticated mature Black woman in her early 50s, chest-up portrait looking slightly to the left with a warm poised smile, normal adult anatomy and facial proportions, beautiful broad nose, full lips, kind eyes, subtle mature smile lines. A short natural afro artistically simplified into ONLY 8 broad closed scalloped curl masses, NO dense little curls or texture. One simple circular pendant on a clean outlined cord, plain small circular stud earrings, elegant wide boat-neck blouse with one broad draped fold. All skin, hair and clothes WHITE blank to be colored; only tiny pupils and linework black. Bold clean smooth contours with minimal inner details, target around 25 broad closed spacious coloring regions total. Balanced face and correct anatomy, no hands. Complete head and shoulders visible with white margin; garment meets a straight lower edge. Polished original editorial cartoon coloring illustration for adults. NO shading, NO grayscale, NO hatching or crosshatching, NO intricate texture, NO background scene, NO text or watermarks, NO frame, NO colored sample or side-by-side image.",
+      "generator": "OpenAI image_gen",
+      "requestedDifficulty": "Easy",
+      "review": "Clear mature adult appearance and natural facial features. Broad hair regions, white skin and garments ready to color; no hands."
+    },
+    {
+      "id": "atelier-velvet-premiere-v1",
+      "title": "Velvet Premiere",
+      "source": "portrait-studio-medium-04.png",
+      "category": "Portrait Atelier",
+      "tags": [
+        "adult",
+        "original generated",
+        "portrait",
+        "woman",
+        "mature",
+        "bob",
+        "gown",
+        "statement earrings",
+        "fashion"
+      ],
+      "generationPrompt": "Create ONE original beautiful full-page adult coloring-book fashion portrait, vertical3:4 composition, about768x1024 on pure white paper. A poised adult woman in her forties with elegant mature proportions, confident expressive eyes, strong cheekbones, graceful closed-mouth smile. Chest-up portrait showing a fashionable swept asymmetrical chin-length bob divided into only EIGHT broad curved hair ribbons. Off-the-shoulder sculptural evening gown arranged into TEN broad graceful fabric panels; white skin and fabric interiors intended for coloring. Geometric statement earrings: each has just TWO large diamond outline shapes. Whole head fully visible and centered, chest to bottom edge, generous open white background. Aim for40-55 closed fillable shapes total, medium coloring difficulty. Attractive balanced anatomy, original glamorous editorial fashion illustration simplified into clear flowing outlines. CRISP black ink contours of consistent medium weight with white interiors. Eyebrows each ONE CLOSED shape, not individual hairs. Simple iris with single pupil. No fine strands, no eyebrow hatching, no eyelashes that form tiny regions. NO grayscale, no underdrawing, NO hatching, NO dark shadows, no shading, no texture, NO filled dark hair or color. Small black pupils only. Softly outlined nose and lips; face has generous clear skin areas. No hands. No text, no border, no watermark, no signatures, no UI, no colored version or side-by-side view. Close the main contours for tap-to-fill digital coloring, retain elegance and sophistication with graceful shapes instead of fine decorative detail.",
+      "generator": "OpenAI image_gen",
+      "requestedDifficulty": "Medium",
+      "review": "Visually reviewed for adult proportions, facial balance, clean contours, uncluttered white interiors and lack of text/watermarks. Final difficulty must be derived from actual coloring-region count, not requested generation difficulty.",
+      "boundaryLinks": [
+        {
+          "from": [
+            0.559447,
+            0.10988252
+          ],
+          "to": [
+            0.57511521,
+            0.11817554
+          ],
+          "width": 2,
+          "reason": "Reconnect the faded hairline start at the top-right part."
+        },
+        {
+          "from": [
+            0.60552995,
+            0.14651002
+          ],
+          "to": [
+            0.60737327,
+            0.14443677
+          ],
+          "width": 2,
+          "reason": "Close the 2px opening at the start of the lower temple-hair contour."
+        }
+      ]
+    },
+    {
+      "id": "atelier-quiet-editorial-v1",
+      "title": "Quiet Editorial",
+      "source": "portrait-studio-medium-03.png",
+      "category": "Portrait Atelier",
+      "tags": [
+        "adult",
+        "original generated",
+        "portrait",
+        "man",
+        "East Asian",
+        "wavy hair",
+        "blazer",
+        "scarf",
+        "fashion"
+      ],
+      "generationPrompt": "Create ONE original full-page adult coloring-book illustration, a beautiful chest-up editorial portrait of an East Asian man in his mid-thirties with a calm, friendly closed-mouth smile. Adult angular jaw and mature natural facial proportions, subtle cheekbones, balanced almond eyes and ears, softly outlined nose. Short flowing side-parted wavy hair divided into EIGHT broad smooth closed ribbon sections. A tailored blazer over a simple draped scarf, with EIGHT large garment panels for coloring. Whole head fully visible centered in vertical 3:4 composition, about768x1024; chest reaches bottom of page, white margin around head. Aim for around40-50 large CLOSED coloring regions TOTAL. Anatomically elegant handsome portrait with uncluttered art-nouveau-inspired graceful contour drawing. Uniformly WHITE interiors with CRISP BLACK contour linework, all white skin and white hair. Eyebrows each one simple closed shape; iris each one simple closed shape with small pupil. NO eyebrow hairs, NO crosshatching, NO hair strand detail, NO eyelashes, NO gray underdrawing, NO shadows, NO gradients, NO gray shading, NO fine scratchy marks, NO filled black hair areas. Single central human, no hands. Plain white background. No text, no watermark, no border, no UI, no coloured sample or side-by-side. Intended for tap-to-fill digital coloring: connected contours, broad practical regions, relaxed sophisticated expression, elegant realistic features simplified into a modest number of large colorable shapes.",
+      "generator": "OpenAI image_gen",
+      "requestedDifficulty": "Medium",
+      "review": "Visually reviewed for adult proportions, facial balance, clean contours, uncluttered white interiors and lack of text/watermarks. Final difficulty must be derived from actual coloring-region count, not requested generation difficulty.",
+      "boundaryLinks": [
+        {
+          "from": [
+            0.35391705069124424,
+            0.16516931582584657
+          ],
+          "to": [
+            0.3548387096774194,
+            0.1686247408431237
+          ],
+          "width": 2,
+          "reason": "Close an open hairline stroke so hair and skin remain separate fill regions."
+        },
+        {
+          "from": [
+            0.46543778801843316,
+            0.1492743607463718
+          ],
+          "to": [
+            0.47465437788018433,
+            0.1492743607463718
+          ],
+          "width": 2,
+          "reason": "Close an open hairline stroke so hair and skin remain separate fill regions."
+        },
+        {
+          "from": [
+            0.4396313364055299,
+            0.14443676572218384
+          ],
+          "to": [
+            0.43502304147465437,
+            0.14720110573600553
+          ],
+          "width": 2,
+          "reason": "Close an open hairline stroke so hair and skin remain separate fill regions."
+        },
+        {
+          "from": [
+            0.4626728110599078,
+            0.14789219073946094
+          ],
+          "to": [
+            0.45714285714285713,
+            0.14858327574291638
+          ],
+          "width": 2,
+          "reason": "Close an open hairline stroke so hair and skin remain separate fill regions."
+        },
+        {
+          "from": [
+            0.33087557603686635,
+            0.2100898410504492
+          ],
+          "to": [
+            0.3317972350230415,
+            0.2121630960608155
+          ],
+          "width": 2,
+          "reason": "Close an open hairline stroke so hair and skin remain separate fill regions."
+        },
+        {
+          "from": [
+            0.3271889400921659,
+            0.22598479612992398
+          ],
+          "to": [
+            0.32903225806451614,
+            0.22805805114029026
+          ],
+          "width": 2,
+          "reason": "Close an open hairline stroke so hair and skin remain separate fill regions."
+        },
+        {
+          "from": [
+            0.33640552995391704,
+            0.18935729094678647
+          ],
+          "to": [
+            0.33732718894009217,
+            0.193503800967519
+          ],
+          "width": 2,
+          "reason": "Close an open hairline stroke so hair and skin remain separate fill regions."
+        },
+        {
+          "from": [
+            0.4774193548387097,
+            0.14581893572909468
+          ],
+          "to": [
+            0.48110599078341015,
+            0.14720110573600553
+          ],
+          "width": 2,
+          "reason": "Close an open hairline stroke so hair and skin remain separate fill regions."
+        },
+        {
+          "from": [
+            0.49400921658986174,
+            0.14236351071181755
+          ],
+          "to": [
+            0.5013824884792627,
+            0.1437456807187284
+          ],
+          "width": 2,
+          "reason": "Close an open hairline stroke so hair and skin remain separate fill regions."
+        }
+      ]
+    },
+    {
+      "id": "atelier-the-botanical-gentleman-v1",
+      "title": "The Botanical Gentleman",
+      "source": "portrait-studio-hard-04.png",
+      "category": "Portrait Atelier",
+      "tags": [
+        "adult",
+        "original generated",
+        "portrait",
+        "man",
+        "mature",
+        "beard",
+        "spectacles",
+        "vintage",
+        "waistcoat",
+        "floral scarf",
+        "detailed"
+      ],
+      "generationPrompt": "Create ONE original sophisticated adult coloring book line-art page, portrait aspect ratio 3:4, pure white background. Chest-up portrait of a distinguished mature adult man in his fifties, relaxed warm self-possessed expression, subtle adult smile lines, wavy midlength hair flowing around his ears, neat sculpted beard represented by broad enclosed white sections rather than dense hairs, round spectacles whose transparent white lenses show clear balanced eyes. Elegant vintage waistcoat over a collared shirt, a floral silk scarf draped neatly under the waistcoat with 5–8 large outline flowers. Realistic adult anatomy and proportions, accurate ears and neck, no hands. About90–150 useful closed white compartments in flowing hair locks, beard contour divisions, waistcoat seams, shirt folds, scarf flowers and tiny decorative cuff accents. Broad clean entirely white face areas, intentional thin eyelash and wrinkle contours. Thin crisp professional BLACK ink outlines only on clean WHITE paper. NO shading, no gray, no pencil tones, no crosshatching, no solid-black hair, no black beard, no color. Keep each shape interior white and inviting to color. Minimal botanical arc behind shoulders, human subject large and central. Stylish mature editorial illustration, completely original composition. NO text, no watermark, no signature, no logos, no UI, no screenshot, no colored version. Output a sharp beautiful high-resolution coloring-book page.",
+      "generator": "OpenAI image_gen",
+      "requestedDifficulty": "Hard",
+      "review": "Visually reviewed all generated source pages for natural adult facial anatomy, balanced eye/ear placement, attractive hair flow, white fillable interiors, crisp contour details and absence of text/watermarks. No hands present. Final difficulty must derive from measured usable region count after vector compilation.",
+      "boundaryLinks": [
+        {
+          "from": [
+            0.70230415,
+            0.19695923
+          ],
+          "to": [
+            0.69953917,
+            0.19765031
+          ],
+          "width": 2,
+          "reason": "Join nearby interrupted hairline contours to separate hair ribbons from skin; preserve original source ink."
+        },
+        {
+          "from": [
+            0.69953917,
+            0.20663442
+          ],
+          "to": [
+            0.69861751,
+            0.21561852
+          ],
+          "width": 2,
+          "reason": "Join nearby interrupted hairline contours to separate hair ribbons from skin; preserve original source ink."
+        },
+        {
+          "from": [
+            0.65898618,
+            0.13268832
+          ],
+          "to": [
+            0.67096774,
+            0.13752592
+          ],
+          "width": 2,
+          "reason": "Join nearby interrupted hairline contours to separate hair ribbons from skin; preserve original source ink."
+        },
+        {
+          "from": [
+            0.55115207,
+            0.11126469
+          ],
+          "to": [
+            0.56221198,
+            0.11333794
+          ],
+          "width": 2,
+          "reason": "Join nearby interrupted hairline contours to separate hair ribbons from skin; preserve original source ink."
+        },
+        {
+          "from": [
+            0.51705069,
+            0.1015895
+          ],
+          "to": [
+            0.53640553,
+            0.10919143
+          ],
+          "width": 2,
+          "reason": "Join nearby interrupted hairline contours to separate hair ribbons from skin; preserve original source ink."
+        },
+        {
+          "from": [
+            0.56682028,
+            0.11472011
+          ],
+          "to": [
+            0.58617512,
+            0.12232205
+          ],
+          "width": 2,
+          "reason": "Join nearby interrupted hairline contours to separate hair ribbons from skin; preserve original source ink."
+        },
+        {
+          "from": [
+            0.58617512,
+            0.12232205
+          ],
+          "to": [
+            0.6,
+            0.12370422
+          ],
+          "width": 2,
+          "reason": "Join nearby interrupted hairline contours to separate hair ribbons from skin; preserve original source ink."
+        },
+        {
+          "from": [
+            0.59907834,
+            0.12370422
+          ],
+          "to": [
+            0.61751152,
+            0.12370422
+          ],
+          "width": 2,
+          "reason": "Join nearby interrupted hairline contours to separate hair ribbons from skin; preserve original source ink."
+        },
+        {
+          "from": [
+            0.54285714,
+            0.10504492
+          ],
+          "to": [
+            0.53917051,
+            0.10573601
+          ],
+          "width": 2,
+          "reason": "Join nearby interrupted hairline contours to separate hair ribbons from skin; preserve original source ink."
+        },
+        {
+          "from": [
+            0.53640553,
+            0.10366275
+          ],
+          "to": [
+            0.53271889,
+            0.10435384
+          ],
+          "width": 2,
+          "reason": "Join nearby interrupted hairline contours to separate hair ribbons from skin; preserve original source ink."
+        },
+        {
+          "from": [
+            0.53271889,
+            0.10504492
+          ],
+          "to": [
+            0.53271889,
+            0.10711818
+          ],
+          "width": 2,
+          "reason": "Join nearby interrupted hairline contours to separate hair ribbons from skin; preserve original source ink."
+        },
+        {
+          "from": [
+            0.3824884792626728,
+            0.19557705597788527
+          ],
+          "to": [
+            0.3870967741935484,
+            0.20041465100207326
+          ],
+          "width": 2,
+          "reason": "Join front curl tip to adjacent fine hair contour, separating the left side-lock interior from forehead."
+        }
+      ]
+    },
+    {
+      "id": "atelier-swept-away-v1",
+      "title": "Swept Away",
+      "source": "portrait-studio-easy-04.png",
+      "category": "Portrait Atelier",
+      "tags": [
+        "adult",
+        "original generated",
+        "androgynous",
+        "short hair",
+        "undercut",
+        "turtleneck",
+        "portrait"
+      ],
+      "generationPrompt": "Create an ORIGINAL easy adult coloring book page, portrait 3:4 aspect ratio, sharp clean BLACK line art on pure WHITE. A stylish androgynous adult person aged 34, chest-up portrait turned just slightly right, normal adult face and neck proportions, composed creative expression, expressive almond-shaped eyes and clearly outlined irises, balanced attractive facial anatomy. Short side-swept hair with an undercut indicated by ONE smooth contour and exactly four broad sweeping closed hair sections. A simple thick turtleneck sweater with large broad neck bands and one seam per shoulder, one tiny geometric stud earring. All skin, hair, eyebrows and clothes WHITE blank to be colored, small pupils black. Modern elegant graphic portrait, no hands, complete head visible, shoulder crop meets a straight lower edge. VERY SIMPLE easy coloring design, around 20 to 25 large closed usable coloring regions, generous blank white background. Bold smooth sharp contours and restrained facial detail. No shading, no grayscale, no hatching, no fine texture or hair strands, no clothing ribbing, no complicated background, no frame, no text, no watermark, no colored sample or side-by-side. Sophisticated adult appearance, not a child.",
+      "generator": "OpenAI image_gen",
+      "requestedDifficulty": "Easy",
+      "review": "Balanced adult anatomy, few broad hair and sweater regions. Crisp expressive face with restrained garment detail.",
+      "boundaryLinks": [
+        {
+          "from": [
+            0.4967741935483871,
+            0.18590186592950933
+          ],
+          "to": [
+            0.49216589861751153,
+            0.18797512093987562
+          ],
+          "width": 2,
+          "reason": "Close an open hairline stroke so hair and skin remain separate fill regions."
+        },
+        {
+          "from": [
+            0.4976958525345622,
+            0.18728403593642018
+          ],
+          "to": [
+            0.49953917050691243,
+            0.18935729094678647
+          ],
+          "width": 2,
+          "reason": "Close an open hairline stroke so hair and skin remain separate fill regions."
+        },
+        {
+          "from": [
+            0.49861751,
+            0.50794748
+          ],
+          "to": [
+            0.52995392,
+            0.5300622
+          ],
+          "width": 2,
+          "reason": "Close the deliberate open lower-left lip contour back to the mouth corner; local47px guide retains the natural lipoutline."
+        },
+        {
+          "from": [
+            0.63963134,
+            0.51831375
+          ],
+          "to": [
+            0.63963134,
+            0.5252246
+          ],
+          "width": 2,
+          "reason": "Close the short faded gap at the right lip corner."
+        }
+      ]
+    }
+  ]
+}

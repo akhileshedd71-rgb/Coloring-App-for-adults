@@ -14,5 +14,233 @@
     ],
     "thumbnail": "/art/artist-braided-reverie.svg",
     "regionCount": 298
+  },
+  {
+    "id": "atelier-moonlit-couture-v1",
+    "title": "Moonlit Couture",
+    "category": "Portrait Atelier",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "original generated",
+      "portrait",
+      "woman",
+      "wavy bob",
+      "chandelier earrings",
+      "gown",
+      "couture",
+      "detailed"
+    ],
+    "thumbnail": "/art/atelier-moonlit-couture-v1.svg",
+    "regionCount": 372
+  },
+  {
+    "id": "atelier-cafe-daydream-v1",
+    "title": "Café Daydream",
+    "category": "Portrait Atelier",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "original generated",
+      "portrait",
+      "woman",
+      "glasses",
+      "wavy hair",
+      "freckles",
+      "striped blouse"
+    ],
+    "thumbnail": "/art/atelier-cafe-daydream-v1.svg",
+    "regionCount": 149
+  },
+  {
+    "id": "atelier-silken-reverie-v1",
+    "title": "Silken Reverie",
+    "category": "Portrait Atelier",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "original generated",
+      "portrait",
+      "woman",
+      "South Asian",
+      "headband",
+      "flowing hair",
+      "jewelry",
+      "draped blouse"
+    ],
+    "thumbnail": "/art/atelier-silken-reverie-v1.svg",
+    "regionCount": 118
+  },
+  {
+    "id": "atelier-windflower-muse-v1",
+    "title": "Windflower Muse",
+    "category": "Portrait Atelier",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "original generated",
+      "portrait",
+      "woman",
+      "long hair",
+      "headband",
+      "bohemian",
+      "jewelry",
+      "detailed"
+    ],
+    "thumbnail": "/art/atelier-windflower-muse-v1.svg",
+    "regionCount": 610
+  },
+  {
+    "id": "atelier-bob-bright-eyes-v1",
+    "title": "Bob & Bright Eyes",
+    "category": "Portrait Atelier",
+    "difficulty": "Medium",
+    "tags": [
+      "adult",
+      "original generated",
+      "adult woman",
+      "bob",
+      "glasses",
+      "hoop earrings",
+      "stripes",
+      "cartoon",
+      "portrait"
+    ],
+    "thumbnail": "/art/atelier-bob-bright-eyes-v1.svg",
+    "regionCount": 41
+  },
+  {
+    "id": "atelier-sunday-spectacles-v1",
+    "title": "Sunday Spectacles",
+    "category": "Portrait Atelier",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "original generated",
+      "adult man",
+      "glasses",
+      "quiff",
+      "hoodie",
+      "friendly",
+      "cartoon",
+      "portrait"
+    ],
+    "thumbnail": "/art/atelier-sunday-spectacles-v1.svg",
+    "regionCount": 66
+  },
+  {
+    "id": "atelier-crowned-in-grace-v1",
+    "title": "Crowned in Grace",
+    "category": "Portrait Atelier",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "original generated",
+      "portrait",
+      "woman",
+      "Black",
+      "mature",
+      "braids",
+      "bun",
+      "embroidered jacket",
+      "detailed"
+    ],
+    "thumbnail": "/art/atelier-crowned-in-grace-v1.svg",
+    "regionCount": 767
+  },
+  {
+    "id": "atelier-grace-in-bloom-v1",
+    "title": "Grace in Bloom",
+    "category": "Portrait Atelier",
+    "difficulty": "Easy",
+    "tags": [
+      "adult",
+      "original generated",
+      "mature adult",
+      "woman",
+      "afro",
+      "natural hair",
+      "pendant",
+      "smile",
+      "portrait"
+    ],
+    "thumbnail": "/art/atelier-grace-in-bloom-v1.svg",
+    "regionCount": 17
+  },
+  {
+    "id": "atelier-velvet-premiere-v1",
+    "title": "Velvet Premiere",
+    "category": "Portrait Atelier",
+    "difficulty": "Medium",
+    "tags": [
+      "adult",
+      "original generated",
+      "portrait",
+      "woman",
+      "mature",
+      "bob",
+      "gown",
+      "statement earrings",
+      "fashion"
+    ],
+    "thumbnail": "/art/atelier-velvet-premiere-v1.svg",
+    "regionCount": 59
+  },
+  {
+    "id": "atelier-quiet-editorial-v1",
+    "title": "Quiet Editorial",
+    "category": "Portrait Atelier",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "original generated",
+      "portrait",
+      "man",
+      "East Asian",
+      "wavy hair",
+      "blazer",
+      "scarf",
+      "fashion"
+    ],
+    "thumbnail": "/art/atelier-quiet-editorial-v1.svg",
+    "regionCount": 64
+  },
+  {
+    "id": "atelier-the-botanical-gentleman-v1",
+    "title": "The Botanical Gentleman",
+    "category": "Portrait Atelier",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "original generated",
+      "portrait",
+      "man",
+      "mature",
+      "beard",
+      "spectacles",
+      "vintage",
+      "waistcoat",
+      "floral scarf",
+      "detailed"
+    ],
+    "thumbnail": "/art/atelier-the-botanical-gentleman-v1.svg",
+    "regionCount": 360
+  },
+  {
+    "id": "atelier-swept-away-v1",
+    "title": "Swept Away",
+    "category": "Portrait Atelier",
+    "difficulty": "Easy",
+    "tags": [
+      "adult",
+      "original generated",
+      "androgynous",
+      "short hair",
+      "undercut",
+      "turtleneck",
+      "portrait"
+    ],
+    "thumbnail": "/art/atelier-swept-away-v1.svg",
+    "regionCount": 27
   }
 ]

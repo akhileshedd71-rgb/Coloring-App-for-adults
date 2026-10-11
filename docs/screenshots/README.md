@@ -14,5 +14,11 @@ These are captures of the implemented application, not design mockups.
 | Tablet canvas | [tablet-editor.png](tablet-editor.png) |
 | Landscape canvas | [landscape-editor.png](landscape-editor.png) |
 | Desktop development view | [desktop-library.png](desktop-library.png) |
+| New portrait collection on phone | [phone-portrait-atelier.png](phone-portrait-atelier.png) |
+| Complete new collection on tablet | [tablet-portrait-atelier.png](tablet-portrait-atelier.png) |
+| New couture coloring page | [phone-atelier-canvas.png](phone-atelier-canvas.png) |
+| New portrait with actual color fills | [phone-atelier-coloring.png](phone-atelier-coloring.png) |
 
 The painting captures use actual fill-tool interactions on Braided Reverie. The source remains editable in local storage. Run `node scripts/capture-screenshots.mjs` with the development server running to recreate this set in a fresh browser context.
+
+Run `node scripts/capture-portrait-collection.mjs` for the new collection captures. These show the actual blank vector pages and saved fill-tool interactions in version 1.1.
