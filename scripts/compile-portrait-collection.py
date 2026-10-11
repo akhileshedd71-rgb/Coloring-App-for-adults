@@ -210,6 +210,11 @@ def compile_entry(entry: dict, manifest_directory: Path, defaults: dict):
         "difficulty": difficulty, "tags": list(dict.fromkeys(entry["tags"])),
         "thumbnail": f"/art/{artwork_id}.svg", "regionCount": len(regions),
     }
+    if "referenceImage" in entry:
+        reference = entry["referenceImage"]
+        if not isinstance(reference, str) or not re.fullmatch(r"/references/[a-z0-9]+(?:-[a-z0-9]+)*\.png", reference):
+            raise ValueError(f"{artwork_id}: referenceImage must be a bundled /references/<stable-name>.png path")
+        metadata["referenceImage"] = reference
     title = html.escape(entry["title"], quote=True)
     header = f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" width="{width}" height="{height}" role="img" aria-label="{title}"><title>{title} — original Musemallow coloring page</title><rect width="{width}" height="{height}" fill="white"/>'
     # The app outlines region boundaries at 1.65 units before compositing ink.
@@ -228,6 +233,16 @@ def compile_entry(entry: dict, manifest_directory: Path, defaults: dict):
         "largestRegionFraction": round(max_region_area / (width * height), 4),
         "warnings": warnings,
     }
+    if entry.get("colorSource"):
+        color_source = (manifest_directory / entry["colorSource"]).resolve()
+        if color_source.suffix.lower() != ".png":
+            raise ValueError(f"{artwork_id}: colorSource must be an original PNG reference")
+        color_gray = load_gray(color_source)
+        report.update({
+            "colorSource": entry["colorSource"],
+            "colorSourceSha256": hashlib.sha256(color_source.read_bytes()).hexdigest(),
+            "colorSourceWidth": color_gray.shape[1], "colorSourceHeight": color_gray.shape[0],
+        })
     return art, svg, metadata, report
 
 

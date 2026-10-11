@@ -2,6 +2,8 @@ export type Difficulty = 'Easy' | 'Medium' | 'Hard';
 export interface ArtworkMeta {
   id: string; title: string; category: string; difficulty: Difficulty;
   tags: string[]; thumbnail: string; regionCount: number;
+  /** Bundled colored example; loaded only when the reference viewer is opened. */
+  referenceImage?: string;
 }
 export interface ArtRegion { id: string; path: string; label?: string; }
 export interface Artwork {

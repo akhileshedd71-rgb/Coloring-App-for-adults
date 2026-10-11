@@ -1,6 +1,6 @@
 # Generated portrait source compilation
 
-`scripts/compile-portrait-collection.py` turns original generated PNG coloring pages into the same editable vector format used by the painting engine. Original images stay unchanged. The application bundles only compiled artwork; it does not require Python, image generation, network access, or a runtime flood fill.
+`scripts/compile-portrait-collection.py` turns original generated PNG coloring pages into the same editable vector format used by the painting engine. Original images stay unchanged. The application bundles compiled artwork and optional colored PNG references; it does not require Python, image generation, network access, or a runtime flood fill.
 
 Use the image-generation tool to create or revise source illustrations. A good source has adult proportions, intentional facial features, clean black ink on white, closed hair and clothing shapes, and very little gray shading. Review the original at full size before compilation. An unsuitable source should be revised through image generation rather than disguised through compiler thresholds.
 
@@ -35,6 +35,8 @@ Store a manifest beside its source PNGs. Paths are relative to that manifest. Ea
 ```
 
 Optional label seeds use normalized original-image coordinates from 0 to 1. They name the connected white region at that position; seeds on ink produce a review warning. Unlabeled regions are named `portrait detail` or `background`. A drawing may override individual settings with a `compile` object.
+
+An optional `referenceImage` entry carries a local `/references/<drawing-id>.png` path into catalog metadata. Generate that colored example by editing the original line PNG, then copy the resulting PNG unchanged into `public/references/`. Keep its original in the source directory and retain `colorSource` and `colorGenerationPrompt` in the manifest. The compiler converts the line source only; copying and visually reviewing the colored reference are separate steps. The viewer accepts packaged PNG paths and loads an example only when opened. See [Floral Reverie](../artwork-sources/floral-reverie/README.md) for a complete six-pair example.
 
 Some expressive hairline strokes have tiny intentional-looking gaps that connect hair to skin during region tracing. A reviewed drawing may define `boundaryLinks` as explicit **vector fill-boundary guides**, each with normalized source-coordinate `from: [x, y]`, `to: [x, y]`, an optional `width` of 1–8 source pixels (default 2), and an explanatory `reason`. Links must be local bridges no longer than 80 source pixels. They affect only the region-extraction barrier; the source PNG and original fine ink contours are unchanged. The app's normal region outline renders each closed fill boundary. Review links against the source at high zoom and verify that face, hair, clothing, and background remain independently selectable. Avoid blanket morphology that could seal decorative details indiscriminately.
 

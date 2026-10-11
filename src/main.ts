@@ -44,7 +44,7 @@ const esc = (value: unknown) => String(value ?? '').replace(/[&<>"']/g, s => ({ 
 const app = document.querySelector<HTMLDivElement>('#app')!;
 let prefs = getPreferences();
 let catalog: ArtworkMeta[] = [];
-const featuredCategories = ['Portrait Atelier', 'Artist Studies'];
+const featuredCategories = ['Floral Reverie', 'Portrait Atelier', 'Artist Studies'];
 let documents: PaintingDocument[] = [];
 let view: 'library' | 'gallery' | 'favorites' | 'editor' = 'library';
 let previousView: 'library' | 'gallery' | 'favorites' = 'library';
@@ -58,6 +58,7 @@ let saveRevision = 0;
 let dialogCleanup: (() => void) | undefined;
 let toastTimer: ReturnType<typeof setTimeout>;
 let opening = false;
+const referenceImageCleanup = new WeakMap<HTMLElement, () => void>();
 const settings: CanvasSettings = { tool: 'fill', color: '#B77855', secondaryColor: '#F4CFA8', size: 22, opacity: 1, guided: true };
 const toolNames: Record<Tool, string> = { fill: 'Fill', brush: 'Brush', airbrush: 'Shade', gradient: 'Gradient', pencil: 'Pencil', texture: 'Texture', eraser: 'Eraser', eyedropper: 'Pick color' };
 const palettes = [
@@ -153,6 +154,7 @@ function flushChanges() { painter?.finishStroke(); queueSave(true); }
 async function leaveEditor() {
   flushChanges();
   try { await saveChain; } catch { throw new Error('Please save or export this drawing before leaving.'); }
+  hideReference(false);
   painter?.destroy(); painter = undefined; current = undefined;
   document.body.classList.remove('canvas-fullscreen');
 }
@@ -181,8 +183,9 @@ async function openDrawing(id: string, existing = false) {
   finally { opening = false; }
 }
 function renderEditor() {
+  const reference = currentReference();
   document.body.classList.add('editor-open');
-  app.innerHTML = `<div class="editor"><header class="editor-header"><button class="icon-button back-button" data-action="back" aria-label="Back to studio">${icon('back')}</button><div class="editor-title"><h1>${esc(current?.title)}</h1><button id="save-status" data-action="save" aria-label="Save drawing">${current?.commands.length ? 'Saved on this device' : 'Your next little masterpiece'}</button></div><div class="editor-header-actions"><button class="icon-button" data-action="editor-menu" aria-label="Drawing options">${icon('more')}</button><button class="button primary export-button" data-action="export-menu">${icon('download')}<span>Export</span></button></div></header><main class="canvas-stage"><div class="canvas-note">${icon('leaf')} Take your time. Make it yours.</div><div id="painting-surface" aria-label="Painting canvas" role="application"></div><div class="canvas-top-controls"><div class="history-controls"><button class="icon-button" data-action="undo" aria-label="Undo" title="Undo" disabled>${icon('undo')}</button><button class="icon-button" data-action="redo" aria-label="Redo" title="Redo" disabled>${icon('redo')}</button></div><button class="icon-button" data-action="fullscreen" aria-label="Toggle full-screen canvas" title="Full-screen canvas">${icon('expand')}</button></div><div class="canvas-bottom-controls"><span class="gesture-hint">Pinch to zoom · two fingers to move</span><div class="zoom-controls"><button class="icon-button" data-action="zoom-out" aria-label="Zoom out">${icon('minus')}</button><button id="zoom-value" data-action="fit" title="Fit to screen">100%</button><button class="icon-button" data-action="zoom-in" aria-label="Zoom in">${icon('plus')}</button><span></span><button class="icon-button" data-action="fit" aria-label="Fit to screen">${icon('fit')}</button></div></div></main><section class="painting-controls" aria-label="Painting tools"><div class="color-strip"><button class="active-color-button" data-action="colors" aria-label="Open color picker"><span id="active-color" style="background:${settings.color}"></span>${icon('plus')}</button><div class="palette-swatches" id="quick-colors">${quickColors()}</div><button class="palette-open-button" data-action="colors" aria-label="All color palettes">${icon('grid')}<span>Palettes</span></button></div><div class="tools-strip"><div class="primary-tools">${(['fill', 'brush', 'airbrush', 'gradient'] as Tool[]).map(tool => `<button class="tool-button ${settings.tool === tool ? 'selected' : ''}" data-action="tool" data-tool="${tool}" aria-label="${toolNames[tool]} tool" aria-pressed="${settings.tool === tool}">${icon(tool)}<span>${toolNames[tool]}</span></button>`).join('')}<button class="tool-button" data-action="tools" aria-label="More brushes and tool settings">${icon('settings')}<span>More</span></button></div><div class="tool-settings-summary"><span id="tool-hint">Tap a shape to fill it</span><button class="guided-pill" data-action="toggle-guided">${icon('lock')}<span id="guided-label">${settings.guided ? 'Inside the lines' : 'Free painting'}</span></button></div></div></section></div>`;
+  app.innerHTML = `<div class="editor"><header class="editor-header"><button class="icon-button back-button" data-action="back" aria-label="Back to studio">${icon('back')}</button><div class="editor-title"><h1>${esc(current?.title)}</h1><button id="save-status" data-action="save" aria-label="Save drawing">${current?.commands.length ? 'Saved on this device' : 'Your next little masterpiece'}</button></div><div class="editor-header-actions"><button class="icon-button" data-action="editor-menu" aria-label="Drawing options">${icon('more')}</button><button class="button primary export-button" data-action="export-menu">${icon('download')}<span>Export</span></button></div></header><main class="canvas-stage ${reference ? 'has-reference' : ''}"><div class="canvas-note">${icon('leaf')} Take your time. Make it yours.</div><div id="painting-surface" aria-label="Painting canvas" role="application"></div><div class="canvas-top-controls"><div class="history-controls"><button class="icon-button" data-action="undo" aria-label="Undo" title="Undo" disabled>${icon('undo')}</button><button class="icon-button" data-action="redo" aria-label="Redo" title="Redo" disabled>${icon('redo')}</button>${reference ? `<button class="reference-open" data-action="reference" aria-label="Open colored reference" aria-haspopup="dialog">${icon('gallery')}<span>Reference</span></button>` : ''}</div><button class="icon-button" data-action="fullscreen" aria-label="Toggle full-screen canvas" title="Full-screen canvas">${icon('expand')}</button></div><div class="canvas-bottom-controls"><span class="gesture-hint">Pinch to zoom · two fingers to move</span><div class="zoom-controls"><button class="icon-button" data-action="zoom-out" aria-label="Zoom out">${icon('minus')}</button><button id="zoom-value" data-action="fit" title="Fit to screen">100%</button><button class="icon-button" data-action="zoom-in" aria-label="Zoom in">${icon('plus')}</button><span></span><button class="icon-button" data-action="fit" aria-label="Fit to screen">${icon('fit')}</button></div></div></main><section class="painting-controls" aria-label="Painting tools"><div class="color-strip"><button class="active-color-button" data-action="colors" aria-label="Open color picker"><span id="active-color" style="background:${settings.color}"></span>${icon('plus')}</button><div class="palette-swatches" id="quick-colors">${quickColors()}</div><button class="palette-open-button" data-action="colors" aria-label="All color palettes">${icon('grid')}<span>Palettes</span></button></div><div class="tools-strip"><div class="primary-tools">${(['fill', 'brush', 'airbrush', 'gradient'] as Tool[]).map(tool => `<button class="tool-button ${settings.tool === tool ? 'selected' : ''}" data-action="tool" data-tool="${tool}" aria-label="${toolNames[tool]} tool" aria-pressed="${settings.tool === tool}">${icon(tool)}<span>${toolNames[tool]}</span></button>`).join('')}<button class="tool-button" data-action="tools" aria-label="More brushes and tool settings">${icon('settings')}<span>More</span></button></div><div class="tool-settings-summary"><span id="tool-hint">Tap a shape to fill it</span><button class="guided-pill" data-action="toggle-guided">${icon('lock')}<span id="guided-label">${settings.guided ? 'Inside the lines' : 'Free painting'}</span></button></div></div></section></div>`;
 }
 function quickColors() {
   return palettes[paletteIndex].colors.map(color => `<button class="color-swatch ${settings.color.toLowerCase() === color.toLowerCase() ? 'selected' : ''}" style="--swatch:${color}" data-action="color" data-color="${color}" aria-label="Select color ${color}" aria-pressed="${settings.color.toLowerCase() === color.toLowerCase()}"></button>`).join('');
@@ -205,7 +208,11 @@ function updateToolUI() {
   const hint = document.querySelector('#tool-hint'); if (hint) hint.textContent = hints[settings.tool];
   const guided = document.querySelector('#guided-label'); if (guided) guided.textContent = settings.guided ? 'Inside the lines' : 'Free painting';
 }
-function closeDialog() { dialogCleanup?.(); dialogCleanup = undefined; document.querySelector('.dialog-backdrop')?.remove(); document.body.classList.remove('dialog-open'); }
+function closeDialog() {
+  const cleanup = dialogCleanup; dialogCleanup = undefined;
+  document.querySelector('.dialog-backdrop')?.remove(); document.body.classList.remove('dialog-open'); app.inert = false;
+  cleanup?.();
+}
 function sheet(title: string, subtitle: string, content: string, compact = false) {
   closeDialog();
   const prev = document.activeElement as HTMLElement;
@@ -213,8 +220,68 @@ function sheet(title: string, subtitle: string, content: string, compact = false
   backdrop.innerHTML = `<section class="bottom-sheet ${compact ? 'compact-sheet' : ''}" role="dialog" aria-modal="true" aria-labelledby="dialog-title"><div class="sheet-handle"></div><div class="sheet-header"><div><h2 id="dialog-title">${title}</h2>${subtitle ? `<p>${subtitle}</p>` : ''}</div><button class="icon-button" data-action="close-dialog" aria-label="Close panel">${icon('close')}</button></div><div class="sheet-content">${content}</div></section>`;
   backdrop.addEventListener('click', e => { if (e.target === backdrop) closeDialog(); });
   backdrop.addEventListener('keydown', e => { if (e.key !== 'Tab') return; const els = [...backdrop.querySelectorAll<HTMLElement>('button:not(:disabled),input,select,[tabindex="0"]')]; const first = els[0], last = els[els.length - 1]; if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last?.focus(); } else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first?.focus(); } });
-  document.body.append(backdrop); document.body.classList.add('dialog-open'); backdrop.querySelector<HTMLButtonElement>('.sheet-header button')?.focus();
+  document.body.append(backdrop); document.body.classList.add('dialog-open'); app.inert = true; backdrop.querySelector<HTMLButtonElement>('.sheet-header button')?.focus();
   dialogCleanup = () => prev?.isConnected && prev.focus();
+}
+/** Only packaged image paths are accepted: references remain available without a network. */
+function currentReference() {
+  const meta = catalog.find(art => art.id === current?.artworkId);
+  return meta?.referenceImage && /^\/references\/[a-z0-9-]+\.png$/.test(meta.referenceImage) ? meta : undefined;
+}
+function loadReference(host: HTMLElement, meta: ArtworkMeta) {
+  referenceImageCleanup.get(host)?.();
+  host.replaceChildren(); host.dataset.state = 'loading'; host.setAttribute('aria-busy', 'true');
+  const status = document.createElement('p'); status.className = 'reference-status'; status.setAttribute('role', 'status');
+  status.textContent = 'Opening your color inspiration…';
+  const img = document.createElement('img'); img.alt = `Colored inspiration for ${meta.title}`; img.draggable = false; img.hidden = true; img.decoding = 'async';
+  let active = true;
+  let timeout: ReturnType<typeof setTimeout> | undefined;
+  const cleanup = () => { active = false; clearTimeout(timeout); img.onload = null; img.onerror = null; img.removeAttribute('src'); };
+  referenceImageCleanup.set(host, cleanup);
+  const stillCurrent = () => active && host.isConnected && current?.artworkId === meta.id;
+  img.onload = () => {
+    if (!stillCurrent()) return;
+    clearTimeout(timeout); img.hidden = false; status.remove(); host.dataset.state = 'ready'; host.setAttribute('aria-busy', 'false');
+  };
+  const failed = () => {
+    if (!stillCurrent()) return;
+    clearTimeout(timeout); img.onload = null; img.onerror = null; img.removeAttribute('src');
+    img.remove(); host.dataset.state = 'error'; host.setAttribute('aria-busy', 'false');
+    status.textContent = 'This reference could not open. Your coloring is safe.';
+    const retry = document.createElement('button'); retry.className = 'button secondary reference-retry'; retry.textContent = 'Try again';
+    retry.addEventListener('click', () => loadReference(host, meta)); host.append(retry);
+  };
+  img.onerror = failed;
+  timeout = setTimeout(failed, 12000);
+  host.append(status, img); img.src = meta.referenceImage!;
+}
+function showReference() {
+  const meta = currentReference(); if (!meta) return;
+  painter?.finishStroke();
+  sheet('Color inspiration', esc(meta.title), `<div class="reference-image-slot" id="reference-large"></div><p class="reference-note">A little inspiration for your palette. Every color choice is yours.</p><button class="button primary full-width" data-action="reference-pin">${icon('gallery')}Keep beside canvas</button>`);
+  document.querySelector('.bottom-sheet')?.classList.add('reference-sheet');
+  const host = document.querySelector<HTMLElement>('#reference-large')!;
+  loadReference(host, meta);
+  const restoreFocus = dialogCleanup;
+  dialogCleanup = () => { referenceImageCleanup.get(host)?.(); referenceImageCleanup.delete(host); restoreFocus?.(); };
+}
+function hideReference(restoreFocus = true) {
+  const dock = document.querySelector('.reference-dock');
+  const host = dock?.querySelector<HTMLElement>('.reference-image-slot');
+  if (host) { referenceImageCleanup.get(host)?.(); referenceImageCleanup.delete(host); }
+  dock?.remove(); document.querySelector('.reference-open')?.classList.remove('selected');
+  if (restoreFocus) document.querySelector<HTMLButtonElement>('.reference-open')?.focus();
+}
+function pinReference() {
+  const meta = currentReference(), stage = document.querySelector('.canvas-stage'); if (!meta || !stage) return;
+  hideReference(false);
+  const dock = document.createElement('aside'); dock.className = 'reference-dock'; dock.setAttribute('aria-label', 'Pinned color reference');
+  dock.innerHTML = `<span class="reference-caption">Your color inspiration</span><div class="reference-image-slot"></div><div class="reference-dock-controls"><button class="icon-button" data-action="reference" aria-label="Enlarge reference">${icon('expand')}</button><button class="icon-button" data-action="reference-move" aria-label="Move reference to the left">${icon('arrow')}</button><button class="icon-button" data-action="reference-hide" aria-label="Hide reference">${icon('close')}</button></div>`;
+  // Pointer events stay on the panel. A gesture beginning on the reference never paints underneath it.
+  for (const event of ['pointerdown', 'pointermove', 'pointerup', 'pointercancel']) dock.addEventListener(event, e => e.stopPropagation());
+  stage.append(dock); loadReference(dock.querySelector<HTMLElement>('.reference-image-slot')!, meta);
+  document.querySelector('.reference-open')?.classList.add('selected');
+  dock.querySelector<HTMLButtonElement>('[data-action="reference"]')?.focus();
 }
 function showTools() {
   sheet('Your creative toolkit', 'A brush for every little detail.', `<div class="all-tools">${(Object.keys(toolNames) as Tool[]).map(t => `<button class="tool-tile ${settings.tool === t ? 'selected' : ''}" data-action="tool" data-tool="${t}" aria-pressed="${settings.tool === t}">${icon(t)}<span>${toolNames[t]}</span></button>`).join('')}</div><div class="slider-row"><label for="brush-size">Brush size <strong id="size-value">${settings.size}px</strong></label><input id="brush-size" type="range" min="1" max="100" value="${settings.size}"/></div><div class="slider-row"><label for="brush-opacity">Opacity <strong id="opacity-value">${Math.round(settings.opacity * 100)}%</strong></label><input id="brush-opacity" type="range" min="5" max="100" value="${settings.opacity * 100}"/></div><div class="option-row"><div><strong>Stay inside the lines</strong><p>Brush strokes stay in the shape where you start.</p></div><button class="switch ${settings.guided ? 'on' : ''}" role="switch" aria-checked="${settings.guided}" aria-label="Guided coloring" data-action="toggle-guided"></button></div><div class="option-row"><div><strong>Lock selected region</strong><p>${settings.lockedRegionId ? 'Only the locked shape can receive paint.' : 'Tap a shape on the canvas, then lock it for shading.'}</p></div><button class="switch ${settings.lockedRegionId ? 'on' : ''}" role="switch" aria-checked="${!!settings.lockedRegionId}" aria-label="Lock selected region" data-action="lock-region"></button></div><label class="option-row secondary-color"><div><strong>Gradient end color</strong><p>Drag across a shape from your current color to this shade.</p></div><input id="secondary-color" aria-label="Gradient end color" type="color" value="${settings.secondaryColor}"/></label><div class="help-note">${icon('sparkle')} With a stylus, pressure naturally changes your stroke. Two fingers always move the canvas.</div>`);
@@ -230,7 +297,7 @@ function showColors() {
 }
 function applyHex() { const value = document.querySelector<HTMLInputElement>('#hex-color')!.value.trim(); setColor(value.startsWith('#') ? value : `#${value}`); }
 function showSettings() {
-  sheet('Make yourself at home', 'Your studio, your way.', `<h3 class="setting-heading">Appearance</h3><div class="theme-options">${[['light', 'sun', 'Light'], ['dark', 'moon', 'Dark'], ['system', 'settings', 'Device']].map(([id, glyph, name]) => `<button class="theme-option ${prefs.theme === id ? 'selected' : ''}" data-action="theme" data-theme="${id}" aria-pressed="${prefs.theme === id}">${icon(glyph)}${name}</button>`).join('')}</div><div class="option-row"><div><strong>Reduce motion</strong><p>A stiller studio, with fewer animations.</p></div><button class="switch ${prefs.reducedMotion ? 'on' : ''}" role="switch" aria-checked="${prefs.reducedMotion}" aria-label="Reduce motion" data-action="reduced-motion"></button></div><div class="about-studio"><span class="brand-symbol">${icon('flower')}</span><h3>musemallow</h3><p>A little color, a little calm.</p><p>Original people-inspired illustrations, made for your imagination. Your artwork stays on this device. No account, ads, purchases, or tracking. Everything works offline.</p><small>Version 1.1 · A studio for all your shades</small></div>`, true);
+  sheet('Make yourself at home', 'Your studio, your way.', `<h3 class="setting-heading">Appearance</h3><div class="theme-options">${[['light', 'sun', 'Light'], ['dark', 'moon', 'Dark'], ['system', 'settings', 'Device']].map(([id, glyph, name]) => `<button class="theme-option ${prefs.theme === id ? 'selected' : ''}" data-action="theme" data-theme="${id}" aria-pressed="${prefs.theme === id}">${icon(glyph)}${name}</button>`).join('')}</div><div class="option-row"><div><strong>Reduce motion</strong><p>A stiller studio, with fewer animations.</p></div><button class="switch ${prefs.reducedMotion ? 'on' : ''}" role="switch" aria-checked="${prefs.reducedMotion}" aria-label="Reduce motion" data-action="reduced-motion"></button></div><div class="about-studio"><span class="brand-symbol">${icon('flower')}</span><h3>musemallow</h3><p>A little color, a little calm.</p><p>Original people-inspired illustrations, made for your imagination. Your artwork stays on this device. No account, ads, purchases, or tracking. Everything works offline.</p><small>Version 1.2 · A studio for all your shades</small></div>`, true);
 }
 function confirmAction(title: string, message: string, button: string, onConfirm: () => void | Promise<void>) {
   sheet(title, '', `<p class="confirm-message">${esc(message)}</p><div class="confirm-actions"><button class="button secondary" data-action="close-dialog">Keep it</button><button id="confirm-action" class="button danger">${button}</button></div>`, true);
@@ -286,6 +353,15 @@ async function handleAction(button: HTMLElement) {
     case 'save': flushChanges(); break;
     case 'tool': selectTool(button.dataset.tool as Tool); break;
     case 'tools': showTools(); break;
+    case 'reference': showReference(); break;
+    case 'reference-pin': closeDialog(); pinReference(); break;
+    case 'reference-hide': hideReference(); break;
+    case 'reference-move': {
+      const dock = document.querySelector<HTMLElement>('.reference-dock');
+      const left = dock?.classList.toggle('reference-left');
+      button.setAttribute('aria-label', `Move reference to the ${left ? 'right' : 'left'}`);
+      break;
+    }
     case 'color': setColor(button.dataset.color!); break;
     case 'colors': showColors(); break;
     case 'palette': paletteIndex = +button.dataset.index!; showColors(); document.querySelector('#quick-colors')!.innerHTML = quickColors(); break;
@@ -315,7 +391,7 @@ async function handleAction(button: HTMLElement) {
 }
 document.addEventListener('click', e => { const button = (e.target as HTMLElement).closest<HTMLElement>('[data-action]'); if (!button) return; e.preventDefault(); if ((button as HTMLButtonElement).disabled) return; void handleAction(button).catch(error => toast(error instanceof Error ? error.message : 'Something went wrong. Please try again.')); });
 document.addEventListener('keydown', e => {
-  if (e.key === 'Escape') { if (document.querySelector('.dialog-backdrop')) closeDialog(); else if (document.body.classList.contains('canvas-fullscreen')) document.body.classList.remove('canvas-fullscreen'); else if (view === 'editor') void navigate(previousView).catch(err => toast(err.message)); }
+  if (e.key === 'Escape') { if (document.querySelector('.dialog-backdrop')) closeDialog(); else if (document.querySelector('.reference-dock')) hideReference(); else if (document.body.classList.contains('canvas-fullscreen')) document.body.classList.remove('canvas-fullscreen'); else if (view === 'editor') void navigate(previousView).catch(err => toast(err.message)); }
   if (!e.defaultPrevented && view === 'editor' && (e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'z' && !['INPUT', 'TEXTAREA'].includes((e.target as HTMLElement).tagName)) { e.preventDefault(); if (e.shiftKey) painter?.redo(); else painter?.undo(); }
 });
 document.addEventListener('visibilitychange', () => { if (document.hidden) flushChanges(); });
@@ -327,7 +403,7 @@ async function start() {
   try {
     const response = await fetch('/art/catalog.json'); if (!response.ok) throw new Error('The drawing library could not be loaded.');
     catalog = await response.json(); documents = (await listDocuments()).sort((a, b) => b.updatedAt - a.updatedAt); renderHome();
-    await initNative(async () => { if (document.querySelector('.dialog-backdrop')) { closeDialog(); return true; } if (document.body.classList.contains('canvas-fullscreen')) { document.body.classList.remove('canvas-fullscreen'); return true; } if (view === 'editor') { try { await navigate(previousView); } catch (e) { toast((e as Error).message); } return true; } if (view !== 'library') { await navigate('library'); return true; } return false; }, flushChanges);
+    await initNative(async () => { if (document.querySelector('.dialog-backdrop')) { closeDialog(); return true; } if (document.querySelector('.reference-dock')) { hideReference(); return true; } if (document.body.classList.contains('canvas-fullscreen')) { document.body.classList.remove('canvas-fullscreen'); return true; } if (view === 'editor') { try { await navigate(previousView); } catch (e) { toast((e as Error).message); } return true; } if (view !== 'library') { await navigate('library'); return true; } return false; }, flushChanges);
   } catch (error) { app.innerHTML = `<div class="empty-state loading-state">${icon('flower')}<h1>Your studio needs a moment</h1><p>${esc(error instanceof Error ? error.message : 'Please reopen the app to try again.')}</p><button class="button primary" id="retry-start">Try again</button></div>`; document.querySelector('#retry-start')?.addEventListener('click', start); }
 }
 void start();

@@ -2472,5 +2472,124 @@
     ],
     "thumbnail": "/art/atelier-swept-away-v1.svg",
     "regionCount": 27
+  },
+  {
+    "id": "floral-rose-ascent-v1",
+    "title": "Rose Ascent",
+    "category": "Floral Reverie",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "original generated",
+      "woman",
+      "side profile",
+      "roses",
+      "braid",
+      "botanical",
+      "floral",
+      "colored reference"
+    ],
+    "thumbnail": "/art/floral-rose-ascent-v1.svg",
+    "regionCount": 619,
+    "referenceImage": "/references/floral-rose-ascent-v1.png"
+  },
+  {
+    "id": "floral-sunflower-stillness-v1",
+    "title": "Sunflower Stillness",
+    "category": "Floral Reverie",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "woman",
+      "Black",
+      "coily hair",
+      "sunflowers",
+      "botanical",
+      "closed eyes",
+      "detailed",
+      "floral crown"
+    ],
+    "thumbnail": "/art/floral-sunflower-stillness-v1.svg",
+    "regionCount": 622,
+    "referenceImage": "/references/floral-sunflower-stillness-v1.png"
+  },
+  {
+    "id": "floral-magnolia-poise-v1",
+    "title": "Magnolia Poise",
+    "category": "Floral Reverie",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "magnolia",
+      "botanical",
+      "flowers",
+      "androgynous",
+      "East Asian",
+      "bob",
+      "portrait"
+    ],
+    "thumbnail": "/art/floral-magnolia-poise-v1.svg",
+    "regionCount": 253,
+    "referenceImage": "/references/floral-magnolia-poise-v1.png"
+  },
+  {
+    "id": "floral-peony-daydream-v1",
+    "title": "Peony Daydream",
+    "category": "Floral Reverie",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "original generated",
+      "woman",
+      "three-quarter portrait",
+      "peonies",
+      "wavy hair",
+      "botanical",
+      "floral",
+      "colored reference"
+    ],
+    "thumbnail": "/art/floral-peony-daydream-v1.svg",
+    "regionCount": 234,
+    "referenceImage": "/references/floral-peony-daydream-v1.png"
+  },
+  {
+    "id": "floral-daisy-light-v1",
+    "title": "Daisy Light",
+    "category": "Floral Reverie",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "mature",
+      "woman",
+      "wavy bob",
+      "daisies",
+      "botanical",
+      "closed eyes",
+      "easy",
+      "floral crown"
+    ],
+    "thumbnail": "/art/floral-daisy-light-v1.svg",
+    "regionCount": 62,
+    "referenceImage": "/references/floral-daisy-light-v1.png"
+  },
+  {
+    "id": "floral-iris-reverie-v1",
+    "title": "Iris Reverie",
+    "category": "Floral Reverie",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "iris",
+      "botanical",
+      "flowers",
+      "man",
+      "mature",
+      "beard",
+      "wavy hair",
+      "portrait"
+    ],
+    "thumbnail": "/art/floral-iris-reverie-v1.svg",
+    "regionCount": 376,
+    "referenceImage": "/references/floral-iris-reverie-v1.png"
   }
 ]

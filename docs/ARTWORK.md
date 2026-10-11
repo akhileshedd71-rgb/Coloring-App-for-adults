@@ -1,8 +1,8 @@
 # Musemallow artwork collection
 
-The bundled collection contains 133 original, editable vector illustrations: 120 authored vector compositions, Braided Reverie, and 12 newly generated Portrait Atelier pages. Separately authored studies are listed in `public/art/supplemental-catalog.json`. The main collection uses a cohesive, stylized editorial illustration language: elongated adult faces, defined brows and lips, textile details, gentle expressions, and clean silhouettes. It is intentionally stylized rather than photorealistic.
+The bundled collection contains 139 original, editable vector illustrations: 120 authored vector compositions, Braided Reverie, 12 Portrait Atelier pages, and six Floral Reverie portraits. Separately authored studies are listed in `public/art/supplemental-catalog.json`. The main collection uses a cohesive, stylized editorial illustration language: elongated adult faces, defined brows and lips, textile details, gentle expressions, and clean silhouettes. It is intentionally stylized rather than photorealistic.
 
-The vectors are authored in [`scripts/generate-art.mjs`](../scripts/generate-art.mjs); they do not use stock illustrations, downloaded tracing templates, external fonts, or remote image requests. All drawing data is bundled for offline use. Colored browse previews demonstrate six coordinated palettes and a range of skin tones; the actual drawing opens as uncolored line art and the artist chooses every color.
+The main library's vectors are authored in [`scripts/generate-art.mjs`](../scripts/generate-art.mjs); supplemental PNG sources use the [portrait compiler](PORTRAIT-COMPILER.md). They do not use stock illustrations, downloaded tracing templates, external fonts, or runtime remote image requests. All drawing data is bundled for offline use. The main library's colored browse previews demonstrate six coordinated palettes and a range of skin tones; every drawing opens as uncolored line art and the artist chooses every color.
 
 ## Collection
 
@@ -29,13 +29,20 @@ Twelve original image-generated adult portraits expand the collection toward rea
 
 The new pages include 2 Easy (17–27 regions), 2 Medium (41–59), and 8 Hard (64–767). Detailed braids and jewelry are intended for zoomed coloring; fine ink remains separate from paintable regions. The [source collection](../artwork-sources/portrait-collection/README.md) includes unchanged generated PNGs and full prompts, and the [compiler guide](PORTRAIT-COMPILER.md) documents reproducible vector extraction with aspect ratio preserved.
 
+## Floral Reverie and colored references
+
+Six original floral portraits feature roses with a long braid, a peony-framed face, a sunflower crown with flowing curls, a mature daisy portrait, magnolias with a smooth bob, and an iris-framed mature man. The human portrait remains central. Each source is an original black-and-white PNG, with a separately generated colored edit of the same composition. The [source collection](../artwork-sources/floral-reverie/README.md) contains all twelve PNGs, generation prompts, hashes, and review notes.
+
+The optional `referenceImage` catalog field points to a bundled colored PNG under `public/references/`. Reference images are loaded when requested and can be viewed in a sheet or kept beside the painting canvas. They are inspiration only: they are not painted onto the artwork, included in exports, or written into stroke history. No reference is advertised for older drawings that do not have one. New catalogs preserve the exact metadata and artwork files for all 133 previously released illustrations.
+
 ## Editable asset format
 
-- `public/art/catalog.json`: lightweight browse metadata: `id`, `title`, `category`, `difficulty`, `tags`, `thumbnail`, and `regionCount`.
+- `public/art/catalog.json`: lightweight browse metadata: `id`, `title`, `category`, `difficulty`, `tags`, `thumbnail`, `regionCount`, and optional `referenceImage`.
 - `public/art/<id>.json`: 768 × 1024 editable master, loaded only when the drawing is opened.
-- `public/art/<id>.svg`: self-contained colored preview.
+- `public/art/<id>.svg`: self-contained browse preview; generated portrait collections show the actual uncolored page.
 - `public/art/<id>.line.svg`: self-contained uncolored vector source for review, print, and editing.
 - `public/art/supplemental-catalog.json`: metadata for separately authored artwork. Its entries are appended during generation; the generator never rewrites supplemental drawing files.
+- `public/references/<id>.png`: optional colored example, loaded separately from editable geometry.
 
 The master uses this contract:
 

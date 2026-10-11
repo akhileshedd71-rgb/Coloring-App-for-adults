@@ -1,0 +1,828 @@
+{
+  "schemaVersion": 1,
+  "collection": "Floral Reverie",
+  "drawings": [
+    {
+      "id": "floral-rose-ascent-v1",
+      "source": "rose-ascent-line.png",
+      "sourceSha256": "3b032ba04903919a57bf2848ebf8ba10b7fbb4ec3edd951978ae2309421a259f",
+      "sourceWidth": 1086,
+      "sourceHeight": 1448,
+      "sourceOffsetX": 0,
+      "sourceOffsetY": 0,
+      "sourceScale": 0.7071823204419889,
+      "artworkOffsetX": 0.0,
+      "artworkOffsetY": 0.0,
+      "width": 768,
+      "height": 1024,
+      "settings": {
+        "inkThreshold": 170,
+        "minRegionArea": 40,
+        "minInteriorArea": 12,
+        "minInteriorRadius": 1.5,
+        "simplifyPixels": 0.3
+      },
+      "boundaryLinks": [
+        {
+          "from": [
+            0.7529953917050691,
+            0.3565998617829993
+          ],
+          "to": [
+            0.7612903225806451,
+            0.36281962681409813
+          ],
+          "width": 2,
+          "reason": "Close a local gap in the lower lip contour so lip and facial skin colors remain independent."
+        },
+        {
+          "from": [
+            0.7502304147465437,
+            0.35729094678645473
+          ],
+          "to": [
+            0.752073732718894,
+            0.35729094678645473
+          ],
+          "width": 2,
+          "reason": "Close a local gap in the lower lip contour so lip and facial skin colors remain independent."
+        }
+      ],
+      "regionCount": 619,
+      "difficulty": "Hard",
+      "discardedSmallOrThinRegions": 1296,
+      "inkContours": 1995,
+      "largestRegionFraction": 0.2091,
+      "warnings": [],
+      "colorSource": "rose-ascent-color.png",
+      "colorSourceSha256": "8d5edbd1db574605feebcbbe4e28e577dedda822a9d92b69b25c68ad06763f3d",
+      "colorSourceWidth": 1086,
+      "colorSourceHeight": 1448
+    },
+    {
+      "id": "floral-peony-daydream-v1",
+      "source": "peony-daydream-line.png",
+      "sourceSha256": "8ce0285b19a23de9da13684b5fee7ac817caad5ca1aef11fec62eb1bc5f5906d",
+      "sourceWidth": 1086,
+      "sourceHeight": 1448,
+      "sourceOffsetX": 0,
+      "sourceOffsetY": 0,
+      "sourceScale": 0.7071823204419889,
+      "artworkOffsetX": 0.0,
+      "artworkOffsetY": 0.0,
+      "width": 768,
+      "height": 1024,
+      "settings": {
+        "inkThreshold": 170,
+        "minRegionArea": 40,
+        "minInteriorArea": 12,
+        "minInteriorRadius": 1.5,
+        "simplifyPixels": 0.3
+      },
+      "boundaryLinks": [
+        {
+          "from": [
+            0.432258064516129,
+            0.18175535590877678
+          ],
+          "to": [
+            0.4589861751152074,
+            0.18659295093296477
+          ],
+          "width": 2,
+          "reason": "Close a local open hairline or beard contour so facial skin remains an independent coloring region."
+        },
+        {
+          "from": [
+            0.37327188940092165,
+            0.44505874222529374
+          ],
+          "to": [
+            0.3705069124423963,
+            0.45957152729785766
+          ],
+          "width": 2,
+          "reason": "Close a local open lip contour so facial skin remains an independent coloring region."
+        },
+        {
+          "from": [
+            0.7317972350230415,
+            0.9882515549412578
+          ],
+          "to": [
+            0.7428571428571429,
+            1.0
+          ],
+          "width": 2,
+          "reason": "Complete the short missing gown silhouette from the lowest peony petal to the page edge, as shown by the matched colored reference; keep fabric separate from exterior paper."
+        }
+      ],
+      "regionCount": 234,
+      "difficulty": "Hard",
+      "discardedSmallOrThinRegions": 374,
+      "inkContours": 653,
+      "largestRegionFraction": 0.1376,
+      "warnings": [],
+      "colorSource": "peony-daydream-color.png",
+      "colorSourceSha256": "ca3e81caed17fa275a9836795b2f3a089cf02112b983e33609e103bbbb965572",
+      "colorSourceWidth": 1086,
+      "colorSourceHeight": 1448
+    },
+    {
+      "id": "floral-sunflower-stillness-v1",
+      "source": "sunflower-stillness-line.png",
+      "sourceSha256": "5370cab964e8dc480e50f13b3c5fc77e385eccab1b48173c1a40bf9a89a8302e",
+      "sourceWidth": 1086,
+      "sourceHeight": 1448,
+      "sourceOffsetX": 0,
+      "sourceOffsetY": 0,
+      "sourceScale": 0.7071823204419889,
+      "artworkOffsetX": 0.0,
+      "artworkOffsetY": 0.0,
+      "width": 768,
+      "height": 1024,
+      "settings": {
+        "inkThreshold": 215,
+        "minRegionArea": 40,
+        "minInteriorArea": 12,
+        "minInteriorRadius": 1.5,
+        "simplifyPixels": 0.3
+      },
+      "boundaryLinks": [],
+      "regionCount": 622,
+      "difficulty": "Hard",
+      "discardedSmallOrThinRegions": 7687,
+      "inkContours": 8420,
+      "largestRegionFraction": 0.0815,
+      "warnings": [],
+      "colorSource": "sunflower-stillness-color.png",
+      "colorSourceSha256": "18fa56f5c5ed62dc18c93b133560898550731fd18b97becbcb4d8fcf0d7452ca",
+      "colorSourceWidth": 1086,
+      "colorSourceHeight": 1448
+    },
+    {
+      "id": "floral-daisy-light-v1",
+      "source": "daisy-light-line.png",
+      "sourceSha256": "d0025c7b683f6d37ac68e8459fa88d66a02b33c7441fa57b031e40cdeeca06cb",
+      "sourceWidth": 1086,
+      "sourceHeight": 1448,
+      "sourceOffsetX": 0,
+      "sourceOffsetY": 0,
+      "sourceScale": 0.7071823204419889,
+      "artworkOffsetX": 0.0,
+      "artworkOffsetY": 0.0,
+      "width": 768,
+      "height": 1024,
+      "settings": {
+        "inkThreshold": 170,
+        "minRegionArea": 40,
+        "minInteriorArea": 12,
+        "minInteriorRadius": 1.5,
+        "simplifyPixels": 0.3
+      },
+      "boundaryLinks": [
+        {
+          "from": [
+            0.47096774193548385,
+            0.18728403593642018
+          ],
+          "to": [
+            0.4728110599078341,
+            0.18935729094678647
+          ],
+          "width": 2,
+          "reason": "Close a local open hairline or beard contour so facial skin remains an independent coloring region."
+        }
+      ],
+      "regionCount": 62,
+      "difficulty": "Hard",
+      "discardedSmallOrThinRegions": 128,
+      "inkContours": 225,
+      "largestRegionFraction": 0.3174,
+      "warnings": [],
+      "colorSource": "daisy-light-color.png",
+      "colorSourceSha256": "47907b48a5c78d9c1ddca1a1e9fd7e3632b84f18ea1d30031d28109036226751",
+      "colorSourceWidth": 1086,
+      "colorSourceHeight": 1448
+    },
+    {
+      "id": "floral-magnolia-poise-v1",
+      "source": "magnolia-poise-line.png",
+      "sourceSha256": "c3bc61e0b5d40dde0f158e77d6cd1f3b3da6a49b65cac08942259ca2af4aef4c",
+      "sourceWidth": 1086,
+      "sourceHeight": 1448,
+      "sourceOffsetX": 0,
+      "sourceOffsetY": 0,
+      "sourceScale": 0.7071823204419889,
+      "artworkOffsetX": 0.0,
+      "artworkOffsetY": 0.0,
+      "width": 768,
+      "height": 1024,
+      "settings": {
+        "inkThreshold": 200,
+        "minRegionArea": 40,
+        "minInteriorArea": 12,
+        "minInteriorRadius": 1.5,
+        "simplifyPixels": 0.3
+      },
+      "boundaryLinks": [
+        {
+          "from": [
+            0.5345622119815668,
+            0.44920525224602625
+          ],
+          "to": [
+            0.5345622119815668,
+            0.45749827228749135
+          ],
+          "width": 2,
+          "reason": "Close a local gap in the lower lip contour so lip and facial skin colors remain independent."
+        },
+        {
+          "from": [
+            0.623963133640553,
+            0.15480304077401522
+          ],
+          "to": [
+            0.6285714285714286,
+            0.15480304077401522
+          ],
+          "width": 2,
+          "reason": "Close a local open hairline or beard contour so facial skin remains an independent coloring region."
+        },
+        {
+          "from": [
+            0.631336405529954,
+            0.1492743607463718
+          ],
+          "to": [
+            0.6341013824884792,
+            0.1492743607463718
+          ],
+          "width": 2,
+          "reason": "Close a local open hairline or beard contour so facial skin remains an independent coloring region."
+        }
+      ],
+      "regionCount": 253,
+      "difficulty": "Hard",
+      "discardedSmallOrThinRegions": 2961,
+      "inkContours": 3450,
+      "largestRegionFraction": 0.106,
+      "warnings": [],
+      "colorSource": "magnolia-poise-color.png",
+      "colorSourceSha256": "e103bea96f1bf74431e9391dff91b4d7430ba6df014f06d9319ee5d7e541a0e0",
+      "colorSourceWidth": 1086,
+      "colorSourceHeight": 1448
+    },
+    {
+      "id": "floral-iris-reverie-v1",
+      "source": "iris-reverie-line.png",
+      "sourceSha256": "adc50880d6958c3428cb10352f05fd7c0115c1242fc12a947c11014a31c45726",
+      "sourceWidth": 1086,
+      "sourceHeight": 1448,
+      "sourceOffsetX": 0,
+      "sourceOffsetY": 0,
+      "sourceScale": 0.7071823204419889,
+      "artworkOffsetX": 0.0,
+      "artworkOffsetY": 0.0,
+      "width": 768,
+      "height": 1024,
+      "settings": {
+        "inkThreshold": 215,
+        "minRegionArea": 40,
+        "minInteriorArea": 12,
+        "minInteriorRadius": 1.5,
+        "simplifyPixels": 0.3
+      },
+      "boundaryLinks": [
+        {
+          "from": [
+            0.4626728110599078,
+            0.15825846579129232
+          ],
+          "to": [
+            0.4599078341013825,
+            0.15894955079474776
+          ],
+          "width": 2,
+          "reason": "Close a local open hairline or beard contour so facial skin remains an independent coloring region."
+        },
+        {
+          "from": [
+            0.46728110599078343,
+            0.15964063579820317
+          ],
+          "to": [
+            0.46543778801843316,
+            0.1603317208016586
+          ],
+          "width": 2,
+          "reason": "Close a local open hairline or beard contour so facial skin remains an independent coloring region."
+        },
+        {
+          "from": [
+            0.4543778801843318,
+            0.16447823082239116
+          ],
+          "to": [
+            0.4488479262672811,
+            0.16793365583966827
+          ],
+          "width": 2,
+          "reason": "Close a local open hairline or beard contour so facial skin remains an independent coloring region."
+        },
+        {
+          "from": [
+            0.5668202764976958,
+            0.4388389771941949
+          ],
+          "to": [
+            0.5695852534562212,
+            0.4388389771941949
+          ],
+          "width": 2,
+          "reason": "Close a local open hairline or beard contour so facial skin remains an independent coloring region."
+        },
+        {
+          "from": [
+            0.47557603686635946,
+            0.16378714581893572
+          ],
+          "to": [
+            0.4792626728110599,
+            0.16378714581893572
+          ],
+          "width": 2,
+          "reason": "Close a local open hairline or beard contour so facial skin remains an independent coloring region."
+        },
+        {
+          "from": [
+            0.56036866359447,
+            0.4443676572218383
+          ],
+          "to": [
+            0.5576036866359447,
+            0.44505874222529374
+          ],
+          "width": 2,
+          "reason": "Close a local open hairline or beard contour so facial skin remains an independent coloring region."
+        },
+        {
+          "from": [
+            0.5502304147465438,
+            0.44644091223220456
+          ],
+          "to": [
+            0.5529953917050692,
+            0.44644091223220456
+          ],
+          "width": 2,
+          "reason": "Close a local open hairline or beard contour so facial skin remains an independent coloring region."
+        },
+        {
+          "from": [
+            0.5548387096774193,
+            0.44091223220456116
+          ],
+          "to": [
+            0.5529953917050692,
+            0.44367657221838286
+          ],
+          "width": 2,
+          "reason": "Close a local open hairline or beard contour so facial skin remains an independent coloring region."
+        },
+        {
+          "from": [
+            0.6193548387096774,
+            0.4105044920525225
+          ],
+          "to": [
+            0.6221198156682027,
+            0.4105044920525225
+          ],
+          "width": 2,
+          "reason": "Close a local open hairline or beard contour so facial skin remains an independent coloring region."
+        },
+        {
+          "from": [
+            0.6211981566820276,
+            0.4035936420179682
+          ],
+          "to": [
+            0.623963133640553,
+            0.4035936420179682
+          ],
+          "width": 2,
+          "reason": "Close a local open hairline or beard contour so facial skin remains an independent coloring region."
+        },
+        {
+          "from": [
+            0.3419354838709677,
+            0.4367657221838286
+          ],
+          "to": [
+            0.3456221198156682,
+            0.4457498272287491
+          ],
+          "width": 2,
+          "reason": "Follow the faint lower-lip rim between existing terminal strokes, keeping lip color separate from chin and beard."
+        },
+        {
+          "from": [
+            0.3456221198156682,
+            0.4457498272287491
+          ],
+          "to": [
+            0.3566820276497696,
+            0.4526606772633034
+          ],
+          "width": 2,
+          "reason": "Follow the faint lower-lip rim between existing terminal strokes, keeping lip color separate from chin and beard."
+        },
+        {
+          "from": [
+            0.3566820276497696,
+            0.4526606772633034
+          ],
+          "to": [
+            0.3741935483870968,
+            0.4568071872840359
+          ],
+          "width": 2,
+          "reason": "Follow the faint lower-lip rim between existing terminal strokes, keeping lip color separate from chin and beard."
+        },
+        {
+          "from": [
+            0.3741935483870968,
+            0.4568071872840359
+          ],
+          "to": [
+            0.39447004608294933,
+            0.4581893572909468
+          ],
+          "width": 2,
+          "reason": "Follow the faint lower-lip rim between existing terminal strokes, keeping lip color separate from chin and beard."
+        },
+        {
+          "from": [
+            0.39447004608294933,
+            0.4581893572909468
+          ],
+          "to": [
+            0.41382488479262675,
+            0.4581893572909468
+          ],
+          "width": 2,
+          "reason": "Follow the faint lower-lip rim between existing terminal strokes, keeping lip color separate from chin and beard."
+        },
+        {
+          "from": [
+            0.41382488479262675,
+            0.4581893572909468
+          ],
+          "to": [
+            0.43410138248847924,
+            0.4561161022805805
+          ],
+          "width": 2,
+          "reason": "Follow the faint lower-lip rim between existing terminal strokes, keeping lip color separate from chin and beard."
+        },
+        {
+          "from": [
+            0.43410138248847924,
+            0.4561161022805805
+          ],
+          "to": [
+            0.4534562211981567,
+            0.45335176226675883
+          ],
+          "width": 2,
+          "reason": "Follow the faint lower-lip rim between existing terminal strokes, keeping lip color separate from chin and beard."
+        },
+        {
+          "from": [
+            0.4534562211981567,
+            0.45335176226675883
+          ],
+          "to": [
+            0.4728110599078341,
+            0.44920525224602625
+          ],
+          "width": 2,
+          "reason": "Follow the faint lower-lip rim between existing terminal strokes, keeping lip color separate from chin and beard."
+        },
+        {
+          "from": [
+            0.4728110599078341,
+            0.44920525224602625
+          ],
+          "to": [
+            0.4875576036866359,
+            0.4429854872149274
+          ],
+          "width": 2,
+          "reason": "Follow the faint lower-lip rim between existing terminal strokes, keeping lip color separate from chin and beard."
+        },
+        {
+          "from": [
+            0.49585253456221196,
+            0.15480304077401522
+          ],
+          "to": [
+            0.4967741935483871,
+            0.15687629578438148
+          ],
+          "width": 2,
+          "reason": "Bridge a local tapered hair or beard contour, reviewed against source and colored reference, so skin fill stays out of the hair."
+        },
+        {
+          "from": [
+            0.5585253456221199,
+            0.165860400829302
+          ],
+          "to": [
+            0.5612903225806452,
+            0.16724257083621286
+          ],
+          "width": 2,
+          "reason": "Bridge a local tapered hair or beard contour, reviewed against source and colored reference, so skin fill stays out of the hair."
+        },
+        {
+          "from": [
+            0.5594470046082949,
+            0.16724257083621286
+          ],
+          "to": [
+            0.5594470046082949,
+            0.16931582584657912
+          ],
+          "width": 2,
+          "reason": "Bridge a local tapered hair or beard contour, reviewed against source and colored reference, so skin fill stays out of the hair."
+        },
+        {
+          "from": [
+            0.5133640552995392,
+            0.16240497581202487
+          ],
+          "to": [
+            0.5170506912442396,
+            0.16378714581893572
+          ],
+          "width": 2,
+          "reason": "Bridge a local tapered hair or beard contour, reviewed against source and colored reference, so skin fill stays out of the hair."
+        },
+        {
+          "from": [
+            0.5059907834101383,
+            0.15687629578438148
+          ],
+          "to": [
+            0.5078341013824885,
+            0.15894955079474776
+          ],
+          "width": 2,
+          "reason": "Bridge a local tapered hair or beard contour, reviewed against source and colored reference, so skin fill stays out of the hair."
+        },
+        {
+          "from": [
+            0.5410138248847927,
+            0.16447823082239116
+          ],
+          "to": [
+            0.5419354838709678,
+            0.16655148583275742
+          ],
+          "width": 2,
+          "reason": "Bridge a local tapered hair or beard contour, reviewed against source and colored reference, so skin fill stays out of the hair."
+        },
+        {
+          "from": [
+            0.6147465437788019,
+            0.22322045611610228
+          ],
+          "to": [
+            0.6119815668202765,
+            0.22391154111955772
+          ],
+          "width": 2,
+          "reason": "Bridge a local tapered hair or beard contour, reviewed against source and colored reference, so skin fill stays out of the hair."
+        },
+        {
+          "from": [
+            0.6147465437788019,
+            0.22114720110573602
+          ],
+          "to": [
+            0.6138248847926268,
+            0.22252937111264687
+          ],
+          "width": 2,
+          "reason": "Bridge a local tapered hair or beard contour, reviewed against source and colored reference, so skin fill stays out of the hair."
+        },
+        {
+          "from": [
+            0.6064516129032258,
+            0.22667588113337941
+          ],
+          "to": [
+            0.6055299539170507,
+            0.22874913614374567
+          ],
+          "width": 2,
+          "reason": "Bridge a local tapered hair or beard contour, reviewed against source and colored reference, so skin fill stays out of the hair."
+        },
+        {
+          "from": [
+            0.6064516129032258,
+            0.23082239115411196
+          ],
+          "to": [
+            0.6055299539170507,
+            0.2322045611610228
+          ],
+          "width": 2,
+          "reason": "Bridge a local tapered hair or beard contour, reviewed against source and colored reference, so skin fill stays out of the hair."
+        },
+        {
+          "from": [
+            0.5419354838709678,
+            0.4346924671734623
+          ],
+          "to": [
+            0.5410138248847927,
+            0.437456807187284
+          ],
+          "width": 2,
+          "reason": "Bridge a local tapered hair or beard contour, reviewed against source and colored reference, so skin fill stays out of the hair."
+        },
+        {
+          "from": [
+            0.535483870967742,
+            0.45957152729785766
+          ],
+          "to": [
+            0.5382488479262673,
+            0.45957152729785766
+          ],
+          "width": 2,
+          "reason": "Bridge a local tapered hair or beard contour, reviewed against source and colored reference, so skin fill stays out of the hair."
+        },
+        {
+          "from": [
+            0.5188940092165899,
+            0.45749827228749135
+          ],
+          "to": [
+            0.5225806451612903,
+            0.45957152729785766
+          ],
+          "width": 2,
+          "reason": "Bridge a local tapered hair or beard contour, reviewed against source and colored reference, so skin fill stays out of the hair."
+        },
+        {
+          "from": [
+            0.5778801843317972,
+            0.424326192121631
+          ],
+          "to": [
+            0.5797235023041475,
+            0.424326192121631
+          ],
+          "width": 2,
+          "reason": "Bridge a local tapered hair or beard contour, reviewed against source and colored reference, so skin fill stays out of the hair."
+        }
+      ],
+      "regionCount": 376,
+      "difficulty": "Hard",
+      "discardedSmallOrThinRegions": 2642,
+      "inkContours": 3821,
+      "largestRegionFraction": 0.1148,
+      "warnings": [],
+      "colorSource": "iris-reverie-color.png",
+      "colorSourceSha256": "288a607df50dc2567e9f01809ccc831b29b72b84ac63f776d3470d1a5fdc6476",
+      "colorSourceWidth": 1086,
+      "colorSourceHeight": 1448
+    }
+  ],
+  "metadata": [
+    {
+      "id": "floral-rose-ascent-v1",
+      "title": "Rose Ascent",
+      "category": "Floral Reverie",
+      "difficulty": "Hard",
+      "tags": [
+        "adult",
+        "original generated",
+        "woman",
+        "side profile",
+        "roses",
+        "braid",
+        "botanical",
+        "floral",
+        "colored reference"
+      ],
+      "thumbnail": "/art/floral-rose-ascent-v1.svg",
+      "regionCount": 619,
+      "referenceImage": "/references/floral-rose-ascent-v1.png"
+    },
+    {
+      "id": "floral-peony-daydream-v1",
+      "title": "Peony Daydream",
+      "category": "Floral Reverie",
+      "difficulty": "Hard",
+      "tags": [
+        "adult",
+        "original generated",
+        "woman",
+        "three-quarter portrait",
+        "peonies",
+        "wavy hair",
+        "botanical",
+        "floral",
+        "colored reference"
+      ],
+      "thumbnail": "/art/floral-peony-daydream-v1.svg",
+      "regionCount": 234,
+      "referenceImage": "/references/floral-peony-daydream-v1.png"
+    },
+    {
+      "id": "floral-sunflower-stillness-v1",
+      "title": "Sunflower Stillness",
+      "category": "Floral Reverie",
+      "difficulty": "Hard",
+      "tags": [
+        "adult",
+        "woman",
+        "Black",
+        "coily hair",
+        "sunflowers",
+        "botanical",
+        "closed eyes",
+        "detailed",
+        "floral crown"
+      ],
+      "thumbnail": "/art/floral-sunflower-stillness-v1.svg",
+      "regionCount": 622,
+      "referenceImage": "/references/floral-sunflower-stillness-v1.png"
+    },
+    {
+      "id": "floral-daisy-light-v1",
+      "title": "Daisy Light",
+      "category": "Floral Reverie",
+      "difficulty": "Hard",
+      "tags": [
+        "adult",
+        "mature",
+        "woman",
+        "wavy bob",
+        "daisies",
+        "botanical",
+        "closed eyes",
+        "easy",
+        "floral crown"
+      ],
+      "thumbnail": "/art/floral-daisy-light-v1.svg",
+      "regionCount": 62,
+      "referenceImage": "/references/floral-daisy-light-v1.png"
+    },
+    {
+      "id": "floral-magnolia-poise-v1",
+      "title": "Magnolia Poise",
+      "category": "Floral Reverie",
+      "difficulty": "Hard",
+      "tags": [
+        "adult",
+        "magnolia",
+        "botanical",
+        "flowers",
+        "androgynous",
+        "East Asian",
+        "bob",
+        "portrait"
+      ],
+      "thumbnail": "/art/floral-magnolia-poise-v1.svg",
+      "regionCount": 253,
+      "referenceImage": "/references/floral-magnolia-poise-v1.png"
+    },
+    {
+      "id": "floral-iris-reverie-v1",
+      "title": "Iris Reverie",
+      "category": "Floral Reverie",
+      "difficulty": "Hard",
+      "tags": [
+        "adult",
+        "iris",
+        "botanical",
+        "flowers",
+        "man",
+        "mature",
+        "beard",
+        "wavy hair",
+        "portrait"
+      ],
+      "thumbnail": "/art/floral-iris-reverie-v1.svg",
+      "regionCount": 376,
+      "referenceImage": "/references/floral-iris-reverie-v1.png"
+    }
+  ]
+}

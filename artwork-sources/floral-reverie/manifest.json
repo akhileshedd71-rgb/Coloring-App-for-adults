@@ -1,0 +1,927 @@
+{
+  "schemaVersion": 1,
+  "collection": "Floral Reverie",
+  "defaults": {
+    "inkThreshold": 170,
+    "minRegionArea": 40,
+    "minInteriorArea": 12,
+    "minInteriorRadius": 1.5,
+    "simplifyPixels": 0.3
+  },
+  "drawings": [
+    {
+      "id": "floral-rose-ascent-v1",
+      "title": "Rose Ascent",
+      "source": "rose-ascent-line.png",
+      "category": "Floral Reverie",
+      "tags": [
+        "adult",
+        "original generated",
+        "woman",
+        "side profile",
+        "roses",
+        "braid",
+        "botanical",
+        "floral",
+        "colored reference"
+      ],
+      "referenceImage": "/references/floral-rose-ascent-v1.png",
+      "boundaryLinks": [
+        {
+          "from": [
+            0.7529953917050691,
+            0.3565998617829993
+          ],
+          "to": [
+            0.7612903225806451,
+            0.36281962681409813
+          ],
+          "width": 2,
+          "reason": "Close a local gap in the lower lip contour so lip and facial skin colors remain independent."
+        },
+        {
+          "from": [
+            0.7502304147465437,
+            0.35729094678645473
+          ],
+          "to": [
+            0.752073732718894,
+            0.35729094678645473
+          ],
+          "width": 2,
+          "reason": "Close a local gap in the lower lip contour so lip and facial skin colors remain independent."
+        }
+      ],
+      "generationPrompt": "Create ONE original high quality adult coloring-book page titled conceptually Rose Ascent (NO visible text). Vertical 3:4 portrait composition, crisp precise strong BLACK INK CONTOURS on PURE WHITE. Central beautiful mature adult woman age about 35 in elegant right-facing side profile, chin lifted slightly upward with peaceful CLOSED eye, anatomically natural nose lips chin ear long neck. Her large thick braid descends along LEFT shoulder, each braid segment outlined as individual open white fillable ribbon, loose clean hair strands. Three lush fully drawn large roses around LEFT temple and crown, one upper corner rose, graceful leaves and a few small trailing roses down the braid. Shoulder and neckline visible at bottom, no hands, human clearly central. Original composition inspired by botanical fashion coloring books. DELIBERATELY CLOSED continuous contours separating forehead/cheek/neck skin from every hair section and separating upper/lower lips from surrounding face. Crisp eyes, eyelashes drawn as fine elegant strokes, clean continuous hairline, one clear ear with small earring. Petals and leaves must have closed distinct attractive coloring areas, interesting 100-180 moderate usable cells, not excessively tiny marks. Hair, skin, every rose petal and background remain entirely WHITE, no solid black areas except tiny eyelash accents. NO SHADING whatsoever: no gray, pencil texture, stippling, hatch lines, gradients, photographic shadows. Fine realistic drawing with controlled clean varied ink weights, sharp unbroken edges, white 4% page margins all around. Do not imitate a specific supplied face or artwork; create a new character, new roses and composition. No border, no rounded screenshot corners, no text, logo, watermark, signatures, UI, labels, color sample or split view. Return only the finished sharp black-and-white coloring-page image at high resolution.",
+      "generator": "OpenAI image_gen",
+      "requestedDifficulty": "Hard",
+      "review": "Original adult portrait reviewed for natural side-profile anatomy, coherent nose/lips/chin, neck, ear and braid. Human remains central. Strong black contours with large white fill areas and fine hair/petal detail. Colored reference is a direct edit of the source PNG and visually preserves exact composition, facial anatomy, flowers and braid; slight shading is confined to the color example. No hands, text or watermarks. Compiler must derive difficulty from usable region geometry and validate semantic skin-versus-hair/petal/lip separation.",
+      "reviewProbes": {
+        "face": [
+          0.62,
+          0.17
+        ],
+        "cheek": [
+          0.665,
+          0.31
+        ],
+        "hair": [
+          [
+            0.468,
+            0.069
+          ],
+          [
+            0.283,
+            0.528
+          ],
+          [
+            0.321,
+            0.594
+          ],
+          [
+            0.58,
+            0.376
+          ]
+        ],
+        "lips": [
+          [
+            0.785,
+            0.333
+          ],
+          [
+            0.788,
+            0.352
+          ]
+        ],
+        "petals": [
+          [
+            0.193,
+            0.12
+          ],
+          [
+            0.342,
+            0.199
+          ],
+          [
+            0.873,
+            0.139
+          ]
+        ],
+        "leaf": [
+          [
+            0.105,
+            0.154
+          ],
+          [
+            0.887,
+            0.222
+          ]
+        ],
+        "garment": [
+          0.119,
+          0.891
+        ],
+        "background": [
+          0.073,
+          0.054
+        ]
+      },
+      "colorSource": "rose-ascent-color.png",
+      "colorGenerationPrompt": "COLOR THIS EXACT PROVIDED BLACK-AND-WHITE COLORING PAGE. Return the identical 3:4 portrait, exact same image framing, positions, silhouette, linework and every contour. Preserve ALL original black outlines pixel-aligned as closely as possible; do not redraw or rearrange anything, do not add or remove flowers, petals, leaves, hair strands, features or background decorations. This is the completed coloring reference for this exact coloring page. Color the adult woman with luminous warm medium golden peach skin and subtle coordinated warm shadows; lips soft dusty rose, closed eyelid champagne. Her entire long braid and every loose ringlet warm chestnut brown with restrained honey highlights. Color large left roses coral pink and dusty rose with gentle light pink highlights; upper right rose soft apricot peach; small braid roses dusty coral. Sage and olive green leaves with restrained darker green shadows. Small earring gold and warm cream pearl. Off-shoulder dress pale muted lavender. Leave all open background clean creamy near-white. Refined sophisticated coloring-book exemplar with gentle smooth shading contained INSIDE the exact outlined shapes. Black contours remain crisp and strongly visible over colors. No text, watermark, borders, app UI, extra illustrations, swatches or split view. ONLY apply colored paint inside the original drawing; preserve every facial proportion and braid geometry."
+    },
+    {
+      "id": "floral-peony-daydream-v1",
+      "title": "Peony Daydream",
+      "source": "peony-daydream-line.png",
+      "category": "Floral Reverie",
+      "tags": [
+        "adult",
+        "original generated",
+        "woman",
+        "three-quarter portrait",
+        "peonies",
+        "wavy hair",
+        "botanical",
+        "floral",
+        "colored reference"
+      ],
+      "referenceImage": "/references/floral-peony-daydream-v1.png",
+      "generationPrompt": "Create ONE ORIGINAL exceptionally beautiful adult coloring-book illustration. Portrait aspect 3:4, pure white canvas, clean crisp medium-weight BLACK contour lines only. Central dreamy adult woman age 30 with realistic elegant THREE-QUARTER FACE turned gently left, mature natural proportions, one slightly larger near eye and smaller far eye, both peacefully half closed, beautiful gently curved lips, natural nose, graceful neck and visible upper shoulders, no hands. Wavy hair flows to shoulders with broad smooth outlined locks. Frame her with THREE large lush but SIMPLIFIED peony blossoms: one at upper left, one upper right, one near lower right shoulder, plus a few large leaves; allow face, hair, neck and shoulders to dominate the page. Compose entirely original fictional person and floral arrangement. Moderate complexity: peonies have only 8-12 large open white petal compartments each, leaves 2-3 large cells each, hair 8-12 broad white ribbon sections, overall about 45-70 useful coloring regions. Avoid busy tiny veins, no microscopic flower stamens. Clear closed silhouette, continuous hairline deliberately connecting so skin cannot leak into hair, fully CLOSED lip shapes, complete broad petal contours. Every face/hair/flower/leaf compartment white inside. Fine details only for delicate eyelashes, attractive eyebrows and tiny earring. Professional clean coloring-page vector-like ink, elegant line control, strong enough to be crystal sharp when enlarged. NO gray or black shading, no shadow fill, pencil tone, crosshatching, stippling, sketch texture or gradients; NO solid black hair. White background, small comfortable open margins. No text, watermark, logo, UI, screenshot frame, border, swatch palette or side-by-side image. Output one beautiful sharp black-and-white adult portrait coloring page.",
+      "generator": "OpenAI image_gen",
+      "requestedDifficulty": "Medium",
+      "review": "Original adult portrait reviewed for natural three-quarter anatomy, intentional perspective of eyes, coherent ear/neck and flowing hair. Three large peony blooms frame central human. Broad clean white petal and hair cells, sparse fine eyelash/lip detail. Colored reference is a direct edit of source PNG and visually retains composition, facial proportions and floral geometry. No hands, text or watermarks. Actual difficulty must follow compiled usable region count, not requested complexity.",
+      "reviewProbes": {
+        "face": [
+          0.429,
+          0.241
+        ],
+        "cheek": [
+          0.496,
+          0.388
+        ],
+        "hair": [
+          [
+            0.448,
+            0.104
+          ],
+          [
+            0.663,
+            0.187
+          ],
+          [
+            0.265,
+            0.558
+          ],
+          [
+            0.835,
+            0.507
+          ]
+        ],
+        "lips": [
+          [
+            0.333,
+            0.425
+          ],
+          [
+            0.331,
+            0.449
+          ]
+        ],
+        "petals": [
+          [
+            0.312,
+            0.068
+          ],
+          [
+            0.825,
+            0.252
+          ],
+          [
+            0.791,
+            0.845
+          ]
+        ],
+        "leaves": [
+          [
+            0.939,
+            0.09
+          ],
+          [
+            0.919,
+            0.431
+          ],
+          [
+            0.507,
+            0.942
+          ]
+        ],
+        "garment": [
+          0.227,
+          0.956
+        ],
+        "background": [
+          0.59,
+          0.035
+        ]
+      },
+      "colorSource": "peony-daydream-color.png",
+      "colorGenerationPrompt": "Apply colors to THIS EXACT PROVIDED adult woman and peony coloring page as the completed reference image. Keep the original composition, image crop, face, hair, earrings, three flowers, petals, leaves, shoulder and fabric identical. Do not redraw, invent, move, enlarge, remove or add ANY feature, contour or line. Preserve all black outlines crisp and matching source. Same 3:4 orientation. The woman has light warm peach skin with subtle coordinated blush and soft golden shading, pink nude lips, soft warm taupe eye makeup and muted hazel gray irises. Color her large wavy hair locks muted copper-auburn with gentle chestnut shadows and soft caramel highlights, all within exact black outlined locks. Color upper-left peony blush pink, upper-right peony warm coral pink, lower-right peony pale lavender and lilac with pale rosy centers. Leaves muted jade, sage and olive green. Small gold and cream pearl earring. Off shoulder fabric at bottom pale dusty teal. Background remains ivory white, beautifully clean. Refined elegant gently shaded coloring-book exemplar, rich but restrained coordinated botanical palette. Strictly preserve facial anatomy and every flower shape. No labels, text, watermarks, captions, palette swatches, signature, border or UI. Output only one finished colored version of the exact input line illustration.",
+      "boundaryLinks": [
+        {
+          "from": [
+            0.432258064516129,
+            0.18175535590877678
+          ],
+          "to": [
+            0.4589861751152074,
+            0.18659295093296477
+          ],
+          "width": 2,
+          "reason": "Close a local open hairline or beard contour so facial skin remains an independent coloring region."
+        },
+        {
+          "from": [
+            0.37327188940092165,
+            0.44505874222529374
+          ],
+          "to": [
+            0.3705069124423963,
+            0.45957152729785766
+          ],
+          "width": 2,
+          "reason": "Close a local open lip contour so facial skin remains an independent coloring region."
+        },
+        {
+          "from": [
+            0.7317972350230415,
+            0.9882515549412578
+          ],
+          "to": [
+            0.7428571428571429,
+            1.0
+          ],
+          "width": 2,
+          "reason": "Complete the short missing gown silhouette from the lowest peony petal to the page edge, as shown by the matched colored reference; keep fabric separate from exterior paper."
+        }
+      ]
+    },
+    {
+      "id": "floral-sunflower-stillness-v1",
+      "title": "Sunflower Stillness",
+      "source": "sunflower-stillness-line.png",
+      "category": "Floral Reverie",
+      "tags": [
+        "adult",
+        "woman",
+        "Black",
+        "coily hair",
+        "sunflowers",
+        "botanical",
+        "closed eyes",
+        "detailed",
+        "floral crown"
+      ],
+      "referenceImage": "/references/floral-sunflower-stillness-v1.png",
+      "compile": {
+        "inkThreshold": 215
+      },
+      "generationPrompt": "Create ONE original premium adult coloring book PNG page, 3:4 vertical portrait format, edge-to-edge pure white paper with comfortable white margins. Title for planning only: Sunflower Stillness. A majestic beautiful adult Black woman age about 35, broad natural facial features, full lips, symmetrical closed peaceful eyelids, softly lifted chin in slight three-quarter view. Dominant human head and chest-up shoulders, natural realistic fashion-illustration proportions. Long lush flowing coily curls cascade beside the face and over a fully clothed rounded modest blouse. A gorgeous crown of THREE large expressive sunflowers plus smaller botanical buds and leafy stems arches over the head, framing the person. Detailed but thoughtfully spaced sunflower petals and round seed centers, distinct individual coily hair locks. Highly accomplished botanical portrait line illustration. PURE BLACK CRISP clean ink outlines on PURE WHITE ONLY, no gray, no graphite, no shading, no hatching, no filled black hair, no decorative dots on face. Consistent strong outer contours and delicate readable interior detail. Every skin/hair boundary, lip outline, petal outline, leaf outline and blouse outline is closed and visibly continuous for tap-to-fill coloring. Keep face, cheeks and nose planes largely open and beautifully spacious to color; closed hairline separates skin from hair. No hands, no extra limbs, no text, no logos, no signature, no watermark, no screenshot UI, no border. Flower crown and curls should be lush with crisp organic shapes, human face always central.",
+      "generator": "OpenAI image_gen",
+      "generationDate": "2026-10-12",
+      "semanticPoints": {
+        "face": [
+          0.596,
+          0.275
+        ],
+        "cheek": [
+          0.52,
+          0.46
+        ],
+        "hair": [
+          [
+            0.383057,
+            0.47721
+          ],
+          [
+            0.84,
+            0.5
+          ]
+        ],
+        "lips": [
+          [
+            0.68232,
+            0.424033
+          ],
+          [
+            0.68,
+            0.451
+          ]
+        ],
+        "petals": [
+          [
+            0.487,
+            0.048
+          ],
+          [
+            0.294,
+            0.195
+          ]
+        ],
+        "leaf": [
+          0.757827,
+          0.065608
+        ],
+        "garment": [
+          0.12,
+          0.87
+        ],
+        "background": [
+          0.08,
+          0.06
+        ]
+      },
+      "colorSource": "sunflower-stillness-color.png",
+      "colorGenerationPrompt": "Create a COLORED REFERENCE edition of the exact attached line-art coloring-book page. Keep the exact same 3:4 image size, framing, shape positions, facial expression, hair locks, sunflower petals, leaves, blouse contours and ALL original crisp black linework perfectly aligned and unchanged. Do not redraw, rearrange, add or remove any shapes. Color inside the existing outlines only. The adult Black woman's skin is luminous rich warm medium-deep brown with restrained honey highlights and soft chestnut shadows; natural muted rose-brown lips; eyebrows and flowing coily hair deep espresso brown with subtle warm chestnut highlights. Sunflowers: saturated yet sophisticated golden yellow petals with warmer amber-orange petal bases, ochre and dark chocolate seed centers. Leaves and stems varied sage/olive green, small flower buds soft golden cream. Blouse soft dusty lilac with restrained shading on folds. Keep white background pure white, and keep clear BLACK linework visible atop all colors. Style exquisite professional hand-colored adult botanical illustration with subtle smooth tonal depth (never heavy realistic texture), relaxed and sophisticated. The source portrait composition MUST remain exact so users can consult this as a matching coloring guide. No added decoration, text, border, logo, signatures or watermark.",
+      "reviewNotes": "Adult facial anatomy, closed eyes, hair silhouette and sunflower petals visually reviewed. Colored image preserves composition and contour positions; golden flowers, espresso curls, lilac blouse."
+    },
+    {
+      "id": "floral-daisy-light-v1",
+      "title": "Daisy Light",
+      "source": "daisy-light-line.png",
+      "category": "Floral Reverie",
+      "tags": [
+        "adult",
+        "mature",
+        "woman",
+        "wavy bob",
+        "daisies",
+        "botanical",
+        "closed eyes",
+        "easy",
+        "floral crown"
+      ],
+      "referenceImage": "/references/floral-daisy-light-v1.png",
+      "generationPrompt": "Create ONE original easy-level adult coloring book PNG page, vertical 3:4 portrait, pure white background and comfortable white outer margins. Daisy Light is planning title only, NO text on image. Beautiful recognizable ADULT woman about 50, realistic elegant mature facial proportions, softly smiling full closed lips, closed peaceful eyes, gentle laugh lines, chin slightly lifted. Bust portrait wearing a rounded-neck modest blouse, no hands. Short soft wavy bob frames her face, carefully drawn as only EIGHT broad flowing closed hair locks (no strands). On top a simple sweet crown of THREE large daisies each with only FIVE broad rounded petals and ONE circular center, plus FOUR broad leaves without veins. Human face is dominant, large and luminous. Refined contemporary botanical fashion illustration, natural head size and shoulders, clearly an adult and not a child. Easy coloring design: approximately 35 large closed coloring regions total; generous open areas in face, neck, hair, blouse, petals. Restrained detail. Strong smooth CRISP BLACK ink outlines with clean connected closed contours on PURE WHITE; zero gray, zero graphite, zero hatching, zero soft shadows, zero color, zero black hair fills. Every skin/hair boundary, hairlock, lip, petal, leaf, and blouse outline MUST be a fully closed coloring shape. Use sparse delicate lines for eyelids/nose and lovely soft eyebrows without tedious hatching. Lightly scalloped collar, one continuous large blouse region, distinct shoulder outlines. No jewelry, extra ornaments, background pattern, border, text, watermark, signature, screenshot UI.",
+      "generator": "OpenAI image_gen",
+      "generationDate": "2026-10-12",
+      "semanticPoints": {
+        "face": [
+          0.53,
+          0.27
+        ],
+        "cheek": [
+          0.405,
+          0.43
+        ],
+        "hair": [
+          [
+            0.2,
+            0.31
+          ],
+          [
+            0.82,
+            0.36
+          ]
+        ],
+        "lips": [
+          [
+            0.55,
+            0.477
+          ],
+          [
+            0.55,
+            0.495
+          ]
+        ],
+        "petals": [
+          [
+            0.49,
+            0.067
+          ],
+          [
+            0.277,
+            0.12
+          ]
+        ],
+        "leaf": [
+          0.348,
+          0.065
+        ],
+        "garment": [
+          0.5,
+          0.96
+        ],
+        "background": [
+          0.08,
+          0.06
+        ]
+      },
+      "colorSource": "daisy-light-color.png",
+      "colorGenerationPrompt": "Color the exact attached line-art page to make its matching finished COLOR REFERENCE for a coloring app. Preserve the entire exact composition and every contour: same 3:4 framing, same mature woman, same closed eyes/smile, same wavy bob locks, exact same three FIVE-petalled daisies/leaf shapes and scallop-neck blouse. Do not redraw or move anything. Keep every crisp BLACK outline visible on top of the colors. Color inside the existing shapes only. Give the woman warm peach and soft caramel skin with gentle rosy cheeks and subtle natural shadows, lips muted warm rose, eyebrows soft taupe. Her bob is elegant SILVER GRAY with restrained cool lavender midtones and creamy white highlights, conveying a beautiful mature adult. Color the three daisies pale lavender/lilac petals with creamy highlights and golden ochre centers. Leaves fresh muted sage green. Blouse sophisticated soft coral-pink, scalloped collar lighter cream. Soft smooth artistic shading makes it look carefully hand-colored but retain the easy coloring style and all broad shapes. White background remains pure white. Exact source facial proportions, expression, petal count, hairstyle and outlines must match so users can consult it as the same picture, not a different illustration. No extra shapes, background patterns, jewelry, text, border, logo, watermark, or signature.",
+      "reviewNotes": "Mature adult facial anatomy, eyes, lip contours, broad bob and daisy shapes visually reviewed. Colored image preserves composition and contour positions; silver hair, lilac daisies, coral blouse.",
+      "boundaryLinks": [
+        {
+          "from": [
+            0.47096774193548385,
+            0.18728403593642018
+          ],
+          "to": [
+            0.4728110599078341,
+            0.18935729094678647
+          ],
+          "width": 2,
+          "reason": "Close a local open hairline or beard contour so facial skin remains an independent coloring region."
+        }
+      ]
+    },
+    {
+      "id": "floral-magnolia-poise-v1",
+      "title": "Magnolia Poise",
+      "source": "magnolia-poise-line.png",
+      "category": "Floral Reverie",
+      "tags": [
+        "adult",
+        "magnolia",
+        "botanical",
+        "flowers",
+        "androgynous",
+        "East Asian",
+        "bob",
+        "portrait"
+      ],
+      "referenceImage": "/references/floral-magnolia-poise-v1.png",
+      "compile": {
+        "inkThreshold": 200
+      },
+      "boundaryLinks": [
+        {
+          "from": [
+            0.5345622119815668,
+            0.44920525224602625
+          ],
+          "to": [
+            0.5345622119815668,
+            0.45749827228749135
+          ],
+          "width": 2,
+          "reason": "Close a local gap in the lower lip contour so lip and facial skin colors remain independent."
+        },
+        {
+          "from": [
+            0.623963133640553,
+            0.15480304077401522
+          ],
+          "to": [
+            0.6285714285714286,
+            0.15480304077401522
+          ],
+          "width": 2,
+          "reason": "Close a local open hairline or beard contour so facial skin remains an independent coloring region."
+        },
+        {
+          "from": [
+            0.631336405529954,
+            0.1492743607463718
+          ],
+          "to": [
+            0.6341013824884792,
+            0.1492743607463718
+          ],
+          "width": 2,
+          "reason": "Close a local open hairline or beard contour so facial skin remains an independent coloring region."
+        }
+      ],
+      "generationPrompt": "Create an ORIGINAL high-quality adult coloring-book illustration titled conceptually Magnolia Poise, with NO text on the image. A beautiful elegant androgynous East Asian ADULT approximately 35, sophisticated natural proportions, face in gentle three-quarter view, both expressive open eyes anatomically aligned, relaxed closed lips, smooth straight bob swept away from the forehead and tucked behind one visible ear. Calm editorial botanical beauty portrait framed by FOUR large graceful magnolia blossoms with a few broad leaves woven around the hair, and a flowing simple blouse at shoulders. Chest-up portrait with the human face central and dominant. Distinctive original composition, generous coloring spaces, moderate detail in hair sections and petal curves, no hands. Produce portrait 3:4 format high resolution PNG with WHITE background. STRICT COLORING PAGE REQUIREMENTS: pure BLACK sharp smooth vector-like contour lines on PURE WHITE, no gray shading, no hatching, no crosshatching, no gradients, no pencil sketch texture, no colored areas. Keep skin, hair, eyes, flowers, leaves and clothing interiors white awaiting coloring. Fine crisp eyelashes may be black. CLOSED continuous boundaries on forehead hairline, face contour, neck, lips, each petal, broad hair locks and blouse seams so tap-fill cannot leak between face and hair or across lips. Use elegant moderately weighted primary outlines with finer secondary detail, not thick cartoon lines. No framing box, no page border, no watermark, no lettering, no interface. Harmonious realistic anatomy and attractive adult expression; do not resemble a child.",
+      "generator": "OpenAI image_gen",
+      "generationSource": "/workspace/generated_images/exec-2d84cdd4-0ad0-4ef6-9ddb-bfbaeb335874.png",
+      "coloredGenerationSource": "/workspace/generated_images/exec-005946cc-6256-49e4-878f-7cc775bf744e.png",
+      "colorSource": "magnolia-poise-color.png",
+      "colorGenerationPrompt": "Create a beautifully COLORED REFERENCE EDIT of this exact attached adult botanical coloring page. PRESERVE THE EXACT DRAWING: same crop, 3:4 canvas, every black contour, pose, face and ear geometry, iris direction, hair strands, all four magnolia blossoms, leaf positions, blouse seams, white background. Do not redraw, add or remove any content. Add harmonious finished colors UNDER the existing ink so a user can refer to this while coloring the matching original line art. Warm light olive East Asian adult skin with subtle peach blush, natural rosewood lips, deep warm brown eyes, silky deep espresso hair with restrained warm caramel highlights following the existing hair locks. Large magnolias in ivory with soft blush-pink petal tips and warm golden cream centers, leaves muted deep teal and sage, blouse soft plum-lilac. Gentle polished colored-pencil/watercolor-like shading within closed shapes while retaining sharp crisp black line detail, no extra hatching. Sophisticated calm botanical editorial palette, human face main focus, white background. No text, labels, watermark, frame, signature or added illustration. It must be readily recognizable as the IDENTICAL portrait with added color."
+    },
+    {
+      "id": "floral-iris-reverie-v1",
+      "title": "Iris Reverie",
+      "source": "iris-reverie-line.png",
+      "category": "Floral Reverie",
+      "tags": [
+        "adult",
+        "iris",
+        "botanical",
+        "flowers",
+        "man",
+        "mature",
+        "beard",
+        "wavy hair",
+        "portrait"
+      ],
+      "referenceImage": "/references/floral-iris-reverie-v1.png",
+      "compile": {
+        "inkThreshold": 215
+      },
+      "generationPrompt": "Generate one ORIGINAL premium adult coloring-book PNG illustration, conceptual title Iris Reverie but absolutely NO TEXT drawn. A striking mature ADULT man approximately 50 with elegant natural facial proportions, beautiful expressive open eyes and quiet thoughtful expression, three-quarter face facing slightly left, wavy medium-length hair swept back, neatly sculpted modest short beard defined by a clean OUTER BORDER and sparse smooth internal curved sections, not shaded stubble. Shoulders in a relaxed collared linen garment. Dramatic graceful iris blooms and long curving iris leaves form an asymmetrical botanical frame around his head and bust: three or four large flowing irises with enough blank petal space to color, a few buds and curving stems. Editorial botanical beauty portrait, human face central and dominant, no hands, face not concealed by flowers, no extra people. Portrait 3:4 canvas high resolution pure white paper background. Strict coloring line art: BLACK sharply defined smooth vector-like contours on WHITE only, NO gray shading, NO tonal areas, NO pencil hatch texture, NO hatching. Hair, skin, beard, eyes, petals and clothing remain white inside distinct closed shapes for coloring. Continuous CLOSED forehead hairline, face outline, beard border, neck, lips, garment collar and petals: no tiny gaps or broken lines that let tap-fill escape. Use crisp sophisticated primary contour weights and finer intentional secondary hair waves, petal folds and fabric seams, balanced intricate yet usable fill spaces. Anatomically correct mature face and ears, expressive understated male beauty, readable iris anatomy. No letters, labels, signature, watermark, screenshot frame, border or UI. Whole composition should be exquisite clean original botanical portrait line art.",
+      "generator": "OpenAI image_gen",
+      "generationSource": "/workspace/generated_images/exec-0b07996a-eacf-4bcd-abab-64298def19bc.png",
+      "coloredGenerationSource": "/workspace/generated_images/exec-60b4673e-c938-4fce-a3b3-4921f10a48cf.png",
+      "colorSource": "iris-reverie-color.png",
+      "colorGenerationPrompt": "Create a beautifully COLORED REFERENCE EDIT of this exact attached adult botanical coloring illustration. PRESERVE THE EXACT DRAWING and all ink lines: same 3:4 crop, mature adult male face and ears, face direction, iris positions, hair and beard waves, three iris flowers plus buds/leaves and collared garment. No additions/removals, do not alter pose or anatomy or arrangement. Add harmonious finished colors UNDER existing crisp black contours so users can consult it beside the matching uncolored line art. Warm medium tan male skin with subtle natural highlights and understated mature expression, hazel green eyes, naturally muted warm lips. Hair and beard a handsome mix of chestnut copper and sophisticated slate/silver streaks following existing hair waves. Iris flowers saturated violet and lavender with warm golden ochre beards at centers, leaves muted sage and deep forest teal, buds violet, soft open collared linen garment muted powder blue. Gentle refined watercolor/colored pencil-style gradients contained inside shapes, keep ink outlines clean and dark. White background remains white. Human face dominant, quiet elegant botanical editorial atmosphere. No text, watermark, signature, border, labels or UI. Maintain unmistakably the same portrait and every major petal/leaf outline, only add color.",
+      "boundaryLinks": [
+        {
+          "from": [
+            0.4626728110599078,
+            0.15825846579129232
+          ],
+          "to": [
+            0.4599078341013825,
+            0.15894955079474776
+          ],
+          "width": 2,
+          "reason": "Close a local open hairline or beard contour so facial skin remains an independent coloring region."
+        },
+        {
+          "from": [
+            0.46728110599078343,
+            0.15964063579820317
+          ],
+          "to": [
+            0.46543778801843316,
+            0.1603317208016586
+          ],
+          "width": 2,
+          "reason": "Close a local open hairline or beard contour so facial skin remains an independent coloring region."
+        },
+        {
+          "from": [
+            0.4543778801843318,
+            0.16447823082239116
+          ],
+          "to": [
+            0.4488479262672811,
+            0.16793365583966827
+          ],
+          "width": 2,
+          "reason": "Close a local open hairline or beard contour so facial skin remains an independent coloring region."
+        },
+        {
+          "from": [
+            0.5668202764976958,
+            0.4388389771941949
+          ],
+          "to": [
+            0.5695852534562212,
+            0.4388389771941949
+          ],
+          "width": 2,
+          "reason": "Close a local open hairline or beard contour so facial skin remains an independent coloring region."
+        },
+        {
+          "from": [
+            0.47557603686635946,
+            0.16378714581893572
+          ],
+          "to": [
+            0.4792626728110599,
+            0.16378714581893572
+          ],
+          "width": 2,
+          "reason": "Close a local open hairline or beard contour so facial skin remains an independent coloring region."
+        },
+        {
+          "from": [
+            0.56036866359447,
+            0.4443676572218383
+          ],
+          "to": [
+            0.5576036866359447,
+            0.44505874222529374
+          ],
+          "width": 2,
+          "reason": "Close a local open hairline or beard contour so facial skin remains an independent coloring region."
+        },
+        {
+          "from": [
+            0.5502304147465438,
+            0.44644091223220456
+          ],
+          "to": [
+            0.5529953917050692,
+            0.44644091223220456
+          ],
+          "width": 2,
+          "reason": "Close a local open hairline or beard contour so facial skin remains an independent coloring region."
+        },
+        {
+          "from": [
+            0.5548387096774193,
+            0.44091223220456116
+          ],
+          "to": [
+            0.5529953917050692,
+            0.44367657221838286
+          ],
+          "width": 2,
+          "reason": "Close a local open hairline or beard contour so facial skin remains an independent coloring region."
+        },
+        {
+          "from": [
+            0.6193548387096774,
+            0.4105044920525225
+          ],
+          "to": [
+            0.6221198156682027,
+            0.4105044920525225
+          ],
+          "width": 2,
+          "reason": "Close a local open hairline or beard contour so facial skin remains an independent coloring region."
+        },
+        {
+          "from": [
+            0.6211981566820276,
+            0.4035936420179682
+          ],
+          "to": [
+            0.623963133640553,
+            0.4035936420179682
+          ],
+          "width": 2,
+          "reason": "Close a local open hairline or beard contour so facial skin remains an independent coloring region."
+        },
+        {
+          "from": [
+            0.3419354838709677,
+            0.4367657221838286
+          ],
+          "to": [
+            0.3456221198156682,
+            0.4457498272287491
+          ],
+          "width": 2,
+          "reason": "Follow the faint lower-lip rim between existing terminal strokes, keeping lip color separate from chin and beard."
+        },
+        {
+          "from": [
+            0.3456221198156682,
+            0.4457498272287491
+          ],
+          "to": [
+            0.3566820276497696,
+            0.4526606772633034
+          ],
+          "width": 2,
+          "reason": "Follow the faint lower-lip rim between existing terminal strokes, keeping lip color separate from chin and beard."
+        },
+        {
+          "from": [
+            0.3566820276497696,
+            0.4526606772633034
+          ],
+          "to": [
+            0.3741935483870968,
+            0.4568071872840359
+          ],
+          "width": 2,
+          "reason": "Follow the faint lower-lip rim between existing terminal strokes, keeping lip color separate from chin and beard."
+        },
+        {
+          "from": [
+            0.3741935483870968,
+            0.4568071872840359
+          ],
+          "to": [
+            0.39447004608294933,
+            0.4581893572909468
+          ],
+          "width": 2,
+          "reason": "Follow the faint lower-lip rim between existing terminal strokes, keeping lip color separate from chin and beard."
+        },
+        {
+          "from": [
+            0.39447004608294933,
+            0.4581893572909468
+          ],
+          "to": [
+            0.41382488479262675,
+            0.4581893572909468
+          ],
+          "width": 2,
+          "reason": "Follow the faint lower-lip rim between existing terminal strokes, keeping lip color separate from chin and beard."
+        },
+        {
+          "from": [
+            0.41382488479262675,
+            0.4581893572909468
+          ],
+          "to": [
+            0.43410138248847924,
+            0.4561161022805805
+          ],
+          "width": 2,
+          "reason": "Follow the faint lower-lip rim between existing terminal strokes, keeping lip color separate from chin and beard."
+        },
+        {
+          "from": [
+            0.43410138248847924,
+            0.4561161022805805
+          ],
+          "to": [
+            0.4534562211981567,
+            0.45335176226675883
+          ],
+          "width": 2,
+          "reason": "Follow the faint lower-lip rim between existing terminal strokes, keeping lip color separate from chin and beard."
+        },
+        {
+          "from": [
+            0.4534562211981567,
+            0.45335176226675883
+          ],
+          "to": [
+            0.4728110599078341,
+            0.44920525224602625
+          ],
+          "width": 2,
+          "reason": "Follow the faint lower-lip rim between existing terminal strokes, keeping lip color separate from chin and beard."
+        },
+        {
+          "from": [
+            0.4728110599078341,
+            0.44920525224602625
+          ],
+          "to": [
+            0.4875576036866359,
+            0.4429854872149274
+          ],
+          "width": 2,
+          "reason": "Follow the faint lower-lip rim between existing terminal strokes, keeping lip color separate from chin and beard."
+        },
+        {
+          "from": [
+            0.49585253456221196,
+            0.15480304077401522
+          ],
+          "to": [
+            0.4967741935483871,
+            0.15687629578438148
+          ],
+          "width": 2,
+          "reason": "Bridge a local tapered hair or beard contour, reviewed against source and colored reference, so skin fill stays out of the hair."
+        },
+        {
+          "from": [
+            0.5585253456221199,
+            0.165860400829302
+          ],
+          "to": [
+            0.5612903225806452,
+            0.16724257083621286
+          ],
+          "width": 2,
+          "reason": "Bridge a local tapered hair or beard contour, reviewed against source and colored reference, so skin fill stays out of the hair."
+        },
+        {
+          "from": [
+            0.5594470046082949,
+            0.16724257083621286
+          ],
+          "to": [
+            0.5594470046082949,
+            0.16931582584657912
+          ],
+          "width": 2,
+          "reason": "Bridge a local tapered hair or beard contour, reviewed against source and colored reference, so skin fill stays out of the hair."
+        },
+        {
+          "from": [
+            0.5133640552995392,
+            0.16240497581202487
+          ],
+          "to": [
+            0.5170506912442396,
+            0.16378714581893572
+          ],
+          "width": 2,
+          "reason": "Bridge a local tapered hair or beard contour, reviewed against source and colored reference, so skin fill stays out of the hair."
+        },
+        {
+          "from": [
+            0.5059907834101383,
+            0.15687629578438148
+          ],
+          "to": [
+            0.5078341013824885,
+            0.15894955079474776
+          ],
+          "width": 2,
+          "reason": "Bridge a local tapered hair or beard contour, reviewed against source and colored reference, so skin fill stays out of the hair."
+        },
+        {
+          "from": [
+            0.5410138248847927,
+            0.16447823082239116
+          ],
+          "to": [
+            0.5419354838709678,
+            0.16655148583275742
+          ],
+          "width": 2,
+          "reason": "Bridge a local tapered hair or beard contour, reviewed against source and colored reference, so skin fill stays out of the hair."
+        },
+        {
+          "from": [
+            0.6147465437788019,
+            0.22322045611610228
+          ],
+          "to": [
+            0.6119815668202765,
+            0.22391154111955772
+          ],
+          "width": 2,
+          "reason": "Bridge a local tapered hair or beard contour, reviewed against source and colored reference, so skin fill stays out of the hair."
+        },
+        {
+          "from": [
+            0.6147465437788019,
+            0.22114720110573602
+          ],
+          "to": [
+            0.6138248847926268,
+            0.22252937111264687
+          ],
+          "width": 2,
+          "reason": "Bridge a local tapered hair or beard contour, reviewed against source and colored reference, so skin fill stays out of the hair."
+        },
+        {
+          "from": [
+            0.6064516129032258,
+            0.22667588113337941
+          ],
+          "to": [
+            0.6055299539170507,
+            0.22874913614374567
+          ],
+          "width": 2,
+          "reason": "Bridge a local tapered hair or beard contour, reviewed against source and colored reference, so skin fill stays out of the hair."
+        },
+        {
+          "from": [
+            0.6064516129032258,
+            0.23082239115411196
+          ],
+          "to": [
+            0.6055299539170507,
+            0.2322045611610228
+          ],
+          "width": 2,
+          "reason": "Bridge a local tapered hair or beard contour, reviewed against source and colored reference, so skin fill stays out of the hair."
+        },
+        {
+          "from": [
+            0.5419354838709678,
+            0.4346924671734623
+          ],
+          "to": [
+            0.5410138248847927,
+            0.437456807187284
+          ],
+          "width": 2,
+          "reason": "Bridge a local tapered hair or beard contour, reviewed against source and colored reference, so skin fill stays out of the hair."
+        },
+        {
+          "from": [
+            0.535483870967742,
+            0.45957152729785766
+          ],
+          "to": [
+            0.5382488479262673,
+            0.45957152729785766
+          ],
+          "width": 2,
+          "reason": "Bridge a local tapered hair or beard contour, reviewed against source and colored reference, so skin fill stays out of the hair."
+        },
+        {
+          "from": [
+            0.5188940092165899,
+            0.45749827228749135
+          ],
+          "to": [
+            0.5225806451612903,
+            0.45957152729785766
+          ],
+          "width": 2,
+          "reason": "Bridge a local tapered hair or beard contour, reviewed against source and colored reference, so skin fill stays out of the hair."
+        },
+        {
+          "from": [
+            0.5778801843317972,
+            0.424326192121631
+          ],
+          "to": [
+            0.5797235023041475,
+            0.424326192121631
+          ],
+          "width": 2,
+          "reason": "Bridge a local tapered hair or beard contour, reviewed against source and colored reference, so skin fill stays out of the hair."
+        }
+      ]
+    }
+  ]
+}

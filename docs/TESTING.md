@@ -22,24 +22,26 @@ Drawings and settings are stored on-device. Confirmed gallery deletion and reset
 
 ## Validation record
 
-Validated on 2026-10-11:
+Latest update validated on 2026-10-12; initial setup and version 1.0 device observations are retained below:
 
 | Check | Result |
 | --- | --- |
-| Frozen dependency install (`npm ci`) | Passed |
+| Frozen dependency install (`npm ci`) | Passed during initial setup; dependency versions unchanged |
 | TypeScript and production web build (`npm run build`) | Passed |
-| Full browser suite (`npm test`) | **34 passed**, 0 failed, 0 skipped |
-| Artwork validation | 4 tests; all 133 drawings and thumbnails; every advertised region reachable |
+| Full browser suite (`npm test`) | **42 passed**, 0 failed, 0 skipped |
+| Artwork validation | 4 tests; all 139 drawings and thumbnails; every advertised region reachable |
 | Canvas behavior | 13 tests; real pixel/input/export assertions |
 | Local storage | 5 tests; persistence, exact commands, queued writes, metadata isolation |
 | Integrated UI | 8 tests; gallery, autosave/reopen, controls, exports, errors, responsive layouts |
 | Portrait Atelier regression | 4 tests; original-library preservation, generated region clipping, autosave/reopening, and manually reviewed skin/hair/lip boundaries across all 12 new pages |
+| Floral Reverie regression | 3 tests; original 133 drawings preserved, six PNG pairs, actual painting/clipping, and reviewed cross-material boundaries |
+| Colored reference viewer | 5 tests; matched lazy images, pinning, painting/persistence, failures, focus/back handling, and responsive layouts |
 | Native Android build | Gradle `assembleDebug` passed |
-| Android lint | 0 errors; dependency/toolchain warnings documented by build output |
+| Android lint | 0 errors, 8 warnings; dependency/toolchain warnings documented by build output |
 | APK signature | v1 and v2 signatures verified by `apksigner` |
-| APK contents | All 133 drawings bundled; every file in current production `dist/` matches packaged assets byte-for-byte |
+| APK contents | All 139 drawings and six colored PNG references bundled; all 433 production `dist/` files match packaged assets byte-for-byte |
 | Android 15 software emulator installation (version 1.0) | Initial install and final APK install-over (`adb install -r`) passed |
-| Version 1.1 update identity | Same application ID and retained signing certificate; versionCode increased to 2 |
+| Version 1.2 update identity | Same application ID and signing certificate as version 1.1; versionCode increased to 3 |
 | Native runtime interaction | Unverified: emulator SystemServer ANRs and WebView renderer termination prevented a usable app session |
 
 During the original version 1.0 validation, the software emulator reached boot completion and initialized the activity and native StudioFiles plugin, then requested the bundled application page. Android displayed “Process system isn't responding”; WebView 124 subsequently terminated its renderer with code 5 and closed the host app. Native painting, force-stop restoration, saved-data preservation across updates, share-sheet behavior, system back, rotation, and physical-device performance remain unverified. Successful install-over alone does not establish saved-data preservation. See [the Android validation notes](../android/README.md#validation-performed-and-limits) for the investigation details.
@@ -55,3 +57,13 @@ The new collection adds 12 distinct image-generated sources and sharp editable v
 Visual face-fill review identified tiny source hairline and lip gaps that ordinary mask-isolation tests could not detect. Short author-reviewed vector boundary guides now close those connections in the coloring-region model, while preserving the generated source PNG and fine ink. Sunday Spectacles also received an image-generation hairline repair. Fixed manual source-coordinate probes check face/cheek separation from multiple actual hair areas, lip regions where present, garments, and background; the pre-repair geometry failed this regression.
 
 The version 1.1 APK is rebuilt and signed using the same retained test key. Its native runtime was not retested on the previously unhealthy emulator. Browser performance observations do not establish frame rates on Android phones, especially while zooming the most detailed pages. A physical phone/tablet pass remains necessary.
+
+## Floral Reverie and reference viewer
+
+Version 1.2 adds six original floral line-art PNGs and six matching colored PNGs, compiled into six editable drawings. The regression suite preserves the exact metadata and geometry/preview bytes of all 133 previously released drawings. Source checks validate PNG dimensions, original generation/edit prompts, distinct imagery, monochrome line sources, meaningful colored examples, and byte-identical bundled reference copies.
+
+Manual fill review covers skin, hair, lips, petals, leaves, garments, and exterior white areas. It identified tapered hairline/lip gaps and a garment-to-background connection that simple region-isolation tests would miss. Reviewed local vector guides close those boundaries; the source PNGs remain unchanged. Fixed source-hash-bound probes include the problem locations, with multiple background probes where exterior areas are disconnected. Actual Canvas pixel tests exercise fill, clipped airbrush, gradients, and undo/redo on the most detailed new page.
+
+Five reference-viewer tests cover all six matching local images, on-demand loading, modal focus and keyboard closure, unchanged painting pixels while pinning, no painting through the reference panel, painting/undo/redo/autosave/reopening, missing-image retries, canceled late loads, and phone/tablet/landscape bounds in dark and reduced-motion modes. A mocked native adapter checks the application's back-callback ordering; it does not establish delivery of physical Android back events.
+
+All pairs were visually compared for adult anatomy and matching composition. The reference sheet and pinned panel are separate from painting layers and saved commands. Browser screenshots include real saved coloring with a reference visible. Version 1.2 retains the application ID and test signing key and increments versionCode to 3. Physical Android reference interaction, memory/performance, and saved-work preservation across an installed update remain unverified on this cloud machine.
