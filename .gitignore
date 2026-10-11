@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.vite/
+test-results/
+playwright-report/
+android/.gradle/
+android/local.properties
+android/**/build/
+*.jks
+*.keystore
+.DS_Store

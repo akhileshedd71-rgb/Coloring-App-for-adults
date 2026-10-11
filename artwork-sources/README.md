@@ -1,0 +1,27 @@
+# Original artist study
+
+`braided-reverie-original.png` is the unmodified original generated black-and-white illustration for Musemallow. It depicts an adult woman with a braided crown, gemstone earrings, and an embroidered blouse. The brief requested realistic adult anatomy, closed white coloring shapes, clean dark outlines, and no gray shading, text, or watermark. The image was generated specifically for this project, then visually reviewed for facial symmetry, hair boundaries, clothing, and usable white regions.
+
+`scripts/vectorize-study.py` compiles this source into `public/art/artist-braided-reverie.json`, a colored SVG thumbnail, and a pure line SVG. The source PNG is preserved unchanged. The compiler:
+
+1. Identifies ink and white connected regions.
+2. Converts boundaries into closed vector paths with holes preserved by contour winding.
+3. Excludes unusably small/sliver regions while retaining their visible ink detail.
+4. Saves ink as filled vector contours, keeping eyelashes, seams, and braid details sharp at high zoom.
+5. Saves independently selectable white regions and a `disjointRegions` hint, since connected components cannot overlap.
+
+The final study has 298 usable coloring regions. It is deliberately Hard; users should zoom for braid details and jewelry. The study’s facial/neck skin is one connected region so airbrush and gradients can shade it continuously. Fine ink is always protected by the top vector layer.
+
+To reproduce the compilation (optional art-development tooling, not required to build or run the app):
+
+```sh
+python3 -m venv /tmp/musemallow-art-tools
+/tmp/musemallow-art-tools/bin/pip install opencv-python-headless==4.12.0.88 numpy==2.2.6
+/tmp/musemallow-art-tools/bin/python scripts/vectorize-study.py
+npm run art:generate
+npm test -- tests/artwork.spec.ts
+```
+
+The main generator preserves and merges `public/art/supplemental-catalog.json`, so regenerating the 120 main drawings keeps the artist study. Add new compiled studies to that supplemental list with stable unique IDs. Existing saved work uses retained geometry snapshots.
+
+`public/studio-cover.png` is a separate original generated color illustration used as studio branding. It is not a selectable coloring page. Its brief specified three adult models with distinct hairstyles and fashion, warm cream/coral/lavender/mint colors, and a mixture of colored areas and intentional white line art.

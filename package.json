@@ -1,0 +1,25 @@
+{
+  "name": "musemallow-studio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "playwright test",
+    "art:generate": "node scripts/generate-art.mjs",
+    "android:sync": "npm run build && cap sync android",
+    "android:build": "bash scripts/build-android.sh"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/core": "^7.4.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3",
+    "@playwright/test": "^1.56.1",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.9"
+  }
+}

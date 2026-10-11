@@ -1,0 +1,2248 @@
+[
+  {
+    "id": "portrait-01",
+    "title": "Sunday Reverie",
+    "category": "Portraits",
+    "difficulty": "Easy",
+    "tags": [
+      "portrait",
+      "expressive face",
+      "adult",
+      "bob",
+      "straight hair",
+      "feminine",
+      "simple"
+    ],
+    "thumbnail": "/art/portrait-01.svg",
+    "regionCount": 26
+  },
+  {
+    "id": "portrait-02",
+    "title": "Silver & Sage",
+    "category": "Portraits",
+    "difficulty": "Medium",
+    "tags": [
+      "portrait",
+      "expressive face",
+      "adult",
+      "short curls",
+      "curly hair",
+      "masculine",
+      "mature adult",
+      "face lines",
+      "detailed"
+    ],
+    "thumbnail": "/art/portrait-02.svg",
+    "regionCount": 42
+  },
+  {
+    "id": "portrait-03",
+    "title": "Golden Hour Muse",
+    "category": "Portraits",
+    "difficulty": "Medium",
+    "tags": [
+      "portrait",
+      "expressive face",
+      "adult",
+      "coily hair",
+      "afro",
+      "feminine",
+      "intricate"
+    ],
+    "thumbnail": "/art/portrait-03.svg",
+    "regionCount": 57
+  },
+  {
+    "id": "portrait-04",
+    "title": "Quiet Confidence",
+    "category": "Portraits",
+    "difficulty": "Easy",
+    "tags": [
+      "portrait",
+      "expressive face",
+      "adult",
+      "braided hair",
+      "braid",
+      "feminine",
+      "simple"
+    ],
+    "thumbnail": "/art/portrait-04.svg",
+    "regionCount": 32
+  },
+  {
+    "id": "portrait-05",
+    "title": "The Thoughtful Poet",
+    "category": "Portraits",
+    "difficulty": "Easy",
+    "tags": [
+      "portrait",
+      "expressive face",
+      "adult",
+      "undercut",
+      "swept hair",
+      "masculine",
+      "mature adult",
+      "face lines",
+      "detailed"
+    ],
+    "thumbnail": "/art/portrait-05.svg",
+    "regionCount": 27
+  },
+  {
+    "id": "portrait-06",
+    "title": "Softly Speaking",
+    "category": "Portraits",
+    "difficulty": "Hard",
+    "tags": [
+      "portrait",
+      "expressive face",
+      "adult",
+      "wavy hair",
+      "long hair",
+      "feminine",
+      "intricate"
+    ],
+    "thumbnail": "/art/portrait-06.svg",
+    "regionCount": 75
+  },
+  {
+    "id": "portrait-07",
+    "title": "A Moment of Stillness",
+    "category": "Portraits",
+    "difficulty": "Easy",
+    "tags": [
+      "portrait",
+      "expressive face",
+      "adult",
+      "bun",
+      "topknot",
+      "feminine",
+      "simple"
+    ],
+    "thumbnail": "/art/portrait-07.svg",
+    "regionCount": 17
+  },
+  {
+    "id": "portrait-08",
+    "title": "Warm Welcome",
+    "category": "Portraits",
+    "difficulty": "Medium",
+    "tags": [
+      "portrait",
+      "expressive face",
+      "adult",
+      "locs",
+      "textured hair",
+      "masculine",
+      "detailed"
+    ],
+    "thumbnail": "/art/portrait-08.svg",
+    "regionCount": 40
+  },
+  {
+    "id": "portrait-09",
+    "title": "Stories in Silver",
+    "category": "Portraits",
+    "difficulty": "Medium",
+    "tags": [
+      "portrait",
+      "expressive face",
+      "adult",
+      "straight hair",
+      "long hair",
+      "masculine",
+      "mature adult",
+      "face lines",
+      "intricate"
+    ],
+    "thumbnail": "/art/portrait-09.svg",
+    "regionCount": 56
+  },
+  {
+    "id": "portrait-10",
+    "title": "An Open Heart",
+    "category": "Portraits",
+    "difficulty": "Easy",
+    "tags": [
+      "portrait",
+      "expressive face",
+      "adult",
+      "ponytail",
+      "feminine",
+      "simple"
+    ],
+    "thumbnail": "/art/portrait-10.svg",
+    "regionCount": 21
+  },
+  {
+    "id": "portrait-11",
+    "title": "Wrapped in Calm",
+    "category": "Portraits",
+    "difficulty": "Easy",
+    "tags": [
+      "portrait",
+      "expressive face",
+      "adult",
+      "headwrap",
+      "feminine",
+      "detailed"
+    ],
+    "thumbnail": "/art/portrait-11.svg",
+    "regionCount": 23
+  },
+  {
+    "id": "portrait-12",
+    "title": "A Knowing Smile",
+    "category": "Portraits",
+    "difficulty": "Hard",
+    "tags": [
+      "portrait",
+      "expressive face",
+      "adult",
+      "finger waves",
+      "retro hair",
+      "masculine",
+      "mature adult",
+      "face lines",
+      "intricate"
+    ],
+    "thumbnail": "/art/portrait-12.svg",
+    "regionCount": 86
+  },
+  {
+    "id": "beauty-01",
+    "title": "Petal Lips",
+    "category": "Faces & Features",
+    "difficulty": "Easy",
+    "tags": [
+      "eyes",
+      "lips",
+      "facial features",
+      "beauty study",
+      "adult",
+      "bob",
+      "straight hair",
+      "feminine",
+      "simple"
+    ],
+    "thumbnail": "/art/beauty-01.svg",
+    "regionCount": 21
+  },
+  {
+    "id": "beauty-02",
+    "title": "The Looking Glass",
+    "category": "Faces & Features",
+    "difficulty": "Easy",
+    "tags": [
+      "eyes",
+      "lips",
+      "facial features",
+      "beauty study",
+      "adult",
+      "undercut",
+      "swept hair",
+      "masculine",
+      "mature adult",
+      "face lines",
+      "detailed"
+    ],
+    "thumbnail": "/art/beauty-02.svg",
+    "regionCount": 24
+  },
+  {
+    "id": "beauty-03",
+    "title": "Eyes at Rest",
+    "category": "Faces & Features",
+    "difficulty": "Medium",
+    "tags": [
+      "eyes",
+      "lips",
+      "facial features",
+      "beauty study",
+      "adult",
+      "coily hair",
+      "afro",
+      "feminine",
+      "intricate"
+    ],
+    "thumbnail": "/art/beauty-03.svg",
+    "regionCount": 50
+  },
+  {
+    "id": "beauty-04",
+    "title": "A Smile Unfolds",
+    "category": "Faces & Features",
+    "difficulty": "Easy",
+    "tags": [
+      "eyes",
+      "lips",
+      "facial features",
+      "beauty study",
+      "adult",
+      "straight hair",
+      "long hair",
+      "feminine",
+      "simple"
+    ],
+    "thumbnail": "/art/beauty-04.svg",
+    "regionCount": 20
+  },
+  {
+    "id": "beauty-05",
+    "title": "Freckle Constellations",
+    "category": "Faces & Features",
+    "difficulty": "Easy",
+    "tags": [
+      "eyes",
+      "lips",
+      "facial features",
+      "beauty study",
+      "adult",
+      "bun",
+      "topknot",
+      "feminine",
+      "detailed"
+    ],
+    "thumbnail": "/art/beauty-05.svg",
+    "regionCount": 28
+  },
+  {
+    "id": "beauty-06",
+    "title": "Lines of Experience",
+    "category": "Faces & Features",
+    "difficulty": "Medium",
+    "tags": [
+      "eyes",
+      "lips",
+      "facial features",
+      "beauty study",
+      "adult",
+      "wavy hair",
+      "long hair",
+      "masculine",
+      "mature adult",
+      "face lines",
+      "intricate"
+    ],
+    "thumbnail": "/art/beauty-06.svg",
+    "regionCount": 49
+  },
+  {
+    "id": "beauty-07",
+    "title": "Close Your Eyes",
+    "category": "Faces & Features",
+    "difficulty": "Easy",
+    "tags": [
+      "eyes",
+      "lips",
+      "facial features",
+      "beauty study",
+      "adult",
+      "short curls",
+      "curly hair",
+      "feminine",
+      "simple"
+    ],
+    "thumbnail": "/art/beauty-07.svg",
+    "regionCount": 16
+  },
+  {
+    "id": "beauty-08",
+    "title": "A Gentle Laugh",
+    "category": "Faces & Features",
+    "difficulty": "Easy",
+    "tags": [
+      "eyes",
+      "lips",
+      "facial features",
+      "beauty study",
+      "adult",
+      "ponytail",
+      "feminine",
+      "detailed"
+    ],
+    "thumbnail": "/art/beauty-08.svg",
+    "regionCount": 24
+  },
+  {
+    "id": "beauty-09",
+    "title": "The Quiet Gaze",
+    "category": "Faces & Features",
+    "difficulty": "Medium",
+    "tags": [
+      "eyes",
+      "lips",
+      "facial features",
+      "beauty study",
+      "adult",
+      "headwrap",
+      "feminine",
+      "intricate"
+    ],
+    "thumbnail": "/art/beauty-09.svg",
+    "regionCount": 43
+  },
+  {
+    "id": "beauty-10",
+    "title": "Lipstick Study",
+    "category": "Faces & Features",
+    "difficulty": "Easy",
+    "tags": [
+      "eyes",
+      "lips",
+      "facial features",
+      "beauty study",
+      "adult",
+      "braided hair",
+      "braid",
+      "masculine",
+      "mature adult",
+      "face lines",
+      "simple"
+    ],
+    "thumbnail": "/art/beauty-10.svg",
+    "regionCount": 30
+  },
+  {
+    "id": "beauty-11",
+    "title": "Lashes & Light",
+    "category": "Faces & Features",
+    "difficulty": "Easy",
+    "tags": [
+      "eyes",
+      "lips",
+      "facial features",
+      "beauty study",
+      "adult",
+      "finger waves",
+      "retro hair",
+      "feminine",
+      "detailed"
+    ],
+    "thumbnail": "/art/beauty-11.svg",
+    "regionCount": 20
+  },
+  {
+    "id": "beauty-12",
+    "title": "Express Yourself",
+    "category": "Faces & Features",
+    "difficulty": "Hard",
+    "tags": [
+      "eyes",
+      "lips",
+      "facial features",
+      "beauty study",
+      "adult",
+      "locs",
+      "textured hair",
+      "feminine",
+      "intricate"
+    ],
+    "thumbnail": "/art/beauty-12.svg",
+    "regionCount": 80
+  },
+  {
+    "id": "hair-01",
+    "title": "The Perfect Bob",
+    "category": "Hair Stories",
+    "difficulty": "Easy",
+    "tags": [
+      "hair",
+      "adult",
+      "bob",
+      "straight hair",
+      "feminine",
+      "simple"
+    ],
+    "thumbnail": "/art/hair-01.svg",
+    "regionCount": 22
+  },
+  {
+    "id": "hair-02",
+    "title": "Silver Curls",
+    "category": "Hair Stories",
+    "difficulty": "Easy",
+    "tags": [
+      "hair",
+      "adult",
+      "short curls",
+      "curly hair",
+      "masculine",
+      "mature adult",
+      "face lines",
+      "detailed"
+    ],
+    "thumbnail": "/art/hair-02.svg",
+    "regionCount": 29
+  },
+  {
+    "id": "hair-03",
+    "title": "Crown of Coils",
+    "category": "Hair Stories",
+    "difficulty": "Medium",
+    "tags": [
+      "hair",
+      "adult",
+      "coily hair",
+      "afro",
+      "feminine",
+      "intricate"
+    ],
+    "thumbnail": "/art/hair-03.svg",
+    "regionCount": 53
+  },
+  {
+    "id": "hair-04",
+    "title": "Braided Poetry",
+    "category": "Hair Stories",
+    "difficulty": "Easy",
+    "tags": [
+      "hair",
+      "adult",
+      "braided hair",
+      "braid",
+      "feminine",
+      "simple"
+    ],
+    "thumbnail": "/art/hair-04.svg",
+    "regionCount": 31
+  },
+  {
+    "id": "hair-05",
+    "title": "Sculpted Sweep",
+    "category": "Hair Stories",
+    "difficulty": "Easy",
+    "tags": [
+      "hair",
+      "adult",
+      "undercut",
+      "swept hair",
+      "masculine",
+      "detailed"
+    ],
+    "thumbnail": "/art/hair-05.svg",
+    "regionCount": 30
+  },
+  {
+    "id": "hair-06",
+    "title": "Waves Like Water",
+    "category": "Hair Stories",
+    "difficulty": "Hard",
+    "tags": [
+      "hair",
+      "adult",
+      "wavy hair",
+      "long hair",
+      "feminine",
+      "intricate"
+    ],
+    "thumbnail": "/art/hair-06.svg",
+    "regionCount": 71
+  },
+  {
+    "id": "hair-07",
+    "title": "The Artful Topknot",
+    "category": "Hair Stories",
+    "difficulty": "Easy",
+    "tags": [
+      "hair",
+      "adult",
+      "bun",
+      "topknot",
+      "feminine",
+      "simple"
+    ],
+    "thumbnail": "/art/hair-07.svg",
+    "regionCount": 18
+  },
+  {
+    "id": "hair-08",
+    "title": "Locs & Gold",
+    "category": "Hair Stories",
+    "difficulty": "Easy",
+    "tags": [
+      "hair",
+      "adult",
+      "locs",
+      "textured hair",
+      "masculine",
+      "detailed"
+    ],
+    "thumbnail": "/art/hair-08.svg",
+    "regionCount": 31
+  },
+  {
+    "id": "hair-09",
+    "title": "Silken Lengths",
+    "category": "Hair Stories",
+    "difficulty": "Medium",
+    "tags": [
+      "hair",
+      "adult",
+      "straight hair",
+      "long hair",
+      "feminine",
+      "intricate"
+    ],
+    "thumbnail": "/art/hair-09.svg",
+    "regionCount": 52
+  },
+  {
+    "id": "hair-10",
+    "title": "High Pony Days",
+    "category": "Hair Stories",
+    "difficulty": "Easy",
+    "tags": [
+      "hair",
+      "adult",
+      "ponytail",
+      "feminine",
+      "simple"
+    ],
+    "thumbnail": "/art/hair-10.svg",
+    "regionCount": 25
+  },
+  {
+    "id": "hair-11",
+    "title": "Woven Headwrap",
+    "category": "Hair Stories",
+    "difficulty": "Medium",
+    "tags": [
+      "hair",
+      "adult",
+      "headwrap",
+      "feminine",
+      "detailed"
+    ],
+    "thumbnail": "/art/hair-11.svg",
+    "regionCount": 33
+  },
+  {
+    "id": "hair-12",
+    "title": "Finger Wave Reverie",
+    "category": "Hair Stories",
+    "difficulty": "Medium",
+    "tags": [
+      "hair",
+      "adult",
+      "finger waves",
+      "retro hair",
+      "masculine",
+      "intricate"
+    ],
+    "thumbnail": "/art/hair-12.svg",
+    "regionCount": 54
+  },
+  {
+    "id": "editorial-01",
+    "title": "Sculpture in Silk",
+    "category": "Fashion Editorial",
+    "difficulty": "Easy",
+    "tags": [
+      "fashion",
+      "editorial",
+      "portrait",
+      "couture",
+      "adult",
+      "bob",
+      "straight hair",
+      "feminine",
+      "simple"
+    ],
+    "thumbnail": "/art/editorial-01.svg",
+    "regionCount": 25
+  },
+  {
+    "id": "editorial-02",
+    "title": "The Beret Issue",
+    "category": "Fashion Editorial",
+    "difficulty": "Medium",
+    "tags": [
+      "fashion",
+      "editorial",
+      "portrait",
+      "couture",
+      "adult",
+      "bun",
+      "topknot",
+      "feminine",
+      "detailed"
+    ],
+    "thumbnail": "/art/editorial-02.svg",
+    "regionCount": 35
+  },
+  {
+    "id": "editorial-03",
+    "title": "Statement Shades",
+    "category": "Fashion Editorial",
+    "difficulty": "Medium",
+    "tags": [
+      "fashion",
+      "editorial",
+      "portrait",
+      "couture",
+      "adult",
+      "undercut",
+      "swept hair",
+      "masculine",
+      "intricate"
+    ],
+    "thumbnail": "/art/editorial-03.svg",
+    "regionCount": 51
+  },
+  {
+    "id": "editorial-04",
+    "title": "Architectural Elegance",
+    "category": "Fashion Editorial",
+    "difficulty": "Easy",
+    "tags": [
+      "fashion",
+      "editorial",
+      "portrait",
+      "couture",
+      "adult",
+      "straight hair",
+      "long hair",
+      "feminine",
+      "simple"
+    ],
+    "thumbnail": "/art/editorial-04.svg",
+    "regionCount": 23
+  },
+  {
+    "id": "editorial-05",
+    "title": "Cover Story",
+    "category": "Fashion Editorial",
+    "difficulty": "Easy",
+    "tags": [
+      "fashion",
+      "editorial",
+      "portrait",
+      "couture",
+      "adult",
+      "short curls",
+      "curly hair",
+      "feminine",
+      "mature adult",
+      "face lines",
+      "detailed"
+    ],
+    "thumbnail": "/art/editorial-05.svg",
+    "regionCount": 26
+  },
+  {
+    "id": "editorial-06",
+    "title": "Through Rose Glasses",
+    "category": "Fashion Editorial",
+    "difficulty": "Hard",
+    "tags": [
+      "fashion",
+      "editorial",
+      "portrait",
+      "couture",
+      "adult",
+      "ponytail",
+      "feminine",
+      "intricate"
+    ],
+    "thumbnail": "/art/editorial-06.svg",
+    "regionCount": 67
+  },
+  {
+    "id": "editorial-07",
+    "title": "Folded Form",
+    "category": "Fashion Editorial",
+    "difficulty": "Easy",
+    "tags": [
+      "fashion",
+      "editorial",
+      "portrait",
+      "couture",
+      "adult",
+      "finger waves",
+      "retro hair",
+      "masculine",
+      "simple"
+    ],
+    "thumbnail": "/art/editorial-07.svg",
+    "regionCount": 19
+  },
+  {
+    "id": "editorial-08",
+    "title": "The Atelier Edit",
+    "category": "Fashion Editorial",
+    "difficulty": "Medium",
+    "tags": [
+      "fashion",
+      "editorial",
+      "portrait",
+      "couture",
+      "adult",
+      "wavy hair",
+      "long hair",
+      "feminine",
+      "detailed"
+    ],
+    "thumbnail": "/art/editorial-08.svg",
+    "regionCount": 35
+  },
+  {
+    "id": "editorial-09",
+    "title": "Modern Muse",
+    "category": "Fashion Editorial",
+    "difficulty": "Medium",
+    "tags": [
+      "fashion",
+      "editorial",
+      "portrait",
+      "couture",
+      "adult",
+      "coily hair",
+      "afro",
+      "feminine",
+      "intricate"
+    ],
+    "thumbnail": "/art/editorial-09.svg",
+    "regionCount": 55
+  },
+  {
+    "id": "editorial-10",
+    "title": "Editorial Geometry",
+    "category": "Fashion Editorial",
+    "difficulty": "Easy",
+    "tags": [
+      "fashion",
+      "editorial",
+      "portrait",
+      "couture",
+      "adult",
+      "headwrap",
+      "feminine",
+      "simple"
+    ],
+    "thumbnail": "/art/editorial-10.svg",
+    "regionCount": 26
+  },
+  {
+    "id": "editorial-11",
+    "title": "Satin & Shadow",
+    "category": "Fashion Editorial",
+    "difficulty": "Medium",
+    "tags": [
+      "fashion",
+      "editorial",
+      "portrait",
+      "couture",
+      "adult",
+      "braided hair",
+      "braid",
+      "masculine",
+      "detailed"
+    ],
+    "thumbnail": "/art/editorial-11.svg",
+    "regionCount": 43
+  },
+  {
+    "id": "editorial-12",
+    "title": "Front Row Feeling",
+    "category": "Fashion Editorial",
+    "difficulty": "Hard",
+    "tags": [
+      "fashion",
+      "editorial",
+      "portrait",
+      "couture",
+      "adult",
+      "locs",
+      "textured hair",
+      "feminine",
+      "intricate"
+    ],
+    "thumbnail": "/art/editorial-12.svg",
+    "regionCount": 96
+  },
+  {
+    "id": "street-01",
+    "title": "Sunday Hoodie",
+    "category": "Streetwear",
+    "difficulty": "Easy",
+    "tags": [
+      "streetwear",
+      "contemporary",
+      "casual",
+      "outfit",
+      "adult",
+      "undercut",
+      "swept hair",
+      "masculine",
+      "hoodie",
+      "simple"
+    ],
+    "thumbnail": "/art/street-01.svg",
+    "regionCount": 24
+  },
+  {
+    "id": "street-02",
+    "title": "Denim & Braids",
+    "category": "Streetwear",
+    "difficulty": "Medium",
+    "tags": [
+      "streetwear",
+      "contemporary",
+      "casual",
+      "outfit",
+      "adult",
+      "braided hair",
+      "braid",
+      "feminine",
+      "denim",
+      "detailed"
+    ],
+    "thumbnail": "/art/street-02.svg",
+    "regionCount": 50
+  },
+  {
+    "id": "street-03",
+    "title": "The Bomber Edit",
+    "category": "Streetwear",
+    "difficulty": "Hard",
+    "tags": [
+      "streetwear",
+      "contemporary",
+      "casual",
+      "outfit",
+      "adult",
+      "coily hair",
+      "afro",
+      "feminine",
+      "bomber jacket",
+      "intricate"
+    ],
+    "thumbnail": "/art/street-03.svg",
+    "regionCount": 68
+  },
+  {
+    "id": "street-04",
+    "title": "Everyday Graphic",
+    "category": "Streetwear",
+    "difficulty": "Easy",
+    "tags": [
+      "streetwear",
+      "contemporary",
+      "casual",
+      "outfit",
+      "adult",
+      "bob",
+      "straight hair",
+      "feminine",
+      "graphic tee",
+      "simple"
+    ],
+    "thumbnail": "/art/street-04.svg",
+    "regionCount": 24
+  },
+  {
+    "id": "street-05",
+    "title": "Beanie Weather",
+    "category": "Streetwear",
+    "difficulty": "Medium",
+    "tags": [
+      "streetwear",
+      "contemporary",
+      "casual",
+      "outfit",
+      "adult",
+      "locs",
+      "textured hair",
+      "masculine",
+      "hoodie",
+      "detailed"
+    ],
+    "thumbnail": "/art/street-05.svg",
+    "regionCount": 33
+  },
+  {
+    "id": "street-06",
+    "title": "Layers of Denim",
+    "category": "Streetwear",
+    "difficulty": "Hard",
+    "tags": [
+      "streetwear",
+      "contemporary",
+      "casual",
+      "outfit",
+      "adult",
+      "ponytail",
+      "feminine",
+      "denim",
+      "intricate"
+    ],
+    "thumbnail": "/art/street-06.svg",
+    "regionCount": 70
+  },
+  {
+    "id": "street-07",
+    "title": "City Jacket",
+    "category": "Streetwear",
+    "difficulty": "Easy",
+    "tags": [
+      "streetwear",
+      "contemporary",
+      "casual",
+      "outfit",
+      "adult",
+      "short curls",
+      "curly hair",
+      "masculine",
+      "bomber jacket",
+      "simple"
+    ],
+    "thumbnail": "/art/street-07.svg",
+    "regionCount": 18
+  },
+  {
+    "id": "street-08",
+    "title": "The Favorite Tee",
+    "category": "Streetwear",
+    "difficulty": "Medium",
+    "tags": [
+      "streetwear",
+      "contemporary",
+      "casual",
+      "outfit",
+      "adult",
+      "wavy hair",
+      "long hair",
+      "feminine",
+      "graphic tee",
+      "detailed"
+    ],
+    "thumbnail": "/art/street-08.svg",
+    "regionCount": 35
+  },
+  {
+    "id": "street-09",
+    "title": "Weekend Layers",
+    "category": "Streetwear",
+    "difficulty": "Medium",
+    "tags": [
+      "streetwear",
+      "contemporary",
+      "casual",
+      "outfit",
+      "adult",
+      "straight hair",
+      "long hair",
+      "masculine",
+      "hoodie",
+      "intricate"
+    ],
+    "thumbnail": "/art/street-09.svg",
+    "regionCount": 52
+  },
+  {
+    "id": "street-10",
+    "title": "Street Studio",
+    "category": "Streetwear",
+    "difficulty": "Easy",
+    "tags": [
+      "streetwear",
+      "contemporary",
+      "casual",
+      "outfit",
+      "adult",
+      "finger waves",
+      "retro hair",
+      "feminine",
+      "denim",
+      "simple"
+    ],
+    "thumbnail": "/art/street-10.svg",
+    "regionCount": 24
+  },
+  {
+    "id": "street-11",
+    "title": "The Patch Collection",
+    "category": "Streetwear",
+    "difficulty": "Easy",
+    "tags": [
+      "streetwear",
+      "contemporary",
+      "casual",
+      "outfit",
+      "adult",
+      "bun",
+      "topknot",
+      "feminine",
+      "bomber jacket",
+      "detailed"
+    ],
+    "thumbnail": "/art/street-11.svg",
+    "regionCount": 24
+  },
+  {
+    "id": "street-12",
+    "title": "Soft City Afternoon",
+    "category": "Streetwear",
+    "difficulty": "Medium",
+    "tags": [
+      "streetwear",
+      "contemporary",
+      "casual",
+      "outfit",
+      "adult",
+      "headwrap",
+      "feminine",
+      "graphic tee",
+      "intricate"
+    ],
+    "thumbnail": "/art/street-12.svg",
+    "regionCount": 52
+  },
+  {
+    "id": "evening-01",
+    "title": "Velvet Evening",
+    "category": "Gowns & Suits",
+    "difficulty": "Easy",
+    "tags": [
+      "fabric",
+      "elegant",
+      "adult",
+      "bun",
+      "topknot",
+      "feminine",
+      "gown",
+      "simple"
+    ],
+    "thumbnail": "/art/evening-01.svg",
+    "regionCount": 22
+  },
+  {
+    "id": "evening-02",
+    "title": "The Perfect Lapel",
+    "category": "Gowns & Suits",
+    "difficulty": "Medium",
+    "tags": [
+      "fabric",
+      "elegant",
+      "adult",
+      "undercut",
+      "swept hair",
+      "masculine",
+      "suit",
+      "detailed"
+    ],
+    "thumbnail": "/art/evening-02.svg",
+    "regionCount": 39
+  },
+  {
+    "id": "evening-03",
+    "title": "A Gown in Motion",
+    "category": "Gowns & Suits",
+    "difficulty": "Hard",
+    "tags": [
+      "fabric",
+      "elegant",
+      "adult",
+      "coily hair",
+      "afro",
+      "feminine",
+      "gown",
+      "intricate"
+    ],
+    "thumbnail": "/art/evening-03.svg",
+    "regionCount": 75
+  },
+  {
+    "id": "evening-04",
+    "title": "Pearl Light",
+    "category": "Gowns & Suits",
+    "difficulty": "Easy",
+    "tags": [
+      "fabric",
+      "elegant",
+      "adult",
+      "straight hair",
+      "long hair",
+      "feminine",
+      "gown",
+      "simple"
+    ],
+    "thumbnail": "/art/evening-04.svg",
+    "regionCount": 21
+  },
+  {
+    "id": "evening-05",
+    "title": "Midnight Tailoring",
+    "category": "Gowns & Suits",
+    "difficulty": "Easy",
+    "tags": [
+      "fabric",
+      "elegant",
+      "adult",
+      "short curls",
+      "curly hair",
+      "masculine",
+      "mature adult",
+      "face lines",
+      "suit",
+      "detailed"
+    ],
+    "thumbnail": "/art/evening-05.svg",
+    "regionCount": 31
+  },
+  {
+    "id": "evening-06",
+    "title": "Silk Steps",
+    "category": "Gowns & Suits",
+    "difficulty": "Hard",
+    "tags": [
+      "fabric",
+      "elegant",
+      "adult",
+      "braided hair",
+      "braid",
+      "feminine",
+      "gown",
+      "intricate"
+    ],
+    "thumbnail": "/art/evening-06.svg",
+    "regionCount": 97
+  },
+  {
+    "id": "evening-07",
+    "title": "The Opera Dress",
+    "category": "Gowns & Suits",
+    "difficulty": "Easy",
+    "tags": [
+      "fabric",
+      "elegant",
+      "adult",
+      "ponytail",
+      "feminine",
+      "gown",
+      "simple"
+    ],
+    "thumbnail": "/art/evening-07.svg",
+    "regionCount": 17
+  },
+  {
+    "id": "evening-08",
+    "title": "Black Tie Reverie",
+    "category": "Gowns & Suits",
+    "difficulty": "Medium",
+    "tags": [
+      "fabric",
+      "elegant",
+      "adult",
+      "locs",
+      "textured hair",
+      "masculine",
+      "suit",
+      "detailed"
+    ],
+    "thumbnail": "/art/evening-08.svg",
+    "regionCount": 42
+  },
+  {
+    "id": "evening-09",
+    "title": "Satin Silhouette",
+    "category": "Gowns & Suits",
+    "difficulty": "Hard",
+    "tags": [
+      "fabric",
+      "elegant",
+      "adult",
+      "ponytail",
+      "feminine",
+      "gown",
+      "intricate"
+    ],
+    "thumbnail": "/art/evening-09.svg",
+    "regionCount": 72
+  },
+  {
+    "id": "evening-10",
+    "title": "A Dress to Remember",
+    "category": "Gowns & Suits",
+    "difficulty": "Easy",
+    "tags": [
+      "fabric",
+      "elegant",
+      "adult",
+      "finger waves",
+      "retro hair",
+      "feminine",
+      "gown",
+      "simple"
+    ],
+    "thumbnail": "/art/evening-10.svg",
+    "regionCount": 22
+  },
+  {
+    "id": "evening-11",
+    "title": "The Dinner Jacket",
+    "category": "Gowns & Suits",
+    "difficulty": "Easy",
+    "tags": [
+      "fabric",
+      "elegant",
+      "adult",
+      "bob",
+      "straight hair",
+      "masculine",
+      "suit",
+      "detailed"
+    ],
+    "thumbnail": "/art/evening-11.svg",
+    "regionCount": 29
+  },
+  {
+    "id": "evening-12",
+    "title": "The Last Waltz",
+    "category": "Gowns & Suits",
+    "difficulty": "Medium",
+    "tags": [
+      "fabric",
+      "elegant",
+      "adult",
+      "headwrap",
+      "feminine",
+      "gown",
+      "intricate"
+    ],
+    "thumbnail": "/art/evening-12.svg",
+    "regionCount": 57
+  },
+  {
+    "id": "heritage-01",
+    "title": "Sari & Soft Light",
+    "category": "Cultural Threads",
+    "difficulty": "Easy",
+    "tags": [
+      "traditional",
+      "cultural clothing",
+      "textile",
+      "heritage inspired",
+      "adult",
+      "headwrap",
+      "feminine",
+      "sari inspired",
+      "simple"
+    ],
+    "thumbnail": "/art/heritage-01.svg",
+    "regionCount": 24
+  },
+  {
+    "id": "heritage-02",
+    "title": "A Folded Garden",
+    "category": "Cultural Threads",
+    "difficulty": "Easy",
+    "tags": [
+      "traditional",
+      "cultural clothing",
+      "textile",
+      "heritage inspired",
+      "adult",
+      "bun",
+      "topknot",
+      "feminine",
+      "kimono inspired",
+      "detailed"
+    ],
+    "thumbnail": "/art/heritage-02.svg",
+    "regionCount": 27
+  },
+  {
+    "id": "heritage-03",
+    "title": "The Embroidered Shawl",
+    "category": "Cultural Threads",
+    "difficulty": "Hard",
+    "tags": [
+      "traditional",
+      "cultural clothing",
+      "textile",
+      "heritage inspired",
+      "adult",
+      "braided hair",
+      "braid",
+      "feminine",
+      "embroidered shawl",
+      "intricate"
+    ],
+    "thumbnail": "/art/heritage-03.svg",
+    "regionCount": 84
+  },
+  {
+    "id": "heritage-04",
+    "title": "Kurta in Bloom",
+    "category": "Cultural Threads",
+    "difficulty": "Easy",
+    "tags": [
+      "traditional",
+      "cultural clothing",
+      "textile",
+      "heritage inspired",
+      "adult",
+      "undercut",
+      "swept hair",
+      "masculine",
+      "kurta inspired",
+      "simple"
+    ],
+    "thumbnail": "/art/heritage-04.svg",
+    "regionCount": 26
+  },
+  {
+    "id": "heritage-05",
+    "title": "Ribbon & Reverie",
+    "category": "Cultural Threads",
+    "difficulty": "Easy",
+    "tags": [
+      "traditional",
+      "cultural clothing",
+      "textile",
+      "heritage inspired",
+      "adult",
+      "straight hair",
+      "long hair",
+      "feminine",
+      "hanbok inspired",
+      "detailed"
+    ],
+    "thumbnail": "/art/heritage-05.svg",
+    "regionCount": 31
+  },
+  {
+    "id": "heritage-06",
+    "title": "A Woven Story",
+    "category": "Cultural Threads",
+    "difficulty": "Hard",
+    "tags": [
+      "traditional",
+      "cultural clothing",
+      "textile",
+      "heritage inspired",
+      "adult",
+      "coily hair",
+      "afro",
+      "feminine",
+      "woven vest",
+      "intricate"
+    ],
+    "thumbnail": "/art/heritage-06.svg",
+    "regionCount": 73
+  },
+  {
+    "id": "heritage-07",
+    "title": "Silken Drape",
+    "category": "Cultural Threads",
+    "difficulty": "Easy",
+    "tags": [
+      "traditional",
+      "cultural clothing",
+      "textile",
+      "heritage inspired",
+      "adult",
+      "bob",
+      "straight hair",
+      "feminine",
+      "sari inspired",
+      "simple"
+    ],
+    "thumbnail": "/art/heritage-07.svg",
+    "regionCount": 20
+  },
+  {
+    "id": "heritage-08",
+    "title": "Quiet Kimono",
+    "category": "Cultural Threads",
+    "difficulty": "Medium",
+    "tags": [
+      "traditional",
+      "cultural clothing",
+      "textile",
+      "heritage inspired",
+      "adult",
+      "wavy hair",
+      "long hair",
+      "feminine",
+      "kimono inspired",
+      "detailed"
+    ],
+    "thumbnail": "/art/heritage-08.svg",
+    "regionCount": 33
+  },
+  {
+    "id": "heritage-09",
+    "title": "Heritage Stitches",
+    "category": "Cultural Threads",
+    "difficulty": "Hard",
+    "tags": [
+      "traditional",
+      "cultural clothing",
+      "textile",
+      "heritage inspired",
+      "adult",
+      "locs",
+      "textured hair",
+      "masculine",
+      "embroidered shawl",
+      "intricate"
+    ],
+    "thumbnail": "/art/heritage-09.svg",
+    "regionCount": 90
+  },
+  {
+    "id": "heritage-10",
+    "title": "A Celebratory Collar",
+    "category": "Cultural Threads",
+    "difficulty": "Easy",
+    "tags": [
+      "traditional",
+      "cultural clothing",
+      "textile",
+      "heritage inspired",
+      "adult",
+      "ponytail",
+      "feminine",
+      "kurta inspired",
+      "simple"
+    ],
+    "thumbnail": "/art/heritage-10.svg",
+    "regionCount": 27
+  },
+  {
+    "id": "heritage-11",
+    "title": "The Gentle Ribbon",
+    "category": "Cultural Threads",
+    "difficulty": "Easy",
+    "tags": [
+      "traditional",
+      "cultural clothing",
+      "textile",
+      "heritage inspired",
+      "adult",
+      "short curls",
+      "curly hair",
+      "masculine",
+      "mature adult",
+      "face lines",
+      "hanbok inspired",
+      "detailed"
+    ],
+    "thumbnail": "/art/heritage-11.svg",
+    "regionCount": 27
+  },
+  {
+    "id": "heritage-12",
+    "title": "Threads of Memory",
+    "category": "Cultural Threads",
+    "difficulty": "Hard",
+    "tags": [
+      "traditional",
+      "cultural clothing",
+      "textile",
+      "heritage inspired",
+      "adult",
+      "finger waves",
+      "retro hair",
+      "feminine",
+      "woven vest",
+      "intricate"
+    ],
+    "thumbnail": "/art/heritage-12.svg",
+    "regionCount": 68
+  },
+  {
+    "id": "vintage-01",
+    "title": "The Afternoon Hat",
+    "category": "Vintage Studio",
+    "difficulty": "Easy",
+    "tags": [
+      "vintage",
+      "retro",
+      "hat",
+      "fashion",
+      "adult",
+      "finger waves",
+      "retro hair",
+      "feminine",
+      "simple"
+    ],
+    "thumbnail": "/art/vintage-01.svg",
+    "regionCount": 24
+  },
+  {
+    "id": "vintage-02",
+    "title": "Cafe on the Corner",
+    "category": "Vintage Studio",
+    "difficulty": "Medium",
+    "tags": [
+      "vintage",
+      "retro",
+      "hat",
+      "fashion",
+      "adult",
+      "undercut",
+      "swept hair",
+      "masculine",
+      "detailed"
+    ],
+    "thumbnail": "/art/vintage-02.svg",
+    "regionCount": 34
+  },
+  {
+    "id": "vintage-03",
+    "title": "The Silk Headband",
+    "category": "Vintage Studio",
+    "difficulty": "Medium",
+    "tags": [
+      "vintage",
+      "retro",
+      "hat",
+      "fashion",
+      "adult",
+      "bob",
+      "straight hair",
+      "feminine",
+      "intricate"
+    ],
+    "thumbnail": "/art/vintage-03.svg",
+    "regionCount": 58
+  },
+  {
+    "id": "vintage-04",
+    "title": "A Letter from Paris",
+    "category": "Vintage Studio",
+    "difficulty": "Easy",
+    "tags": [
+      "vintage",
+      "retro",
+      "hat",
+      "fashion",
+      "adult",
+      "short curls",
+      "curly hair",
+      "feminine",
+      "simple"
+    ],
+    "thumbnail": "/art/vintage-04.svg",
+    "regionCount": 23
+  },
+  {
+    "id": "vintage-05",
+    "title": "The Velvet Beret",
+    "category": "Vintage Studio",
+    "difficulty": "Easy",
+    "tags": [
+      "vintage",
+      "retro",
+      "hat",
+      "fashion",
+      "adult",
+      "wavy hair",
+      "long hair",
+      "feminine",
+      "detailed"
+    ],
+    "thumbnail": "/art/vintage-05.svg",
+    "regionCount": 27
+  },
+  {
+    "id": "vintage-06",
+    "title": "Sunday in the Sixties",
+    "category": "Vintage Studio",
+    "difficulty": "Hard",
+    "tags": [
+      "vintage",
+      "retro",
+      "hat",
+      "fashion",
+      "adult",
+      "straight hair",
+      "long hair",
+      "masculine",
+      "mature adult",
+      "face lines",
+      "intricate"
+    ],
+    "thumbnail": "/art/vintage-06.svg",
+    "regionCount": 77
+  },
+  {
+    "id": "vintage-07",
+    "title": "A Golden Age",
+    "category": "Vintage Studio",
+    "difficulty": "Easy",
+    "tags": [
+      "vintage",
+      "retro",
+      "hat",
+      "fashion",
+      "adult",
+      "bun",
+      "topknot",
+      "feminine",
+      "simple"
+    ],
+    "thumbnail": "/art/vintage-07.svg",
+    "regionCount": 21
+  },
+  {
+    "id": "vintage-08",
+    "title": "The Vintage Shop",
+    "category": "Vintage Studio",
+    "difficulty": "Medium",
+    "tags": [
+      "vintage",
+      "retro",
+      "hat",
+      "fashion",
+      "adult",
+      "coily hair",
+      "afro",
+      "feminine",
+      "detailed"
+    ],
+    "thumbnail": "/art/vintage-08.svg",
+    "regionCount": 43
+  },
+  {
+    "id": "vintage-09",
+    "title": "Cherry Ribbon",
+    "category": "Vintage Studio",
+    "difficulty": "Hard",
+    "tags": [
+      "vintage",
+      "retro",
+      "hat",
+      "fashion",
+      "adult",
+      "ponytail",
+      "feminine",
+      "intricate"
+    ],
+    "thumbnail": "/art/vintage-09.svg",
+    "regionCount": 60
+  },
+  {
+    "id": "vintage-10",
+    "title": "A Long-Ago Afternoon",
+    "category": "Vintage Studio",
+    "difficulty": "Medium",
+    "tags": [
+      "vintage",
+      "retro",
+      "hat",
+      "fashion",
+      "adult",
+      "braided hair",
+      "braid",
+      "masculine",
+      "simple"
+    ],
+    "thumbnail": "/art/vintage-10.svg",
+    "regionCount": 36
+  },
+  {
+    "id": "vintage-11",
+    "title": "The Classic Edit",
+    "category": "Vintage Studio",
+    "difficulty": "Easy",
+    "tags": [
+      "vintage",
+      "retro",
+      "hat",
+      "fashion",
+      "adult",
+      "headwrap",
+      "feminine",
+      "detailed"
+    ],
+    "thumbnail": "/art/vintage-11.svg",
+    "regionCount": 23
+  },
+  {
+    "id": "vintage-12",
+    "title": "Dancing Through Decades",
+    "category": "Vintage Studio",
+    "difficulty": "Hard",
+    "tags": [
+      "vintage",
+      "retro",
+      "hat",
+      "fashion",
+      "adult",
+      "locs",
+      "textured hair",
+      "feminine",
+      "intricate"
+    ],
+    "thumbnail": "/art/vintage-12.svg",
+    "regionCount": 106
+  },
+  {
+    "id": "figure-01",
+    "title": "A Quiet Stance",
+    "category": "Figures & Movement",
+    "difficulty": "Easy",
+    "tags": [
+      "full body",
+      "pose",
+      "adult",
+      "bob",
+      "straight hair",
+      "feminine",
+      "contrapposto",
+      "simple"
+    ],
+    "thumbnail": "/art/figure-01.svg",
+    "regionCount": 29
+  },
+  {
+    "id": "figure-02",
+    "title": "Across the Studio",
+    "category": "Figures & Movement",
+    "difficulty": "Medium",
+    "tags": [
+      "full body",
+      "pose",
+      "adult",
+      "undercut",
+      "swept hair",
+      "masculine",
+      "walking",
+      "detailed"
+    ],
+    "thumbnail": "/art/figure-02.svg",
+    "regionCount": 43
+  },
+  {
+    "id": "figure-03",
+    "title": "A Seated Moment",
+    "category": "Figures & Movement",
+    "difficulty": "Hard",
+    "tags": [
+      "full body",
+      "pose",
+      "adult",
+      "coily hair",
+      "afro",
+      "feminine",
+      "seated",
+      "intricate"
+    ],
+    "thumbnail": "/art/figure-03.svg",
+    "regionCount": 73
+  },
+  {
+    "id": "figure-04",
+    "title": "Reach for the Light",
+    "category": "Figures & Movement",
+    "difficulty": "Easy",
+    "tags": [
+      "full body",
+      "pose",
+      "adult",
+      "bun",
+      "topknot",
+      "feminine",
+      "dancer",
+      "simple"
+    ],
+    "thumbnail": "/art/figure-04.svg",
+    "regionCount": 27
+  },
+  {
+    "id": "figure-05",
+    "title": "Slow Sunday",
+    "category": "Figures & Movement",
+    "difficulty": "Medium",
+    "tags": [
+      "full body",
+      "pose",
+      "adult",
+      "straight hair",
+      "long hair",
+      "feminine",
+      "quiet seated",
+      "seated",
+      "detailed"
+    ],
+    "thumbnail": "/art/figure-05.svg",
+    "regionCount": 42
+  },
+  {
+    "id": "figure-06",
+    "title": "Hand on Hip",
+    "category": "Figures & Movement",
+    "difficulty": "Hard",
+    "tags": [
+      "full body",
+      "pose",
+      "adult",
+      "braided hair",
+      "braid",
+      "feminine",
+      "hand on hip",
+      "intricate"
+    ],
+    "thumbnail": "/art/figure-06.svg",
+    "regionCount": 96
+  },
+  {
+    "id": "figure-07",
+    "title": "The Gentle Sway",
+    "category": "Figures & Movement",
+    "difficulty": "Easy",
+    "tags": [
+      "full body",
+      "pose",
+      "adult",
+      "wavy hair",
+      "long hair",
+      "feminine",
+      "sway",
+      "dancer",
+      "simple"
+    ],
+    "thumbnail": "/art/figure-07.svg",
+    "regionCount": 25
+  },
+  {
+    "id": "figure-08",
+    "title": "On the Studio Stool",
+    "category": "Figures & Movement",
+    "difficulty": "Medium",
+    "tags": [
+      "full body",
+      "pose",
+      "adult",
+      "short curls",
+      "curly hair",
+      "masculine",
+      "perched",
+      "seated",
+      "detailed"
+    ],
+    "thumbnail": "/art/figure-08.svg",
+    "regionCount": 46
+  },
+  {
+    "id": "figure-09",
+    "title": "Stretch Toward Morning",
+    "category": "Figures & Movement",
+    "difficulty": "Hard",
+    "tags": [
+      "full body",
+      "pose",
+      "adult",
+      "ponytail",
+      "feminine",
+      "reaching",
+      "intricate"
+    ],
+    "thumbnail": "/art/figure-09.svg",
+    "regionCount": 71
+  },
+  {
+    "id": "figure-10",
+    "title": "Ballet Rehearsal",
+    "category": "Figures & Movement",
+    "difficulty": "Easy",
+    "tags": [
+      "full body",
+      "pose",
+      "adult",
+      "finger waves",
+      "retro hair",
+      "feminine",
+      "ballet",
+      "dancer",
+      "simple"
+    ],
+    "thumbnail": "/art/figure-10.svg",
+    "regionCount": 27
+  },
+  {
+    "id": "figure-11",
+    "title": "Grounded & Present",
+    "category": "Figures & Movement",
+    "difficulty": "Medium",
+    "tags": [
+      "full body",
+      "pose",
+      "adult",
+      "locs",
+      "textured hair",
+      "masculine",
+      "wide stance",
+      "detailed"
+    ],
+    "thumbnail": "/art/figure-11.svg",
+    "regionCount": 43
+  },
+  {
+    "id": "figure-12",
+    "title": "A Ribbon of Motion",
+    "category": "Figures & Movement",
+    "difficulty": "Hard",
+    "tags": [
+      "full body",
+      "pose",
+      "adult",
+      "headwrap",
+      "feminine",
+      "flow",
+      "dancer",
+      "intricate"
+    ],
+    "thumbnail": "/art/figure-12.svg",
+    "regionCount": 69
+  },
+  {
+    "id": "fantasy-01",
+    "title": "The Gentle Monarch",
+    "category": "Dreamer Portraits",
+    "difficulty": "Easy",
+    "tags": [
+      "fantasy",
+      "graphic",
+      "stylized",
+      "human portrait",
+      "adult",
+      "straight hair",
+      "long hair",
+      "feminine",
+      "simple"
+    ],
+    "thumbnail": "/art/fantasy-01.svg",
+    "regionCount": 27
+  },
+  {
+    "id": "fantasy-02",
+    "title": "Botanical Dreamer",
+    "category": "Dreamer Portraits",
+    "difficulty": "Medium",
+    "tags": [
+      "fantasy",
+      "graphic",
+      "stylized",
+      "human portrait",
+      "adult",
+      "coily hair",
+      "afro",
+      "feminine",
+      "detailed"
+    ],
+    "thumbnail": "/art/fantasy-02.svg",
+    "regionCount": 57
+  },
+  {
+    "id": "fantasy-03",
+    "title": "Keeper of Stars",
+    "category": "Dreamer Portraits",
+    "difficulty": "Medium",
+    "tags": [
+      "fantasy",
+      "graphic",
+      "stylized",
+      "human portrait",
+      "adult",
+      "bun",
+      "topknot",
+      "feminine",
+      "intricate"
+    ],
+    "thumbnail": "/art/fantasy-03.svg",
+    "regionCount": 47
+  },
+  {
+    "id": "fantasy-04",
+    "title": "Winged Diadem",
+    "category": "Dreamer Portraits",
+    "difficulty": "Medium",
+    "tags": [
+      "fantasy",
+      "graphic",
+      "stylized",
+      "human portrait",
+      "adult",
+      "locs",
+      "textured hair",
+      "masculine",
+      "simple"
+    ],
+    "thumbnail": "/art/fantasy-04.svg",
+    "regionCount": 33
+  },
+  {
+    "id": "fantasy-05",
+    "title": "Silk Kingdom",
+    "category": "Dreamer Portraits",
+    "difficulty": "Medium",
+    "tags": [
+      "fantasy",
+      "graphic",
+      "stylized",
+      "human portrait",
+      "adult",
+      "wavy hair",
+      "long hair",
+      "feminine",
+      "detailed"
+    ],
+    "thumbnail": "/art/fantasy-05.svg",
+    "regionCount": 37
+  },
+  {
+    "id": "fantasy-06",
+    "title": "Garden of Thought",
+    "category": "Dreamer Portraits",
+    "difficulty": "Hard",
+    "tags": [
+      "fantasy",
+      "graphic",
+      "stylized",
+      "human portrait",
+      "adult",
+      "headwrap",
+      "feminine",
+      "intricate"
+    ],
+    "thumbnail": "/art/fantasy-06.svg",
+    "regionCount": 78
+  },
+  {
+    "id": "fantasy-07",
+    "title": "The Celestial Braid",
+    "category": "Dreamer Portraits",
+    "difficulty": "Easy",
+    "tags": [
+      "fantasy",
+      "graphic",
+      "stylized",
+      "human portrait",
+      "adult",
+      "braided hair",
+      "braid",
+      "feminine",
+      "simple"
+    ],
+    "thumbnail": "/art/fantasy-07.svg",
+    "regionCount": 30
+  },
+  {
+    "id": "fantasy-08",
+    "title": "A Storybook Crown",
+    "category": "Dreamer Portraits",
+    "difficulty": "Medium",
+    "tags": [
+      "fantasy",
+      "graphic",
+      "stylized",
+      "human portrait",
+      "adult",
+      "bob",
+      "straight hair",
+      "feminine",
+      "detailed"
+    ],
+    "thumbnail": "/art/fantasy-08.svg",
+    "regionCount": 45
+  },
+  {
+    "id": "fantasy-09",
+    "title": "A Crown of Quiet",
+    "category": "Dreamer Portraits",
+    "difficulty": "Hard",
+    "tags": [
+      "fantasy",
+      "graphic",
+      "stylized",
+      "human portrait",
+      "adult",
+      "ponytail",
+      "feminine",
+      "intricate"
+    ],
+    "thumbnail": "/art/fantasy-09.svg",
+    "regionCount": 60
+  },
+  {
+    "id": "fantasy-10",
+    "title": "The Flower Guardian",
+    "category": "Dreamer Portraits",
+    "difficulty": "Medium",
+    "tags": [
+      "fantasy",
+      "graphic",
+      "stylized",
+      "human portrait",
+      "adult",
+      "finger waves",
+      "retro hair",
+      "feminine",
+      "simple"
+    ],
+    "thumbnail": "/art/fantasy-10.svg",
+    "regionCount": 34
+  },
+  {
+    "id": "fantasy-11",
+    "title": "Starlit Tailoring",
+    "category": "Dreamer Portraits",
+    "difficulty": "Easy",
+    "tags": [
+      "fantasy",
+      "graphic",
+      "stylized",
+      "human portrait",
+      "adult",
+      "undercut",
+      "swept hair",
+      "masculine",
+      "detailed"
+    ],
+    "thumbnail": "/art/fantasy-11.svg",
+    "regionCount": 31
+  },
+  {
+    "id": "fantasy-12",
+    "title": "The Silver Regent",
+    "category": "Dreamer Portraits",
+    "difficulty": "Hard",
+    "tags": [
+      "fantasy",
+      "graphic",
+      "stylized",
+      "human portrait",
+      "adult",
+      "short curls",
+      "curly hair",
+      "masculine",
+      "mature adult",
+      "face lines",
+      "intricate"
+    ],
+    "thumbnail": "/art/fantasy-12.svg",
+    "regionCount": 84
+  },
+  {
+    "id": "artist-braided-reverie",
+    "title": "Braided Reverie",
+    "category": "Artist Studies",
+    "difficulty": "Hard",
+    "tags": [
+      "realistic",
+      "portrait",
+      "adult",
+      "braided",
+      "original generated study",
+      "ornate"
+    ],
+    "thumbnail": "/art/artist-braided-reverie.svg",
+    "regionCount": 298
+  }
+]
