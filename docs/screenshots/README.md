@@ -30,6 +30,9 @@ These are captures of the implemented application, not design mockups.
 | Dreamlight saved skin fill and reference | [dreamlight-phone-reference-pinned.png](dreamlight-phone-reference-pinned.png) |
 | Dreamlight on tablet | [dreamlight-tablet-reference-pinned.png](dreamlight-tablet-reference-pinned.png) |
 | Dreamlight in landscape | [dreamlight-landscape-reference.png](dreamlight-landscape-reference.png) |
+| Quiet Moments on phone | [phone-quiet-moments.png](phone-quiet-moments.png) |
+| All twenty Quiet Moments drawings | [tablet-quiet-moments.png](tablet-quiet-moments.png) |
+| Saved Ginkgo Grace painting | [quiet-moments-phone-painting.png](quiet-moments-phone-painting.png) |
 
 The painting captures use actual fill-tool interactions on Braided Reverie. The source remains editable in local storage. Run `node scripts/capture-screenshots.mjs` with the development server running to recreate this set in a fresh browser context.
 
@@ -38,3 +41,5 @@ Run `node scripts/capture-portrait-collection.mjs` for the new collection captur
 Run `node scripts/capture-floral-reverie.mjs` for the version 1.2 library and reference viewer. The pinned-reference captures include a real saved skin fill. The reference PNG is displayed separately from the canvas and does not appear in exported artwork.
 
 Run `node scripts/capture-dreamlight-portraits.mjs` for the version 1.3 collection, matching colored reference, and a real saved skin fill. The panel stays on the right to leave Rosewood Rambler’s face available for painting.
+
+Run `node scripts/capture-quiet-moments.mjs` for the expanded 169-drawing library, all twenty new portraits, and an actual saved fill on Ginkgo Grace.

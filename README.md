@@ -8,6 +8,8 @@
 
 Download [musemallow-debug.apk](artifacts/musemallow-debug.apk) on an Android phone or tablet, allow installation from the app used to open the download, and install. This is a signed **development/test APK**, not a Play Store release. Android 6.0/API 23 or newer is required; keep Android System WebView updated. The package ID is `studio.musemallow.coloring`.
 
+The committed APK is version 1.3 with 149 drawings. The **Quiet Moments** source expansion adds 20 more; rebuild Android to include it in an APK.
+
 Verify a downloaded build with:
 
 ```sh
@@ -18,7 +20,7 @@ Keep the installed app when updating to a newer APK signed with the same key. Un
 
 ## The studio
 
-- **149 bundled original vector illustrations**: ten stylized collections, a detailed realistic artist study, 12 **Portrait Atelier** pages, six **Floral Reverie** portraits, and 10 new **Dreamlight Portraits**. Search, collection and difficulty filters, illustration favorites, and Continue Coloring.
+- **169 bundled original vector illustrations**: ten stylized collections, a detailed realistic artist study, 12 **Portrait Atelier** pages, six **Floral Reverie** portraits, 10 **Dreamlight Portraits**, and 20 new **Quiet Moments** drawings. Search, collection and difficulty filters, illustration favorites, and Continue Coloring.
 - **Colored inspiration:** each Floral Reverie and Dreamlight portrait includes a matching original colored PNG. Open Reference while coloring, enlarge it, or keep it beside the canvas. These examples are bundled for offline use and never overwrite your painting.
 - **Eight tools:** tap fill, smooth brush, soft airbrush, pencil, textured brush, eraser, eyedropper, and two-color linear gradients. Brush size, opacity, guided/free painting, and a selectable region lock.
 - Curated skin, hair, makeup, fabric, pastel, jewel, and monochrome colors, plus a full color picker, HEX entry, recent colors, saved swatches, and custom palettes.
@@ -86,6 +88,12 @@ The [Floral Reverie collection](artwork-sources/floral-reverie/README.md) pairs 
 [Ten new coloring PNGs and ten matching colored PNGs](artwork-sources/dreamlight-portraits/README.md) feature floral hats, detailed braids, butterfly buns, flowing pink and silver hair, editorial fashion, and camellia portraits. Every original is 1086 × 1448. Find **Dreamlight Portraits** first in the collection filters, and open **Reference** while painting. All 139 previous drawings are preserved.
 
 <img src="docs/screenshots/phone-dreamlight-portraits.png" alt="Dreamlight Portraits library on a phone" width="30%"> <img src="docs/screenshots/dreamlight-phone-reference-pinned.png" alt="Coloring with the matching reference visible" width="30%">
+
+## Quiet Moments · 20 new drawings
+
+[Twenty new original coloring pages](artwork-sources/quiet-moments/README.md) bring the source library to **169 drawings**. Botanical details, expressive mature faces, men’s portraits, headwraps, braids, tailoring, and knitwear offer new choices. Select **Quiet Moments** first in the collection filters. Each page opens as editable blank line art and supports the existing painting, autosave, and export tools. All 149 previous drawings remain unchanged.
+
+<img src="docs/screenshots/phone-quiet-moments.png" alt="Quiet Moments collection on a phone" width="30%"> <img src="docs/screenshots/quiet-moments-phone-painting.png" alt="A saved face fill on Ginkgo Grace" width="30%">
 
 ## Future extensions
 

@@ -20,7 +20,8 @@ test('six original PNG line and color pairs are bundled without changing the pre
   expect(catalog.length).toBeGreaterThanOrEqual(139);
   // Frozen before the first Floral Reverie compilation. Includes every previous
   // metadata entry plus editable geometry and both preview SVGs, preserving saves.
-  const original = catalog.filter(item => !item.id.startsWith('floral-') && !item.id.startsWith('dreamlight-')).sort((a, b) => a.id.localeCompare(b.id));
+  const previousLibrary = await readJSON<{ ids: string[] }>('artwork-sources/quiet-moments/previous-library.json');
+  const original = catalog.filter(item => previousLibrary.ids.includes(item.id) && !item.id.startsWith('floral-') && !item.id.startsWith('dreamlight-')).sort((a, b) => a.id.localeCompare(b.id));
   expect(original).toHaveLength(133);
   const digest = createHash('sha256');
   for (const item of original) {

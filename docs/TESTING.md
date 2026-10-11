@@ -1,5 +1,25 @@
 # Validation
 
+## Quiet Moments expansion — current source
+
+Validated the expanded 169-drawing source library on 2026-10-12:
+
+| Check | Result |
+| --- | --- |
+| TypeScript and production web build | Passed |
+| Full Chromium browser suite | **51 passed**, 0 failed, 0 skipped |
+| New collection regression | Five tests passed: twenty original sources and catalogs, reviewed material boundaries, opening every page, autosave/reopening, and real fill/shading/gradient pixels |
+| Previous-library preservation | All 149 prior metadata entries, editable geometries, both SVG assets, and sixteen colored references match the frozen pre-expansion digest |
+| Production asset packaging | Catalog contains 169 entries; all 60 new JSON/SVG files match `public/art` byte-for-byte |
+| Visual checks | All twenty original portraits and compiled diagnostic fills reviewed; actual phone/tablet library and saved-painting screenshots captured |
+| Android packaging/runtime | Not rerun for this expansion; the committed version 1.3 APK still contains the earlier 149-drawing library |
+
+The [Quiet Moments sources](../artwork-sources/quiet-moments/README.md) retain complete generation prompts and source hashes. Explicit vector guides close reviewed faint hairline, lip, sideburn, and beard contours without altering the original PNGs. Fixed source-coordinate probes verify separation of forehead/cheek skin, sampled hair or headwear, lips, fabric, and paper on every page. Fine decorative details outside those probes also undergo the existing whole-library reachability tests; semantic probes do not claim exhaustive material recognition.
+
+The most detailed new page passes exported-pixel assertions for fill, clipped airbrush, gradients, and undo/redo. A new page also passes actual UI coloring, autosave, reload, and pixel-identical reopening. Screenshot reproduction: `node scripts/capture-quiet-moments.mjs` with Vite running.
+
+The records below describe earlier releases and their native validation limits.
+
 The automated browser suite runs against actual Canvas and IndexedDB implementations in Chromium. Tests live under `tests/`; run `npm test`. Test results and traces are local build output, not committed.
 
 ## Scope

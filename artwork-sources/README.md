@@ -1,5 +1,7 @@
 # Original artist study
 
+The latest [Quiet Moments collection](quiet-moments/README.md) adds twenty generated adult coloring pages, with original PNGs, complete prompts, reviewed editable boundaries, and source hashes. The source library now contains 169 drawings.
+
 `braided-reverie-original.png` is the unmodified original generated black-and-white illustration for Musemallow. It depicts an adult woman with a braided crown, gemstone earrings, and an embroidered blouse. The brief requested realistic adult anatomy, closed white coloring shapes, clean dark outlines, and no gray shading, text, or watermark. The image was generated specifically for this project, then visually reviewed for facial symmetry, hair boundaries, clothing, and usable white regions.
 
 `scripts/vectorize-study.py` compiles this source into `public/art/artist-braided-reverie.json`, a colored SVG thumbnail, and a pure line SVG. The source PNG is preserved unchanged. The compiler:

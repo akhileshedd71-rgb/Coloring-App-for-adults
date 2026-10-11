@@ -1,6 +1,6 @@
 # Musemallow artwork collection
 
-The bundled collection contains 149 original, editable vector illustrations: 120 authored vector compositions, Braided Reverie, 12 Portrait Atelier pages, six Floral Reverie portraits, and ten Dreamlight Portraits. Separately authored studies are listed in `public/art/supplemental-catalog.json`. The main collection uses a cohesive, stylized editorial illustration language: elongated adult faces, defined brows and lips, textile details, gentle expressions, and clean silhouettes. It is intentionally stylized rather than photorealistic.
+The bundled collection contains 169 original, editable vector illustrations: 120 authored vector compositions, Braided Reverie, 12 Portrait Atelier pages, six Floral Reverie portraits, ten Dreamlight Portraits, and twenty Quiet Moments drawings. Separately authored studies are listed in `public/art/supplemental-catalog.json`. The main collection uses a cohesive, stylized editorial illustration language: elongated adult faces, defined brows and lips, textile details, gentle expressions, and clean silhouettes. It is intentionally stylized rather than photorealistic.
 
 The main library's vectors are authored in [`scripts/generate-art.mjs`](../scripts/generate-art.mjs); supplemental PNG sources use the [portrait compiler](PORTRAIT-COMPILER.md). They do not use stock illustrations, downloaded tracing templates, external fonts, or runtime remote image requests. All drawing data is bundled for offline use. The main library's colored browse previews demonstrate six coordinated palettes and a range of skin tones; every drawing opens as uncolored line art and the artist chooses every color.
 
@@ -107,3 +107,7 @@ Automated boundary checks establish geometric reachability and fill containment;
 ## Dreamlight Portraits
 
 Version 1.3 adds [ten original line/color PNG pairs](../artwork-sources/dreamlight-portraits/README.md), inspired by floral hats, braids, butterfly buns, and flowing fashion hair. All sources are 1086 × 1448. The ten editable drawings contain 3,274 usable regions; each qualifies as Hard (186–536 regions). Original prompts, immutable PNGs, reviewed contour guides, semantic boundary probes, and compilation hashes are included. All 139 previously released drawings remain byte-identical. Matching colored images are local, lazy-loaded references.
+
+## Quiet Moments
+
+[Twenty original generated portraits](../artwork-sources/quiet-moments/README.md) add mature faces, men’s portraits, botanical details, textiles, and contemporary styling. The 1086 × 1448 PNG originals and complete prompts are retained. Their 5,765 usable regions range from 153 to 762 per drawing, all Hard under the existing rules. Reviewed vector guides close faint material boundaries; fixed source-hash-bound probes verify skin, hair/headwear, lips, garments, and paper remain separately fillable. All 149 prior drawings, metadata, thumbnails, and sixteen colored references remain unchanged. The additions are bundled coloring pages with no new colored-reference images.

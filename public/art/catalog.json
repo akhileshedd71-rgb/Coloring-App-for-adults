@@ -2771,5 +2771,347 @@
     "thumbnail": "/art/dreamlight-camellia-reverie-v1.svg",
     "regionCount": 408,
     "referenceImage": "/references/dreamlight-camellia-reverie-v1.png"
+  },
+  {
+    "id": "quiet-ginkgo-grace-v1",
+    "title": "Ginkgo Grace",
+    "category": "Quiet Moments",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "original generated",
+      "portrait",
+      "ginkgo",
+      "bob",
+      "kimono",
+      "botanical"
+    ],
+    "thumbnail": "/art/quiet-ginkgo-grace-v1.svg",
+    "regionCount": 159
+  },
+  {
+    "id": "quiet-cedar-storyteller-v1",
+    "title": "Cedar Storyteller",
+    "category": "Quiet Moments",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "original generated",
+      "portrait",
+      "mature",
+      "man",
+      "glasses",
+      "cedar",
+      "scarf"
+    ],
+    "thumbnail": "/art/quiet-cedar-storyteller-v1.svg",
+    "regionCount": 353
+  },
+  {
+    "id": "quiet-lotus-morning-v1",
+    "title": "Lotus Morning",
+    "category": "Quiet Moments",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "original generated",
+      "portrait",
+      "lotus",
+      "braid",
+      "sari",
+      "earrings"
+    ],
+    "thumbnail": "/art/quiet-lotus-morning-v1.svg",
+    "regionCount": 315
+  },
+  {
+    "id": "quiet-citrus-sunday-v1",
+    "title": "Citrus Sunday",
+    "category": "Quiet Moments",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "original generated",
+      "portrait",
+      "curls",
+      "afro",
+      "citrus",
+      "linen"
+    ],
+    "thumbnail": "/art/quiet-citrus-sunday-v1.svg",
+    "regionCount": 462
+  },
+  {
+    "id": "quiet-harbor-poet-v1",
+    "title": "Harbor Poet",
+    "category": "Quiet Moments",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "original generated",
+      "portrait",
+      "man",
+      "nautical",
+      "beanie",
+      "shells"
+    ],
+    "thumbnail": "/art/quiet-harbor-poet-v1.svg",
+    "regionCount": 307
+  },
+  {
+    "id": "quiet-magnolia-twilight-v1",
+    "title": "Magnolia Twilight",
+    "category": "Quiet Moments",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "original generated",
+      "portrait",
+      "mature",
+      "magnolia",
+      "chignon",
+      "cape"
+    ],
+    "thumbnail": "/art/quiet-magnolia-twilight-v1.svg",
+    "regionCount": 153
+  },
+  {
+    "id": "quiet-velvet-muse-v1",
+    "title": "Velvet Muse",
+    "category": "Quiet Moments",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "original generated",
+      "portrait",
+      "androgynous",
+      "tailoring",
+      "art deco",
+      "short hair"
+    ],
+    "thumbnail": "/art/quiet-velvet-muse-v1.svg",
+    "regionCount": 170
+  },
+  {
+    "id": "quiet-olive-daydream-v1",
+    "title": "Olive Daydream",
+    "category": "Quiet Moments",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "original generated",
+      "portrait",
+      "olive",
+      "braided crown",
+      "pendant",
+      "linen"
+    ],
+    "thumbnail": "/art/quiet-olive-daydream-v1.svg",
+    "regionCount": 274
+  },
+  {
+    "id": "quiet-peacock-silk-v1",
+    "title": "Peacock Silk",
+    "category": "Quiet Moments",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "original generated",
+      "portrait",
+      "man",
+      "peacock",
+      "embroidered",
+      "jacket"
+    ],
+    "thumbnail": "/art/quiet-peacock-silk-v1.svg",
+    "regionCount": 169
+  },
+  {
+    "id": "quiet-dahlia-dancer-v1",
+    "title": "Dahlia Dancer",
+    "category": "Quiet Moments",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "original generated",
+      "portrait",
+      "dahlia",
+      "dancer",
+      "bun",
+      "pearls"
+    ],
+    "thumbnail": "/art/quiet-dahlia-dancer-v1.svg",
+    "regionCount": 193
+  },
+  {
+    "id": "quiet-willow-wanderer-v1",
+    "title": "Willow Wanderer",
+    "category": "Quiet Moments",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "original generated",
+      "portrait",
+      "man",
+      "willow",
+      "long hair",
+      "wrap collar"
+    ],
+    "thumbnail": "/art/quiet-willow-wanderer-v1.svg",
+    "regionCount": 193
+  },
+  {
+    "id": "quiet-camomile-comfort-v1",
+    "title": "Camomile Comfort",
+    "category": "Quiet Moments",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "original generated",
+      "portrait",
+      "mature",
+      "glasses",
+      "camomile",
+      "knit"
+    ],
+    "thumbnail": "/art/quiet-camomile-comfort-v1.svg",
+    "regionCount": 254
+  },
+  {
+    "id": "quiet-poppy-serenade-v1",
+    "title": "Poppy Serenade",
+    "category": "Quiet Moments",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "original generated",
+      "portrait",
+      "poppy",
+      "waves",
+      "art nouveau",
+      "ribbon"
+    ],
+    "thumbnail": "/art/quiet-poppy-serenade-v1.svg",
+    "regionCount": 258
+  },
+  {
+    "id": "quiet-saffron-loom-v1",
+    "title": "Saffron Loom",
+    "category": "Quiet Moments",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "original generated",
+      "portrait",
+      "headwrap",
+      "textiles",
+      "crocus",
+      "geometric"
+    ],
+    "thumbnail": "/art/quiet-saffron-loom-v1.svg",
+    "regionCount": 360
+  },
+  {
+    "id": "quiet-fern-archivist-v1",
+    "title": "Fern Archivist",
+    "category": "Quiet Moments",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "original generated",
+      "portrait",
+      "mature",
+      "man",
+      "fern",
+      "glasses",
+      "vest"
+    ],
+    "thumbnail": "/art/quiet-fern-archivist-v1.svg",
+    "regionCount": 762
+  },
+  {
+    "id": "quiet-orchid-sonata-v1",
+    "title": "Orchid Sonata",
+    "category": "Quiet Moments",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "original generated",
+      "portrait",
+      "orchid",
+      "ponytail",
+      "pleats",
+      "earrings"
+    ],
+    "thumbnail": "/art/quiet-orchid-sonata-v1.svg",
+    "regionCount": 198
+  },
+  {
+    "id": "quiet-moonflower-evening-v1",
+    "title": "Moonflower Evening",
+    "category": "Quiet Moments",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "original generated",
+      "portrait",
+      "moonflower",
+      "mature",
+      "long hair",
+      "shawl"
+    ],
+    "thumbnail": "/art/quiet-moonflower-evening-v1.svg",
+    "regionCount": 328
+  },
+  {
+    "id": "quiet-maple-melody-v1",
+    "title": "Maple Melody",
+    "category": "Quiet Moments",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "original generated",
+      "portrait",
+      "man",
+      "maple",
+      "beret",
+      "scarf"
+    ],
+    "thumbnail": "/art/quiet-maple-melody-v1.svg",
+    "regionCount": 345
+  },
+  {
+    "id": "quiet-iris-atelier-v1",
+    "title": "Iris Atelier",
+    "category": "Quiet Moments",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "original generated",
+      "portrait",
+      "androgynous",
+      "iris",
+      "couture",
+      "bob"
+    ],
+    "thumbnail": "/art/quiet-iris-atelier-v1.svg",
+    "regionCount": 170
+  },
+  {
+    "id": "quiet-garden-heirloom-v1",
+    "title": "Garden Heirloom",
+    "category": "Quiet Moments",
+    "difficulty": "Hard",
+    "tags": [
+      "adult",
+      "original generated",
+      "portrait",
+      "mature",
+      "coils",
+      "hydrangea",
+      "vintage"
+    ],
+    "thumbnail": "/art/quiet-garden-heirloom-v1.svg",
+    "regionCount": 342
   }
 ]

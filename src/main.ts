@@ -44,7 +44,7 @@ const esc = (value: unknown) => String(value ?? '').replace(/[&<>"']/g, s => ({ 
 const app = document.querySelector<HTMLDivElement>('#app')!;
 let prefs = getPreferences();
 let catalog: ArtworkMeta[] = [];
-const featuredCategories = ['Dreamlight Portraits', 'Floral Reverie', 'Portrait Atelier', 'Artist Studies'];
+const featuredCategories = ['Quiet Moments', 'Dreamlight Portraits', 'Floral Reverie', 'Portrait Atelier', 'Artist Studies'];
 let documents: PaintingDocument[] = [];
 let view: 'library' | 'gallery' | 'favorites' | 'editor' = 'library';
 let previousView: 'library' | 'gallery' | 'favorites' = 'library';
